@@ -1,0 +1,47 @@
+
+/* POP US CSS  */
+.popUpBox{position:fixed;left:0;top:0;background-color:rgba(0,0,0,.8);display:none;align-items:center;justify-content:center;z-index:14;width:100%;height:100%;overflow:hidden}
+.popUpBox.active{display:flex}
+.contentBox{display:flex;align-items:flex-start;justify-content:space-between}
+.sideBarForm{background: rgba(245,245,245, 0.6);border-radius: 8px;border: solid 1px #eeeeee;box-shadow: 0px 0px 2px 0px rgb(30 30 30 / 5%);margin-bottom: 16px;padding:15px;flex-direction: column;grid-gap: 22px;}
+.contentBox .otpBox .otpInputbox{text-align:center}
+.popUpWindow{width:407px;border-radius:0.520vw;padding:40px;margin:0 auto;background:#fff}
+.popUpWindow h2{position:relative;line-height: 12px;}
+.popUpWindow a{display:block}
+.popUpWindow .headingBox{margin-bottom: 34px; display:flex;align-items:center;justify-content:space-between;position:relative}
+.popUpWindow .headingBox .clseBtn{width:1.5625vw;height:1.5625vw;border:0.130vw soild #000;border-radius:50%;background:#fff;padding:0.2604vw;font-weight:700;}
+.popUpWindow .headingBox .clseBtn::after{content:'';width:0.520vw;height:0.265vh;background:#000}
+.rangecalc{margin-bottom: 20px;position: relative;}
+.iconGroup input{padding-left: 25px;}
+.iconGroup{position: relative;display: flex;align-items: center;}
+.iconGroup span{position: absolute;left: 0;bottom: 6px;}
+/* .iconGroup input{padding-left: 25px;} */
+.iconGroup .currency{padding-left: 11px;}
+.rangecalc select {color: #d9d9d9;}
+.rangecalc em{right: 0;}
+.rangecalc select{font-size: 12px;padding-left: 0;}
+.rupeeSymbol{position: absolute;bottom: 3px;font-size: 14px;}
+.selectArrow{right: 0;}
+
+.form{    width: 100%;}
+.close{width:20px;height:20px;background:transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/8px auto no-repeat;border-radius:50%;border:solid 2px #000}
+.thanksMessage{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.popUpThanks{max-width: 375px;padding: 15px 20px;}
+.popupHeading{position: relative;}
+.popupHeading::after{content: '';width: 50px;height: 3px;background: #f5a623;border-radius: 5px;position: absolute;bottom: -8px;left: 0;}
+.checkTik{margin: 20px 0;}
+.form button{width: 100%; justify-content: center;}
+/* POP US CSS   end */
+.verifiedOtp{position: absolute;right: 10px;color: #55A105;font-weight: 500; display: flex; align-items: center;grid-gap: 5px;}
+.reSendOtp{position: absolute;right: 10px;color: #474ebb;display: flex; align-items: center;grid-gap: 5px;}
+.towGrid{width: calc(100% - 34%);padding: 24px;}
+.towGrid .form{display: grid;grid-template-columns: repeat(2,1fr);grid-gap: 0 15px;}
+.span2{grid-column: span 2;}
+@media screen and (max-width:680px) {
+    .span2{grid-column: span 1;}
+    .towGrid{width: 100%;}
+    .towGrid .form{grid-template-columns: repeat(1,1fr);}
+}
+@media screen and (max-width:540px){
+.popUpWindow{padding: 20px;}
+} 

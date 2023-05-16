@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="12px" viewBox="0 0 10 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>right-arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_All-Mutual-Funds_UM-V-2.0" transform="translate(-1048.000000, -1497.000000)" fill="#474EBB">
+            <g id="Group-31" transform="translate(0.000000, 323.000000)">
+                <g id="pagination" transform="translate(616.000000, 1150.000000)">
+                    <g id="right-arrow" transform="translate(425.910000, 30.500000) scale(-1, 1) translate(-425.910000, -30.500000) translate(410.500000, 6.500000)">
+                        <polygon transform="translate(4.570000, 23.500000) scale(-1, 1) translate(-4.570000, -23.500000) " points="0 17.68 9.14 23.5 0 29.32"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

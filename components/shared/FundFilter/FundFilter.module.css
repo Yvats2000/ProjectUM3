@@ -1,0 +1,102 @@
+
+.heading{display: flex;justify-content: space-between;align-items: center;margin: 36px 0;}
+.inputSearch {max-width: 325px;position: relative;width: 100%;}
+.inputSearch input{ font-size: 14px; color: #4a4a4a; border-radius: 12px;border: solid 1px #e9e9f5;background-color: #fff;padding: 16px 15px;width: 100%;}
+.inputSearch input::placeholder{font-size: 14px; color: #4a4a4a;opacity: 30%;}
+.inputSearch span{width: 50px;height: 50px;display: flex;align-items: center;justify-content: center;top: 0; border-radius: 50%;background: #474ebb;position: absolute;right: -15px;}
+
+.mobileSearch{display: none;}
+.resetFilterBx {display: flex;align-items: center;gap: 21px;position: relative;}
+.resetBtn {display: flex;align-items: center;justify-content: space-between;width: 100%;}
+.resetBtn button{outline: none;background: none;border: none;cursor: pointer;}
+.filterBy {white-space:nowrap;margin-bottom: 15px;display: flex;flex-wrap: wrap;grid-gap: 6px;}
+.filterBy li{padding:0 8px;color:#888787;border-radius: 12px;border: solid 1px rgba(157, 157, 157, 0.2);background-color: rgba(255, 255, 255, 0.8);line-height: 22px; cursor:pointer;display: flex;align-items: center;grid-gap: 5px;}
+.paddingl15{padding-left: 15px;}
+
+.filterType > p {position: relative;display:flex;align-items: center;justify-content: space-between;grid-gap: 5px;}
+.activeTip{margin-right: auto; width: 5px;height: 5px;border-radius: 50%;background: #f7b500;position: relative;top: -5px;}
+
+/* BankListing  */
+
+.filterBox , .webfilter{max-width: 228px;flex-shrink: 0;width: 228px;}
+.webfilter{ border-radius: 8px;border: solid 1px #ebecfb;background-color: #fff;}
+.filterType{border-bottom: solid 1px #e3e3e3;padding: 20px 15px 25px;}
+.filterAmc{padding:10px 20px 10px 12px;}
+.filterType:last-child{border-bottom: none;}
+.SelectBox{ border-radius: 25px;padding: 10px 12px;display: flex;align-items: center;justify-content: space-between; border: solid 1px rgba(157, 157, 157, 0.2);background-color: #f6f6f6;}
+.selectYear .expMenu{display: none;}
+.drpDown {position: relative;}
+.drpDown.active  .expMenu{max-width: 488px;display: block; z-index: 3;width: 100%;border-radius: 0 0 8px 8px;max-height: 180px;overflow-y: auto;background: #fff;border: 1px solid #e3e3e3;position: absolute;left: 0px;top: 0;box-shadow: -1px 10px 20px 0 rgb(30 30 30 / 10%);border: solid 1px rgba(157, 157, 157, 0.1);}
+.selectYear .expMenu li{border-bottom: solid 1px #e3e3e3;padding:10px 15px}
+.selectYear .expMenu li:last-child{border-bottom: none;}
+
+.ratingBox{display: flex;gap: 10px;align-items: center;flex-wrap: wrap;}
+.ratingBox li{cursor: pointer;  border-radius: 3px;display: flex;gap: 2px;align-items: center;padding: 2px 5px; border: solid 1px rgba(157, 157, 157, 0.2);background-color: #f8f9fa;  }
+.ratingBox li.active{ background-color: #474ebb;}
+.ratingBox li.active p{color: #fff;}
+.ratingBox li.active > svg path {fill:#fff}
+.risk .ratingBox{flex-wrap: wrap;}
+.fundCategory{padding-left: 0;padding-right: 0;padding-bottom: 0;}
+
+.sliders_control{position:relative;min-height:25px}
+.sliders_control input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:all;width:18px;height:18px;background-color:#fff;border-radius:50%;box-shadow: 0 2px 5px 0 rgba(167, 165, 165, 0.5);border:4px solid #FCFAFF;background:#3B419E; cursor:pointer}
+.sliders_control input[type=range]::-moz-range-thumb{-webkit-appearance:none;pointer-events:all;width:24px;height:24px;background-color:#fff;border-radius:50%;box-shadow:0 0 0 1px #C6C6C6;cursor:pointer}
+.sliders_control input[type=number]{color:#8a8383;width:50px;height:30px;font-size:20px;border:none}
+.sliders_control input[type=number]::-webkit-outer-spin-button{opacity:1}
+.sliders_control input[type="range"]{-webkit-appearance:none;appearance:none;height:4px;width:100%;position:absolute;background-color:#eaeaea;border-radius: 10px; pointer-events:none}
+.sliders_control #fromSlider{height:0;z-index:1}
+.rangeValues {display: flex;align-items: center;justify-content: space-between;}
+
+
+.category{border-top: solid 1px #e3e3e3; }
+.category .catTitle{width: 100%;padding: 10px 20px 10px 12px;display: flex;grid-gap: 10px; align-items: center;justify-content: space-between;}
+.amcTitle{width: 100%;padding: 10px 20px;display: flex;align-items: center;justify-content: space-between;}
+.fundClick{display: flex;justify-content: space-between;flex: 1;}
+.category .expandMenu{padding: 20px;display: none;max-height: 180px;overflow: auto;width: calc(100% - 10px);}
+.category.active .expandMenu{display: block;}
+.category.active .catTitle img, .amcActive img{transform: rotate(180deg);}
+.category .expandMenu li{display: flex;align-items: flex-start;gap: 6px;margin-bottom: 10px;}
+.category .expandMenu li .checkBoxLabel {display: flex;grid-gap: 6px;align-items: center;}
+.category.amcList{border-top: none;width: calc(100% + 30px);position: relative;left: -15px;}
+.categoryMain{display: flex;max-height: calc(100vh - 247px);}
+.fundTitle{padding:0 15px;}
+.crossIcon{display:flex;display:-webkit-flex;position: relative;cursor: pointer; align-items:center;justify-content:center;height: 7px;width:8px;}
+.crossIcon:before,.crossIcon:after{content:'';cursor:pointer;height:1px;width:8px;background:#747478;position:absolute;display:block;border-radius:2px}
+.crossIcon:before{transform:rotate(45deg)}
+	.crossIcon:after{transform:rotate(-45deg)}
+    .mobileTag{display: flex;justify-content: space-between;grid-gap: 5px;align-items: center;}
+    .allCheck{display: flex;align-items: center;grid-gap: 10px;}
+    .shorArrow{display: inline-flex; transform:rotate(180deg);}
+    .up{vertical-align: middle;transform:rotate(0deg);}
+@media screen and (max-width:540px){
+    .activeTip{position: absolute;left: 5px;top: 5px;}
+    .webfilter{display: none;}
+    .webSearch{display: none;}
+    .resetFilterBx{display: none;}
+    .mobileSearch{display: block;}
+    .category:last-child{border-bottom: solid 1px #e3e3e3;}
+    .mobileFilter{display: none;}
+    .mobileFilter.active {display: flex;position: fixed;left: 0;top: 0px;background-color: rgba(0,0,0,.8);align-items: flex-end;justify-content: center;z-index: 14;width: 100%;height: 100%;overflow: hidden;}
+    .mobileFilterBox{display: block; border-radius: 20px 20px 0 0;box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.4);background-color: #fff;width: 100%;}
+    
+    .mobileFilterBox .tileHeading{padding: 16px 20px;display: flex;align-items: center;justify-content: space-between;   }
+    .category.amcList{width: 100%;left: inherit;}
+    .category {display: flex;flex-direction: column;}
+    .labelBox{max-width: 125px;border-bottom: solid 1px rgba(213, 213, 213, 0.5);}
+    .labelBox .catLabel {display: flex;justify-content: space-between; align-items: center; padding: 12px 16px;background: #fff; border: solid 1px rgba(155, 155, 155,0.2);position: relative;}
+    .labelBox .catLabel label + svg{max-width: 6px;width: 100%;}
+    .labelBox .catLabel.active{background-color: #f6f6f6;}
+    .labelBox .catLabel.active svg g{fill: #000000; opacity:unset}
+    .categoryBox .categoryItem{    max-height: 58vh;overflow: auto; border-bottom: solid 1px rgba(213, 213, 213, 0.5);border-top: solid 1px rgba(213, 213, 213, 0.5);padding:20px;min-height: 333px;display: none;flex: 1;}
+    .categoryBox .categoryItem.active{display: block;}
+    .Indcategory.active .expandMenu{display: block;}
+    .Indcategory.active .catTitle img{transform: rotate(180deg);}
+    .Indcategory.active .expandMenu li{gap: 13px;justify-content: unset;margin-bottom: 20px;}
+    .categoryBox .categoryItem .sort li{display: flex;align-items: center;justify-content: space-between;margin-bottom: 15px;line-height: 31px;}
+    .categoryBox .categoryItem .sort li.active p{color: #474ebb;}
+    .categoryBox .categoryItem .sort li.active svg path{fill: #474ebb;}
+    .mobileFilterBox .btntabs{display: flex;justify-content: space-between;align-items: center;padding: 12px 30px;}
+    .mobileFilterBox .btntabs button{max-width: 174px;width: 100%;justify-content: center;margin-left: auto;}
+}
+
+/* BankListing  */

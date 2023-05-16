@@ -1,0 +1,55 @@
+/* body{background: #f8f8f8;;} */
+.tabSection{  border-radius: 2px;box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);border: solid 1px rgba(157, 157, 157, 0.2);position: sticky;top: 167px;z-index: 5;background: #fff;}
+.tabElement ul{display: flex;align-items: center;justify-content: flex-start;grid-gap: 0 25px;}
+.tabElement ul li,.tabElement ul li a{padding:15px;cursor: pointer; color: #282828;font-size:12px;font-weight: 300;transition:0.5s all;}
+.tabElement ul .active{background: #1b1d1f;color: #ffffff;border-radius: 8px;}
+.tabElement ul .active a{color: #fff;}
+.tabElement ul li:hover{background:#282828 ;color: #ffffff;border-radius: 8px;}
+.tabElement ul li:hover a{color: #fff;}
+.section{padding: 40px 0;}
+.compairson{padding: 30px 0;}
+.smallCapSelect{border-radius: 4px;padding: 6px;border: solid 1px rgba(157, 157, 157, 0.2);background-color: #f6f6f6;-webkit-appearance: none;-moz-appearance: none;appearance: none;padding-right: 22px;}
+.impactGood{color: #55a105;}
+.progressSkyBlue{background: linear-gradient(90deg, hsla(184, 62%, 51%, 1) 0%, hsla(184, 75%, 64%, 1) 70%);}
+.progressRed{background: linear-gradient(90deg, hsla(1, 61%, 58%, 1) 0%, hsla(13, 88%, 72%, 1) 100%);}
+.progressCrimson{background: linear-gradient(90deg, hsla(49, 89%, 82%, 1) 0%, hsla(37, 92%, 75%, 1) 100%);}
+.progressGreen{background: linear-gradient(90deg, hsla(89, 100%, 42%, 1) 0%, hsla(44, 100%, 48%, 1) 100%);}
+.progressBlueWhite{background: linear-gradient(90deg, hsla(197, 100%, 60%, 1) 0%, hsla(205, 73%, 47%, 1) 100%);}
+.progressGray{background: linear-gradient(90deg, hsla(251, 22%, 81%, 1) 0%, hsla(249, 88%, 97%, 1) 100%);}
+.holdingEquity{display: flex;justify-content: space-between;width: 100%;}
+.holdingEquity li{font-size: 14px;color: #727373;font-weight: 500;position: relative;padding-left: 18px;}
+.curcle{width: 10px;height: 10px;border-radius: 50%;position: absolute;left: 0;background: #000;top: 6px;}
+.curcle.bgBlue{background: #3b75dc;}
+.curcle.bgYallow{background: #f7b500;}
+.toolip{vertical-align: middle;position: relative;width: 12px;height: 12px;cursor: pointer;}
+.tooltipBox{position: absolute;padding: 16px 25px;border-radius: 8px;background-color: #282942;max-width: 270px;width: 270px;bottom: 30px;left: 50%;transform: translate(-50%, 0px);display: none;}
+.toolip:hover .tooltipBox{display: block;}
+.tooltipBox .heading{border-bottom:solid 1px rgb(231 234 238 / 10%);padding-bottom: 14px;text-align: left;}
+.tooltipBox p{padding: 13px 0;text-align: left;font-size: 12px;color: #ccc;line-height: 1.75;position: relative;}
+.tooltipBox::after{width: 0px;height: 0px;border-left: 14px solid transparent;border-right: 14px solid transparent;border-top: 14px solid #282942;content: '';bottom: 0;bottom: -13px;left: 50%;transform: translate(-50%, 0px);position: absolute;}
+.dmeter{width: 100%;height: 100%;padding: 0 10px;max-width: 430px;}
+.dmeter>div{display: flex;align-items: center;justify-content: center;}
+.dmeter>div svg{max-height: 230px;width: 100%;}
+.btncenter{display: flex;justify-content: center;align-items: center;padding: 0 15px;}
+
+/* graph section  */
+.graph{max-width: 750px;background-color: #fff;}
+.navHistory{width: 65%;margin-bottom: 50px;}
+/* graph section  */
+
+
+@media screen and (max-width: 680px){
+    .tabSection{top: 67px;}
+    .section{padding: 15px 0;}
+    .impact{font-size: 11px;}
+    .capType li{font-size: 11px;}
+}
+@media screen and (max-width:980px){
+	.tabElement ul{overflow: auto;}
+	.tabElement ul li,.tabElement ul li a{white-space: nowrap;}
+}
+
+@media screen and (max-width: 540px){
+	.tabElement ul{overflow-x: auto;white-space: nowrap;}
+    .navHistory{width: 100%;margin-bottom: 20px;}
+}

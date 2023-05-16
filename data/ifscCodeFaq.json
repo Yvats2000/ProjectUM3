@@ -1,0 +1,34 @@
+[
+    {
+        "question":"Why is IFSC required for a fund transfer?",
+        "answer":"<p>A fund transfer needs to reach the recipient’s bank account with accuracy. The IFSC code comes off as a wedge between the sender and the receiver’s bank branch. With the help of the IFSC Code, the sender can accurately pick on the receiver and channel the funds toward the recipient.<\/p>\n"
+    },
+    {
+        "question":"What happens if we use the wrong IFSC code?",
+        "answer":"<p>Mostly the chances are that the transaction is reverted due to miscommunication or mismatch of information. However, if there is a bank account existing within the wrong IFSC, the amount transferred is completed to that incorrect account.<\/p>\n"
+    },
+    {
+        "question":"If a bank branch is changed, will the IFSC code change?",
+        "answer":"<p>Bank branch IFSC code stops being valid if any branch is merged with another major bank. However, the account holder’s details still remain the same.<\/p>\n"
+    },
+    {
+        "question":"How can I transfer money from one bank to another using IFSC Code?",
+        "answer":"<p>To transfer funds from one bank to another, the sender needs to provide the bank account number of the receiver and the IFSC Code of the receiver’s bank branch they have an account in. The IFSC and the account number both narrow down the destination where funds need to be reached.<\/p>\n"
+    },
+    {
+        "question":"Is a bank account unique for a unique IFSC code?",
+        "answer":"<p>No, the bank accounts and IFSC codes are not related. IFSC codes are assigned to a specific branch of a bank. However, two different banks can have the same account number. Bank account numbers are only unique within the same bank. Thus, it is important to correctly submit the account number and IFSC for executing the correct transaction.<\/p>\n"
+    },
+    {
+        "question":"Can I use IFSC instead of Swift code?",
+        "answer":"<p>No, IFSC codes are used for electronic transactions within a country. However, if one needs to make a transfer to someone from another country, they will be required to provide a SWIFT code instead.<\/p>\n"
+    },
+    {
+        "question":"How many digits are in the IFSC code?",
+        "answer":"<p>An IFSC code or Indian Financial System Code comprises 11 digits of alphanumeric code sequence. This includes a code for the bank and a code for the branch along with a default “0” reserved for future usage. The breakdown of an IFSC code looks like this: XXXX - Code for Bank, 0 - default, YYYYYY - code for the particular branch of the bank.<\/p>\n"
+    },
+    {
+        "question":"How to find the IFSC code from the account number?",
+        "answer":"<p>An IFSC Code can be located via an account number by going through the cheque book or the pass book issued by the bank. You can find the IFSC code on the top of the leaf along with the address of the bank. On a passbook, you can locate the IFSC code in the front page along with your basic details.<\/p>\n"
+    }
+]

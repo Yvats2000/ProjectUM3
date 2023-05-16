@@ -1,0 +1,360 @@
+[
+  {
+    "text": "Credit Score",
+    "title": "Credit Score",
+    "path": "/credit-score"
+  },
+   {
+      "text": "Loans",
+      "title": "Loans",
+      "path": "#",
+      "child": [
+        {
+          "text": "Home Loan",
+          "title": "Home Loan",
+          "path": "/loans/home-loan"
+        },
+        {
+          "text": "Personal Loan",
+          "title": "Personal Loan",
+          "path": "/loans/personal-loan"
+        },
+        {
+          "text": "Business Loan",
+          "title": "Business Loan",
+          "path": "/loans/business-loan"
+        },
+        {
+          "text": "Loan Against Property",
+          "title": "Loan Against Property",
+          "path": "/loans/loan-against-property"
+        },
+        {
+          "text": "Personal Loan Interest Rates",
+          "title": "Personal Loan Interest Rates",
+          "path": "/loans/personal-loan/interest-rate"
+        },
+        {
+          "text": "Home Loan Interest Rates",
+          "title": "Home Loan Interest Rates",
+          "path": "/loans/home-loan/interest-rate"
+        }
+      ]
+    },
+    {
+      "text": "Insurance",
+      "title": "Insurance",
+      "path": "#",
+      "child": [
+        {
+          "text": "Life Insurance Plans",
+          "title": "Life Insurance Plans",
+          "path": "/insurance-policy/life-insurance-plans"
+        },
+        {
+          "text": "General Insurance Plans",
+          "title": "General Insurance Plans",
+          "path": "/insurance-policy/general-insurance-plans"
+        }
+      ]
+    },
+    {
+      "text": "Investment",
+      "title": "Investment",
+      "path": "#",
+      "child": [
+        {
+          "text": "Fixed Deposit",
+          "title": "Fixed Deposit",
+          "path": "/fixed-deposit-rate"
+        },
+        {
+          "text": "Mutual Funds",
+          "title": "Mutual Funds",
+          "path": "/mutual-funds"
+        },
+        {
+          "text": "Recurring Deposit",
+          "title": "Recurring Deposit",
+          "path": "/investment-plans/recurring-deposit"
+        },
+        {
+          "text": "Systematic Investment Plan (SIP)",
+          "title": "Systematic Investment Plan (SIP)",
+          "path": "/investment-plans/sip"
+        },
+        {
+          "text": "Public Provident Fund (PPF)",
+          "title": "Public Provident Fund (PPF)",
+          "path": "/investment-plans/ppf"
+        }
+      ]
+    },
+    {
+      "text": "Calculator",
+      "title": "Calculator",
+      "path": "#",
+      "child":[
+      {
+        "text":"Home Loan EMI Calcuator",
+        "title":"Home Loan EMI Calcuator",
+        "path":"/loans/home-loan/emi-calculator"
+      },
+      {
+        "text":"Home Loan Balance Transfer Calculator ",
+        "title":"Home Loan Balance Transfer Calculator ",
+        "path":"/loans/home-loan/balance-transfer-calculator"
+      },
+      {
+        "text":"Home Loan Pre-payment Calculator",
+        "title":"Home Loan Pre-payment Calculator",
+        "path":"/loans/home-loan/pre-payment-calculator"
+      },
+      {
+        "text":"Personal Loan EMI Calcuator",
+        "title":"Personal Loan EMI Calcuator",
+        "path":"/loans/personal-loan/emi-calculator"
+      },
+      {
+        "text":"Personal Loan Balance Transfer Calculator",
+        "title":"Personal Loan Balance Transfer Calculator",
+        "path":"/loans/personal-loan/balance-transfer-calculator"
+      },
+      {
+        "text":"Personal Loan Pre-payment Calculator",
+        "title":"Personal Loan Pre-payment Calculator",
+        "path":"/loans/personal-loan/pre-payment-calculator"
+      },
+      {
+        "text":"Business Loan EMI Calcuator",
+        "title":"Business Loan EMI Calcuator",
+        "path":"/loans/business-loan/emi-calculator"
+      },
+      {
+        "text":"Business Loan Balance Transfer Calculator",
+        "title":"Business Loan Balance Transfer Calculator",
+        "path":"/loans/business-loan/balance-transfer-calculator"
+      },
+      {
+        "text":"Business Loan Pre-payment Calculator",
+        "title":"Business Loan Pre-payment Calculator",
+        "path":"/loans/business-loan/pre-payment-calculator"
+      },
+      {
+        "text":"Mutual Fund Calculator",
+        "title":"Mutual Fund Calculator",
+        "path":"/calculator/mutual-fund-calculator"
+      },
+      {
+        "text":"SIP Calculator",
+        "title":"SIP Calculator",
+        "path":"/calculator/sip-calculator"
+      },
+      {
+        "text":"FD Calculator",
+        "title":"FD Calculator",
+        "path":"/calculator/fd-calculator"
+      },
+      {
+        "text":"PPF Calculator",
+        "title":"PPF Calculator",
+        "path":"/calculator/ppf-calculator"
+      },
+      {
+        "text":"RD Calculator",
+        "title":"RD Calculator",
+        "path":"/calculator/rd-calculator"
+      }
+      ]
+      },
+      {
+        "text": "Eligibility Calculator",
+        "title": "Eligibility Calculator",
+        "path": "#",
+        "child":[
+          {
+            "text":"Home Loan Eligibility Calculator",
+            "title":"Home Loan Eligibility Calculator",
+            "path":"/loans/home-loan/eligibility-calculator"
+          },
+          {
+            "text":"Personal Loan Eligibility Calculator",
+            "title":"Personal Loan Eligibility Calculator",
+            "path":"/loans/personal-loan/eligibility-calculator"
+          }
+        ]
+      },
+      {
+        "text": "Banks in India ",
+        "title": "Banks in India ",
+        "path": "#",
+        "child":[
+          {
+            "text":"CITI Bank",
+            "title":"CITI Bank",
+            "path":"/banks-in-india/citi-bank"
+          },
+          {
+            "text":"RBL Bank",
+            "title":"RBL Bank",
+            "path":"/banks-in-india/rbl-bank"
+          },
+          {
+            "text":"Bank of Baroda",
+            "title":"Bank of Baroda",
+            "path":"/banks-in-india/bank-of-baroda"
+          },
+          {
+            "text":"Canara Bank",
+            "title":"Canara Bank",
+            "path":"/banks-in-india/canara-bank"
+          },
+          {
+            "text":"Bajaj Finserv",
+            "title":"Bajaj Finserv",
+            "path":"/banks-in-india/bajaj-finserv"
+          },
+          {
+            "text":"YES Bank",
+            "title":"YES Bank",
+            "path":"/banks-in-india/yes-bank"
+          },
+          {
+            "text":"Deutsche Bank",
+            "title":"Deutsche Bank",
+            "path":"/banks-in-india/deutsche-bank"
+          },
+          {
+            "text":"IDFC FIRST Bank",
+            "title":"IDFC FIRST Bank",
+            "path":"/banks-in-india/idfc-first-bank"
+          },
+          {
+            "text":"DCB Bank",
+            "title":"DCB Bank",
+            "path":"/banks-in-india/dcb-bank"
+          },
+          {
+            "text":"Kotak Bank",
+            "title":"Kotak Bank",
+            "path":"/banks-in-india/kotak-bank"
+          }
+        ]
+      },
+      {
+        "text": "IFSC Code",
+        "title": "IFSC Code",
+        "path": "#",
+        "child":[
+          {
+            "text":"Bank Of Baroda",
+            "title":"Bank Of Baroda IFSC Code",
+            "path":"/banks-in-india/bank-of-baroda/ifsc-code"
+          },
+          {
+            "text":"State Bank Of India",
+            "title":"SBI IFSC Code",
+            "path":"/banks-in-india/state-bank-of-india/ifsc-code"
+          },
+          {
+            "text":"Canara Bank",
+            "title":"Canara Bank IFSC Code",
+            "path":"/banks-in-india/canara-bank/ifsc-code"
+          },
+          {
+            "text":"Punjab National Bank",
+            "title":"Punjab National Bank IFSC Code",
+            "path":"/banks-in-india/punjab-national-bank/ifsc-code"
+          },
+          {
+            "text":"Union Bank Of India",
+            "title":"Union Bank Of India IFSC Code",
+            "path":"/banks-in-india/union-bank-of-india/ifsc-code"
+          },
+          
+          {
+            "text":"Axis Bank",
+            "title":"Axis Bank IFSC Code",
+            "path":"/banks-in-india/axis-bank/ifsc-code"
+          },
+          {
+            "text":"Central Bank Of India",
+            "title":"Central Bank Of India IFSC Code",
+            "path":"/banks-in-india/central-bank-of-india/ifsc-code"
+          },
+          {
+            "text":"ICICI Bank",
+            "title":"ICICI Bank IFSC Code",
+            "path":"/banks-in-india/icici-bank/ifsc-code"
+          },
+          {
+            "text":"HDFC Bank",
+            "title":"HDFC Bank IFSC Code",
+            "path":"/banks-in-india/hdfc-bank/ifsc-code"
+          },
+          {
+            "text":"UCO Bank",
+            "title":"UCO Bank IFSC Code",
+            "path":"/banks-in-india/uco-bank/ifsc-code"
+          }
+        ]
+      },
+      {
+        "text": "AMC",
+        "title": "AMC",
+        "path": "#",
+        "child": [
+          {
+            "text": "SBI Mutual Fund",
+            "path": "/mutual-funds/sbi-mutual-fund"
+          },
+          {
+            "text": "Axis Mutual Fund",
+            "path": "/mutual-funds/axis-mutual-fund"
+          },
+          {
+            "text": "HDFC Mutual Fund",
+            "path": "/mutual-funds/hdfc-mutual-fund"
+          },
+          {
+            "text": "UTI Mutual Fund",
+            "path": "/mutual-funds/uti-mutual-fund"
+          },
+          {
+            "text": "ICICI Prudential Mutual Fund",
+            "path": "/mutual-funds/icici-prudential-mutual-fund"
+          },
+          {
+            "text": "Tata Mutual Fund",
+            "path": "/mutual-funds/tata-mutual-fund"
+          },
+          {
+            "text": "Kotak Mahindra Mutual Fund",
+            "path": "/mutual-funds/kotak-mahindra-mutual-fund"
+          },
+          {
+            "text": "Canara Rodeco Mutual Fund",
+            "path": "/mutual-funds/canara-robeco-mutual-fund"
+          },
+          {
+            "text": "Mirae Asset Mutual Fund",
+            "path": "/mutual-funds/mirae-asset-mutual-fund"
+          },
+          {
+            "text": "IDFC Mutual Fund",
+            "path": "/mutual-funds/idfc-mutual-fund"
+          }
+        ]
+      },
+      {
+        "text": "Gold Rates",
+        "title": "Gold Rates In India",
+        "path": "/gold-rate"
+      },
+      {
+        "text": "Silver Rates",
+        "title": "Silver Rates In India",
+        "path": "/silver-rate"
+      }
+ ]
+  

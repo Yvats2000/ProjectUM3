@@ -1,0 +1,33 @@
+
+/* allLists  */
+.allWrap{display: flex;gap: 20px;}
+.sideTilesWrap{padding-top: 90px;}
+
+.indTilesWrap{display: grid;grid-template-columns: repeat(3,1fr);gap: 24px;margin-top: 28px;margin-bottom: 80px;}
+.bankTile{ border-radius: 10px;width: 275px;height: 100%; border: solid 0.5px #9da1f1;background-color: rgba(71, 77, 187, 0.02);}
+.bankTile .bankHead{display: flex;align-items: center;justify-content: space-between;padding: 9px 16px;grid-gap: 15px; border-bottom: solid 1px #9da1f1;border-radius: 0 0 10px 10px;}
+.bankHead .bankInfo{display: flex;align-items: center;grid-gap: 10px;flex: 1;overflow: hidden;}
+.bankHead .bankInfo figure{flex-shrink: 0;}
+.bankHead .bankInfo figure img{height: auto !important;object-fit: contain !important;}
+.banknameRate{flex: 1;min-width: 0;}
+.banknameRate p{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.bankHead .enquireNow{color: #474dbb;font-size: 12px;padding: 6px 7px; border-radius: 8px;background-color: #c6c8fa;border:none;cursor: pointer;}
+.bankRatesInfo{padding: 13px 16px;}
+.bankRatesInfo ul{display: grid;grid-template-columns: 1fr 38%; justify-content: space-between;gap: 16px 0;align-items: flex-start;}
+.bankRatesInfo ul li:nth-child(2n){text-align: right;}
+.bankRatesInfo ul li{display: flex;flex-direction: column;}
+
+@media screen and (max-width:1024px) {
+    .allWrap{flex-direction: column;}
+    .bankTile{width: 100%;}
+}
+
+@media screen and (max-width:860px) {
+    .indTilesWrap{grid-template-columns: repeat(2,1fr);margin-top: 24px;margin-bottom: 30px;}
+    .sideTilesWrap{padding-top: 0;}
+}
+
+@media screen and (max-width:540px) {
+    .indTilesWrap{grid-template-columns: repeat(1,1fr);margin-top: 24px;margin-bottom: 30px;gap: 15px;}
+    .bankRatesInfo ul{display: grid;grid-template-columns: repeat(2,1fr);}
+}

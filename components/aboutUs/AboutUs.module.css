@@ -1,0 +1,58 @@
+.aboutUs{background:#fff;overflow:hidden}
+.banner{height:330px;object-fit: cover; background-color:#7084d6;position:relative}
+.bannerTagline{margin:110px 0 0;padding:13px 18px;display:inline-block;line-height:35px;font-size:30px;color:#fff;background-color:rgba(0,0,0,0.60);border-radius:8px;max-width:357px;width:100%;font-weight: 400;}
+.contentBoxx{display:block;margin:34px 0}
+.contentBoxx .row{display: flex;grid-gap: 25px;}
+.aboutUs{ flex:1;}
+.aboutUsTile{ flex:0  0 41%}
+.contentBoxx h1,.contentBoxx h2{padding-bottom:15px;color:#000;}
+.contentBoxx p{line-height:22px;color:#4a4a4a;display:block;font-size:14px;}
+.overView{display:block}
+.overView li{display:flex;float:left;width:50%;color:#000;height:141px;background:#fff;align-items:center}
+.overView li strong{font-size:30px;display:block;line-height:34px}
+.overView li p{line-height:27px;font-size:18px}
+.overView li .box{padding:15px;margin:0}
+.overView li:nth-child(1){background:#474ebb;border-radius:8px 0 0 0;color:#fff}
+.overView li:nth-child(1) p{color:#fff}
+.overView li:nth-child(4){background:#000;color:#fff}
+.overView li:nth-child(4) p{color:#fff}
+.overView li:nth-child(5){background:#BCBCBC;border-radius:0 0 0 8px;color:#fff}
+.overView li:nth-child(5) p{color:#fff}
+.groupBrands{width:100%}
+.groupBrands .brandBox{padding:25px;background:#fff;border-radius: 8px;position:relative;display:flex;flex-direction: column; box-shadow: 0 -4px 43px 0 rgba(0, 0, 0, 0.08);flex:1 0 30%}
+
+.subText{color: #fff;font-size: 28px;line-height: 42px;font-weight: 300;margin-bottom: 15px;opacity: 0.5;}
+.tollFree{color: #fff;font-size: 38px;line-height: 48px;font-weight: 300;}
+.groupBrands .brandBox picture{border-radius:5px;display:flex;max-width: 191px;height:40px;margin-bottom: 15px;}
+.groupBrands .brandBox{margin-bottom: 0;}
+.img{height: 50px;object-fit: contain;}
+.groupBrands .brandBox strong{margin-bottom:15px;display:block;font-size:20px;line-height:28px;font-weight: 400;}
+.justify{text-align: justify;}
+.mainBox{display: flex;flex-wrap: wrap;grid-gap: 15px;}
+.bannerImage{width: 100%;height: 330px;}
+.bannerImage img{width: 100%;height: 330px;object-fit: cover;}
+.aboutTagline{position: relative;top: -100%;height: 330px;display: flex;flex-direction: column;justify-content: center;}
+@media screen and (max-width:1024px) {
+ .groupBrands{max-width:100%}
+}
+@media screen and (max-width:768px){
+.overView{padding-top: 15px;}
+.overView li strong{font-size: 16px;}
+.overView li p{line-height: 22px;font-size: 16px;}
+.mainBox{flex-direction: column;}
+.tollFree{font-size: 28px;line-height: 40px;}
+.subText{font-size: 24px;}
+}
+@media screen and (max-width:480px) {
+.aboutUs .banner .bannerTagline{max-width:390px;font-size: 26px;}
+.overView li strong{font-size:28px}
+.aboutUs .contentBoxx p{line-height:26px}
+.aboutUs .groupBrands .brandBox{padding:15px 20px;}
+.aboutUs .groupBrands .brandBox:last-child{padding: 15px 20px}
+.aboutUs .groupBrands .brandBox picture{margin-bottom:15px;position:initial;box-shadow:none;max-width:120px;}
+.aboutUs .groupBrands .brandBox strong{margin:0}
+.aboutUs .contentBoxx{margin: 0;}
+.aboutUs .groupBrands{margin: 20px 0;}
+.contentBoxx .row{flex-direction: column;}
+.overView li strong{font-size:22px}
+}

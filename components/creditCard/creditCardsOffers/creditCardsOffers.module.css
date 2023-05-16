@@ -1,0 +1,74 @@
+
+
+/* popularCreditCards */
+.popularCreditCards{padding: 150px 0 120px; background:#f9fbfe;position: relative;}
+.bluebackcardfeature{right: -226px;bottom: -175px;position: absolute;}
+.yellowbackcardfeature{    position: absolute;left: -156px;top: 110px;}
+.popularcreditblue{position: absolute;top: -271px;}
+.centerheading{position: relative;}
+.centerheading::after {content: '';width: 30px;height: 3px;background: #f5a623;border-radius: 5px;position: absolute;bottom: -16px;left: calc(50% - 15px);}
+
+.allCreditCards{margin-top: 125px;display: flex;gap: 27px;}
+.bankCard{cursor: pointer; padding: 20px;position: relative;display: none;flex-direction: column; max-width: 362px;width: 100%;border-radius: 8px;border: solid 1px #e0e0e0;background-color: #fffefe}
+.bankCard.active{display: flex;}
+.bankCard.inActive{display: none;}
+.bankCard:hover{background: #f6f6f6; box-shadow: 10px 10px 20px 0 rgba(30, 30, 30, 0.05);}
+ 
+.bankCard figure{padding: 5px;margin-top: -68px;align-self: flex-start;display: inline-block;border-radius: 8px;box-shadow: 10px 10px 20px 0 rgba(30, 30, 30, 0.05);border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fff;}
+.bankCard figure img{border-radius: 8px;}
+.bankCard .centerheading{display: block;}
+.bankCard .centerheading::after{width: 40px;height: 2px;left: 0;bottom: -20px;}
+.bankCard ul {margin-top: 40px;padding: 10px;position: relative;}
+.cardDesc{position: relative;}
+.opnBox{display: none;}
+
+.bankCard ul li{display: flex;align-items: flex-start;gap: 16px;line-height: 18px;}
+.bankCard ul li span{flex-shrink: 0;}
+.bankCard ul li ~ li{margin-top: 18px;}
+.cardBtnBox{margin-top: 55px;display: flex;align-items: center;gap: 15px;}
+.cardBtnBox .btn-default{border: solid 1px rgba(157, 157, 157, 0.2);}
+
+.paginations{position: absolute;display: flex;gap: 12px;left: 50%;bottom: 65px;align-items: center;}
+.paginations span{width: 15px;height: 15px;cursor: pointer; display:inline-flex;border-radius:50px; border: solid 2px transparent; position: relative; align-items: center;justify-content: center;}
+.paginations span::after{content: '';width: 7px;height: 7px;border-radius: 10px;background: #dcdcdc;display: block;}
+.paginations span.active{ border: solid 2px #3a3a44;}
+.paginations span.active::after{ background:#3a3a44 ;}
+
+/* Ribbon css start */
+.ribbon{position: absolute;right: -6px;top: 20px; padding: 5px;color: #f5f3f3;font-size: 9px;border-radius: 0 4px 0px 0px;}
+.ribbon::after{content: '';width: 6px;height: 4px;border-radius: 0px 0px 4px 0; position: absolute;right: 0;bottom: -4px;;}
+.ribbonArrow{height: 21px;position: absolute;left: -14px;top: 0;}
+.ribbonArrow svg{height: 100%;}
+.red{background-image: linear-gradient(272deg, #622774, #c53364 100%);}
+.red::after{background:linear-gradient(332deg, rgba(98,39,116,1) 0%, rgba(197,51,100,1) 93%);}
+.red svg{color: #c53364;}
+/* Ribbon css end */
+
+@media screen and (max-width:1024px) {
+    .bluebackcardfeature{right: 0;}
+}
+
+@media screen and (max-width:860px) {
+    .popularcreditblue{display: none;}
+    .allCreditCards {margin-top: 50px;}
+    
+}
+@media screen and (max-width:680px) {
+    .allCreditCards {margin-top: 95px;justify-content: center;}
+    .bluebackcardfeature{display: none;}
+    .yellowbackcardfeature{  display: none;}
+    .popularcreditblue{display: none;}
+    .noWrap{white-space: nowrap;padding: 10px 15px;}
+    .contentFull{height: 100%;}
+    .popularCreditCards {padding: 60px 0;}
+    .paginations{bottom: 15px;left: calc(50% - 24px);}
+    .allCreditCards .bankCard{flex: 0 0 100%;}
+    .cardBtnBox{margin-top: 15px;}
+    .bankCard .cardDesc .opnBox{display: block; position: absolute;bottom: -23px;left: 50px;}
+    .opnBox .icon-icon-angle-right{font-size: 6px;}
+    .opnBox .icon-icon-angle-right:before{color: #474ebb;}
+    .bankCard ul{max-height: 49px;overflow: auto;display: none;}
+    .bankCard .centerheading::after{bottom: -10px;}
+}
+
+/* popularCreditCards */

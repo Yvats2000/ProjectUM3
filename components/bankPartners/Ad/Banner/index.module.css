@@ -1,0 +1,21 @@
+
+
+.creditcards{margin: 45px 0;position: relative;}
+.allCards{display: flex;gap: 20px;overflow: auto;justify-content: center;}
+.cards{max-width: 350px;cursor: pointer;}
+.subHeading{margin-top: 8px;line-height: 24px;max-width: 80%;text-align: center;margin-left: auto;margin-right: auto;}
+.paginations{position: absolute;display: flex;gap: 12px;left: 50%;bottom: -30px;align-items: center;}
+.paginations span{width: 15px;height: 15px;cursor: pointer; display:inline-flex;border-radius:50px; border: solid 2px transparent; position: relative; align-items: center;justify-content: center;}
+.paginations span::after{content: '';width: 7px;height: 7px;border-radius: 10px;background: #dcdcdc;display: block;}
+.paginations span.active{ border: solid 2px #474ebb;}
+.paginations span.active::after{ background:#474ebb ;}
+.banner.active{display: flex;}
+.banner.inactive{display: none;}
+.allCards .inactive{display: none;}
+@media screen and (max-width:1024px){
+    .subHeading{max-width: 100%;}
+}
+@media screen and (max-width:540px) {
+    .paginations{bottom: -30px;left: calc(50% - 34px);}
+
+}

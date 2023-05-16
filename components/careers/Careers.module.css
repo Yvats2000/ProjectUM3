@@ -1,0 +1,125 @@
+.career{display:block;background:#fff;overflow:hidden}
+.banner{display: block;overflow: hidden;}
+.banner picture{position: relative;display: block;z-index: 0;}
+.banner .mobile{display: none;}
+
+.topSection{display: flex;gap: 0 30px;margin: 30px 0;}
+.right{flex-direction: row-reverse;}
+.topSection .contentBoxx{flex: 1;}
+	
+.ethos .ethosGrid{display: grid;grid-template-columns: repeat(3,1fr);grid-gap: 22px;}
+
+
+.contentBoxx p{line-height:24px;color:#4a4a4a;display:block;font-size:14px;text-align: justify;}
+.contentBoxx p.pad{padding: 0px 100px;}
+.contentBoxx h2,.contentBoxx h1, .contentBoxx h3 {color:#000;font-size:28px;line-height:normal;padding-bottom:25px;text-align: left;font-weight: 400;}
+.contentBoxx .videoSection {display: block;}
+.contentBoxx .videoSection video{width: 100%; height: 315px; text-align: center; margin:0 auto;  border: 1px solid #f1f1f1;}
+.contentBoxx .videoSection iframe {width: 100%; height: 304px; text-align: center; margin:0 auto;  border: 1px solid #f1f1f1;}
+.contentBoxx .ethos {margin-top: 30px;}
+.contentBoxx .box{padding:12px 20px 22px;background:#fff;border:1px solid #F2F2F2;box-shadow:0 0 35px 0 rgba(0,0,0,0.04);border-radius:8px;min-height:130px;display: flex;align-items: center;}
+.contentBoxx .box figure{width: 60px;height: 60px;flex-shrink: 0;}
+.contentBoxx .box figure img{object-fit: contain !important; object-position: left center !important;}
+.contentBoxx .box p {text-align: left;}
+.contentBoxx .box .content{display:block;position:relative;padding-left:20px}
+.contentBoxx .box .content p{line-height:normal;font-size:14px;line-height: 22px;}
+.contentBoxx .box .content em{font-size:60px;position:absolute;left:0}
+.contentBoxx .box .content strong{font-size:16px;color:#333;padding-bottom:7px;display: inline-block;}
+	
+.careerSection {display: block; background: #fafafa;padding: 40px;}
+.careerSection .heading {color:#000;font-size:36px;line-height:36px;padding-bottom:25px;text-align: center;}
+.careerSection p {line-height:32px;color:#4a4a4a;display:block;font-size:18px;text-align: center; margin-bottom: 15px;}
+	
+.alignCenter {text-align: center !important;}
+.benefitsBoxx {display: block; background: #fafafa; padding: 40px 0px;}
+.benefitsBoxx .heading {color:#000;font-size:28px;line-height:normal;padding-bottom:25px;text-align: center;}
+.benefitsBoxx p{line-height:26px;color:#333;display:block;font-size:16px;text-align: center;padding: 0px 100px;}
+.benefitsBoxx ul  {display: flex;flex-wrap: wrap; padding: 0px; margin: 0px; list-style: none;margin-top: 30px;}
+.benefitsBoxx ul li{display: flex;flex: 1 0 23%; border-right:1px dashed #D6D6D6;border-bottom:1px dashed #D6D6D6;padding:15px;align-items: center;height: 130px;gap: 0 16px;}
+.benefitsBoxx ul li figure{flex-shrink: 0;}
+/* .benefitsBoxx ul li:first-child {padding-left: 0px;}
+.benefitsBoxx ul li:nth-child(5) {padding-left: 0px;}
+.benefitsBoxx ul li:nth-child(4),.benefitsBoxx ul li:nth-child(8){border-right:0px;}
+.benefitsBoxx ul li:nth-child(5),.benefitsBoxx ul li:nth-child(6),.benefitsBoxx ul li:nth-child(7),.benefitsBoxx ul li:nth-child(8){border-bottom:0px;grid-gap: 0 5px;} */
+
+.benefitsBoxx ul li em {font-size: 40px;color: #f00;margin-right: 15px;}
+.benefitsBoxx ul li .textBox{font-size: 14px; color: #000; text-align: left;line-height: 22px;}
+
+
+@media screen and (max-width:1024px) {
+.benefitsBoxx ul li {width: 24.6%;}
+}
+	
+@media screen and (max-width: 1024px) {
+.btn-lg{padding:10px 15px;font-size:13px}
+.banner .bannerTagline{font-size: 32px;}
+.openPosition .positionSlider .owl-carousel .owl-nav.disabled {display: block;position: absolute; bottom:-45px; left: 45%;}
+.topSection  .videoSection video {height: 273px;width: 100%;}
+.contentBoxx .videoSection iframe {height: 369px;}
+.topSection .contentBoxx { flex: 0 0 50%;}
+}
+@media screen and (max-width:780px) {
+
+.formBox{border-radius:0}
+.formBox .closeBtn{display:block}
+.formBox h5{margin-bottom:0;border:none}
+.formBox .form-group{width:48%;float:left}
+.formBox .form-group:nth-child(3),.formBox .form-group:nth-child(5){margin-right:4%}
+.formBox .btn-primary{width:100%}
+.banner {overflow: hidden;}
+.banner .bannerTagline{font-size:22px;line-height:24px;margin-top: 48px;}
+.topSection .videoSection video, .topSection .videoSection iframe {height:420px;width: 100%;}
+.topSection{flex-direction: column;}
+.topSection .contentBoxx{margin-bottom: 25px;}
+.ethos .ethosGrid{grid-template-columns: repeat(2,1fr);}
+.contentBoxx p.pad{padding: 0 50px;}
+.benefitsBoxx p{padding: 0 50px;}
+.benefitsBoxx ul li{flex: 1 0 35%;height: 105px;}
+.benefitsBoxx ul li:nth-child(8){grid-gap: 0 5px;}
+.contentBoxx .box img{max-width: 60px;object-fit: contain;object-position: left;}
+.contentBoxx .box span{flex-shrink: 0;}
+}
+@media screen and (max-width:480px) {
+
+.formBox{padding:0 15px 15px}
+.banner::after{display:none}
+.banner picture {top: inherit;}
+.banner {height: auto;overflow: hidden;}
+.banner .bannerTagline{font-size:20px;text-align:center;margin:20px 0 10px;}
+.banner .bannerTagline .line1{line-height: 25px;}
+.contentBoxx{margin:10px 0}
+.contentBoxx p{font-size:16px}
+.contentBoxx h1{font-size:26px;padding-bottom:15px}
+.contentBoxx{margin:10px 0px 20px;}
+.contentBoxx p, .careerSection p{font-size:14px;line-height: 28px;}
+.contentBoxx h1{font-size:26px;padding-bottom:15px}
+.banner {height: auto;overflow: hidden;}
+.contentBoxx .videoSection video {height: 192px;}
+.openPosition .positionSlider .owl-carousel .owl-nav.disabled {left: 35%;}
+.careerSection {padding: 40px 20px;}
+.openPosition{padding: 40px 20px;}
+.contentBoxx p.pad {padding: 0px;font-size: 16px;line-height: 28px;}
+.topSection .videoSection iframe {height:196px;}
+.topSection .videoSection video {height:218px;}
+.ethos .ethosGrid{grid-template-columns: repeat(1,1fr);}
+.benefitsBoxx p{padding: 0;font-size: 16px;line-height: 28px;}
+.benefitsBoxx ul{flex-direction:column;}
+.benefitsBoxx ul li{flex:1 0 100%;width: 100%;border-right: none;}
+.benefitsBoxx ul li:nth-child(8){grid-gap: 0 5px;}
+}
+@media screen and (max-width:411px) {
+.contentBoxx .videoSection video, .contentBoxx .videoSection iframe {height: 215px;}
+}
+@media screen and (max-width:360px) {
+.contentBoxx .videoSection video, .contentBoxx .videoSection iframe {height: 190px;}
+}
+@media screen and (max-width:375px) {
+.banner .bannerTagline {font-size: 20px; line-height: 18px;}	
+.contentBoxx .videoSection video, .contentBoxx .videoSection iframe {height: 186px;}
+}
+@media screen and (max-width: 320px){
+    .benefitsBoxx ul li:nth-child(8){grid-gap: 0 5px;}
+.banner .bannerTagline {font-size: 18px; line-height: 14px;}
+.banner .mobile {padding: 10px 73px;}
+.contentBoxx .videoSection video, .contentBoxx .videoSection iframe { height: 165px;}
+}

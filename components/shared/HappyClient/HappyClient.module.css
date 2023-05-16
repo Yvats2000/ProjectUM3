@@ -1,0 +1,11 @@
+.happyClient{background: #e4e4e4;border: solid 1px rgba(157, 157, 157, 0.1);padding: 15px 0;}
+.happyClient::-webkit-scrollbar,.clientGrid::-webkit-scrollbar{display: none;}
+.clientNumer{color: #777;line-height: normal;white-space: nowrap;}
+.cricle{width:8px;height: 8px;border-radius: 50%;background: rgba(216, 216, 216, 0.77);position: 0.3;}
+.clientNumer span{color: initial;margin-right: 10px;}
+.clientGrid{display: flex;justify-content: space-between;align-items: center;}
+
+@media screen and (max-width: 680px){
+	.cricle{display: none;}
+	.clientGrid{width: 100%;grid-gap: 0 60px; overflow-x: auto}
+}

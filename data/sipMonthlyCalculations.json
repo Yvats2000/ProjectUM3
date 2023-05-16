@@ -1,0 +1,23 @@
+{
+    "investment" : {
+        "minValue" : "500",
+        "defaultValue" : "25000",
+        "minText" : "500",
+        "maxValue" : "100000",
+        "maxText" : "1 Lac"
+    },
+    "roi" : {
+        "minValue" : "1",
+        "defaultValue" : "12",
+        "minText" : "1",
+        "maxValue" : "30",
+        "maxText" : "30"
+    },
+    "timeperiod" : {
+        "minValue" : "1",
+        "defaultValue" : "10",
+        "minText" : "1",
+        "maxValue" : "30",
+        "maxText" : "30"
+    }
+}

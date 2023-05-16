@@ -1,0 +1,54 @@
+.tabSection{  border-radius: 2px;box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);border: solid 1px rgba(157, 157, 157, 0.2);position: sticky;top: 70px;z-index: 5;background: #fff;}
+.tabElement ul{display: flex;align-items: center;justify-content: flex-start;grid-gap: 0 25px;}
+.tabElement ul li,.tabElement ul li a{padding:15px 12px;cursor: pointer; color: #282828;font-size:12px;font-weight: 300;transition:0.5s all;}
+.tabElement ul .active{background: #1b1d1f;color: #ffffff;border-radius: 8px;}
+.tabElement ul .active a{color: #fff;}
+.tabElement ul li:hover{background:#282828 ;color: #ffffff;border-radius: 8px;}
+.tabElement ul li:hover a{color: #fff;}
+.tabElement ul li.applyBtn {background: #474ebb;color: #fff;border: #474ebb solid 1px;transition: .5s;padding: 5px 10px;border-radius: 4px;}
+.featureandImg{display: flex;align-items: center;}
+.featureandImg ul{flex: 1;}
+.featureandImg figure{flex: 1;}
+.gap40{gap: 40px;}
+.BlankDiv{padding-top: 50px;}
+.eligible{overflow-x: auto;padding-bottom: 50px;}
+.eligible.crediScoore{margin-top: 30px;}
+.eligible h2{color: #000;font-size: 24px;font-weight: 400;margin-bottom: 30px;}
+.eligible h2:not(first-child){margin-top: 30px;margin-bottom: 15px;}
+.eligible h2:first-child{margin-top: 0px;margin-bottom: 15px;}
+.eligible h3,.eligible h4{ color: #181d2f;line-height: 26px;font-size: 18px;font-weight: 400;margin-bottom: 15px;margin-top: 30px;}
+.eligible p{font-size:14px;color: #4a4a4a;line-height: 24px;margin-bottom: 20px;}
+.eligible p:last-child{margin-bottom: 0;}
+.eligible table{text-align: left; margin: 25px 0 3px 0;margin-left: 2px; border-collapse: collapse;width: 80%;overflow: hidden; border-radius: 4px;border-style: hidden;box-shadow: 0 0 0 1px #dfe6ee;}
+.eligible table td p{margin-bottom: 0;}
+.eligible table+p{margin-top: 15px;}
+.respTable{overflow-x: auto;padding-left: 1px;}
+.eligible table th,.eligible table td{color: #313541;font-size: 14px;line-height: 22px;vertical-align: top; padding: 15px;border: 1px solid #dfe6ee;}
+/* .eligible table tr:first-child td{color: #313541;background: #e0e2e4;    font-weight: 500;} */
+/* .eligible table th{background-color: #e0e2e4;font-weight: 500;white-space: nowrap; } */
+.eligible ul{padding-left: 5px;}
+.eligible ul li,.eligible ol li{position: relative; line-height: 32px;padding-left: 20px; list-style-position: inside; font-size:14px; color: #4a4a4a;}
+.eligible ul li::before,.eligible ol li::before {content: "";font-weight: bold;display: inline-block;width: 6px;height: 6px;position: absolute;border-radius: 50%;left: 0;background: #474ebb;top:12px;}
+.respTable {overflow-x: auto;padding-left: 1px;}
+.textClass{width: 100%;}
+.genericBanner{position: relative;}
+.genericBanner img{position:absolute;top: 0;}
+
+@media screen and (max-width:980px){
+	.tabElement ul{overflow: auto;}
+	.tabElement ul li,.tabElement ul li a{white-space: nowrap;}
+	.eligible img{max-width: 100% !important;height: auto;}
+}
+
+@media screen and (max-width: 540px){
+	.tabElement ul{overflow-x: auto;white-space: nowrap;}
+	.eligible img{width: 100% !important;}
+    .featureandImg{display: block;}
+    .featureandImg figure{display: none;}
+	.eligible  ul li::before{height: 5px;width: 5px;top: 14px;}
+	.respTable{margin-bottom: 15px; }
+	.eligible table{width: 100%;}
+	/* .respTable table th,.eligible table td{font-size:3.3816425120772946vw;white-space: nowrap;padding: 3.3333333333333335vw;} */
+	.respTable table{width: 100%;}
+	.respTable{margin-bottom: 12px;}
+}

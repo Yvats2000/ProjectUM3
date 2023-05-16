@@ -1,0 +1,58 @@
+
+.calcwrap{display: flex;box-shadow: -10px 10px 20px 0 rgb(30 30 30 / 5%);margin-bottom: 50px;}
+.calculator{border-radius: 5px 0 0 5px;width: 100%;    border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fff;padding: 26px 24px;}
+.rangecalc {margin-bottom: 36px;}
+.rangecalc:last-child{margin: 0;}
+.rangecalc .calcValues{display: flex;justify-content: space-between;align-items: center;margin-bottom: 8px;}
+.inputGrp{display: flex;width: 88px;justify-content: flex-end;align-items: center;}
+.rangecalc .calcValues label{font-size: 14px;color: #231f20;}
+.rangecalc .calcValues input{width: 100%; font-size: 14px;font-weight: 500;color: #313541; border: none;border-bottom:  solid 1px rgba(208, 214, 230, 0.85);;}
+.rangecalc  .lwidth{width: 54px;}
+.rangecalc .calcValues .ratel{width: 10%;}
+.rangecalc em{font-size: 6px}
+.rangecalc label{font-size: 14px;font-weight: 500;}
+  .iconGroup input{padding-left: 25px;}
+  .iconGroup{position: relative;display: flex;align-items: center;}
+  .iconGroup span{position: absolute;left: 0;}
+  .iconGroup input{padding-left: 25px;}
+  .iconGroup .currency{padding-left: 15px;}
+  .rangecalc select {color: #d9d9d9;}
+
+.rangeSlider input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0; }
+.rangeSlider input[type="text"]{font-size:14px;color: #313541;font-weight: bold;}
+.rangeSlider input[type=range]{height:12px;-webkit-appearance:none;width:100%}
+.rangeSlider input[type=range]:focus{outline:none}
+.rangeSlider input[type=range]::-webkit-slider-runnable-track{width:100%;height:6px;background:#EAEAEA;border-radius:10px;border:0 solid #EAEAEA}
+.rangeSlider input[type=range]::-webkit-slider-thumb{box-shadow: 0 2px 5px 0 rgba(167, 165, 165, 0.5);border:5px solid #FCFAFF;height:22px;width:22px;border-radius:10px;background:#3B419E;cursor:pointer;-webkit-appearance:none;margin-top:-10.5px}
+.rangeSlider input[type=range]:focus::-webkit-slider-runnable-track{background:#EAEAEA}
+.rangeSlider input[type=range]::-moz-range-track{width:100%;height:6px;background:#EAEAEA;border-radius:10px;border:0 solid #EAEAEA}
+.rangeSlider input[type=range]::-moz-range-thumb{box-shadow:1px 1px 1px #000;border:5px solid #FCFAFF;height:22px;width:22px;border-radius:20px;background:#3B419E;cursor:pointer}
+.rangeSlider input[type=range]::-ms-track{width:100%;height:6px;background:transparent;border-color:transparent;color:transparent}
+.rangeSlider input[type=range]::-ms-fill-lower{background:#EAEAEA;border:0 solid #EAEAEA;border-radius:30px;}
+.rangeSlider input[type=range]::-ms-fill-upper{background:#EAEAEA;border:0 solid #EAEAEA;border-radius:30px;}
+.rangeSlider input[type=range]::-ms-thumb{margin-top:1px;border:5px solid #FCFAFF;height:22px;width:22px;border-radius:10px;background:#3B419E;cursor:pointer}
+.rangeSlider input[type=range]:focus::-ms-fill-lower{background:#EAEAEA}
+.rangeSlider input[type=range]:focus::-ms-fill-upper{background:#EAEAEA}
+.rangeSlider input::-webkit-outer-spin-button,.rangeSlider input::-webkit-inner-spin-button {-webkit-appearance: none;appearance:none; margin: 0;}
+.rangeSlider .minl{width: 30%;}
+.rangelabels {display: flex;justify-content: space-between;}
+.rangelabels li {color: #a8a8a8;font-size: 12px;}
+.calcResult{ flex: 0 0 478px; border: solid 1px #ccc;border-radius: 0 5px 5px 0; display: flex;align-items: center;justify-content: center;flex-direction: column; background-color: #474dbb;;}
+.calcResult  .desc{color:  #c2c6ff;max-width: 244px;}
+
+
+ @media screen and (max-width:768px){
+        .calcwrap{flex-direction: column;box-shadow: none;}
+        .calculator{margin-bottom: 15px;border-radius: 5px;}
+        .range-labels{padding-top: 15px;}
+        .calcResult{flex: 0 0 100%;padding: 30px;border-radius: 5px;}
+        .rangecalc .calcValues label{font-size: 12px;}
+    }
+
+@media screen and (max-width:540px){
+        .calcwrap{flex-direction: column;box-shadow: none;}
+        .calculator{margin-bottom: 15px;border-radius: 5px;}
+        .range-labels{padding-top: 15px;}
+        .calcResult{flex: 0 0 100%;padding: 30px;border-radius: 5px;}
+        .rangecalc .calcValues label{font-size: 12px;}
+    }

@@ -1,0 +1,40 @@
+.partnerBanner{display: flex;background: #F6F7FC;}
+.partnerBox{display: flex;}
+
+.googlePlay{display: flex;grid-gap: 0 18px;}
+.googlePlay img{width: 112px;}
+.googlePlayBox{max-width: 50%;padding: 35px;}
+.googlePlayBox .heading{margin-top: 25px;line-height: normal;}
+.bannerPlayText{line-height: 24px;margin: 20px 0;}
+.appForm{display: flex;margin-top: 10px;background: #fff;border-radius: 8px;border: solid 1px #e5e7ef;width: 373px;}
+.selectBox{width: 40px;flex-shrink: 0;background: transparent;padding: 10px;display: flex;align-items: center;}
+.selectBox::after{font-size: 7px;top: 15px;right: 10px;}
+.formcontrol{border: none;padding-right: 8px;flex:1}
+.btnPlaySubmit{white-space:nowrap;border-radius: 0 8px 8px 0;padding: 10px 13px;}
+.PlayStoreFrom{max-width:330px;}
+.PlayStoreFrom .labelTetxt{margin-bottom: 10px;}
+
+.playImg {flex: 1;justify-content: center;align-items: center;display: flex;overflow: hidden;}
+.playImg img{max-width: 80% !important;position: relative !important;bottom: -90px !important ;}
+.partnerList{padding:  35px 0;}
+.partnerListItme{display: flex;grid-gap: 0 20px;padding: 10px;flex-wrap: wrap;grid-gap: 20px;}
+.partnerListItme li{padding: 15px;background: #fff;border-radius: 8px;flex: 1;box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.1);border: solid 1px #e5e7ef}
+.partnerListItme li figure{width: 50px;height: 50px;border-radius: 50%;background: #EDF0F9;display: flex;justify-content: center;align-items: center;margin-bottom: 15px;padding: 14px;flex-shrink: 0;}
+
+@media screen and (max-width: 768px){
+  .partnerBox{flex-direction: column;display: block;}
+  .googlePlayBox{max-width: 100%; padding: 35px 0;}
+  .bannerPlayText{line-height: 22px;}
+  .googlePlay img{width: 30%;}
+  .partnerListItme li{flex: 1 0 100%;display: flex;align-items: center;grid-gap: 15px;}
+  .partnerListItme li figure{margin: 0;}
+}
+@media screen and (max-width:680px){
+  .appForm,.PlayStoreFrom{max-width: 100%;width: 100%;}
+  .formcontrol{padding-right: 0px;}
+  .selectBox{width: 55px; padding: 10px 5px;}
+  
+}
+@media screen and (max-width:375px){
+  .selectBox, .formcontrol{width: 45px;}
+}

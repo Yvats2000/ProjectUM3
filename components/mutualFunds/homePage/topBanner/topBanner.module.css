@@ -1,0 +1,18 @@
+.homeBanner{background: url('/assets/images/mf-top-banner.svg'); background-repeat: no-repeat;background-size: cover; height: 800px;background-position: bottom;width: 100%;}
+.homeBanner .mutualFundBreadcrumb ul li:last-child{background: none ;}
+
+.bannerSection{display: flex;justify-content: space-between;align-items: flex-start;padding: 25px 0;}
+.textSection{max-width: 500px;}
+.textSection span{display: block;}
+.textSection .anchors{display: flex;gap: 10px;margin-bottom: 40px;}
+.textSection .anchors li{position: relative;font-size: 14px;color: #282828;}
+.textSection .anchors li a{color: #282828;}
+.textSection .anchors li:after{position: absolute;content: '';width: 1px; background-color: #282c6e;top: 3px;height: 14px;right: -5px;}
+.textSection .anchors li:last-child::after{display: none;}
+.imgSection img{max-width: 518px;}
+@media screen and (max-width:680px) {
+    .homeBanner {background: #f6f8ff;height: 100%;padding: 15px 0 45px 0;margin-bottom: 40px;}
+    .bannerSection{flex-direction: column;padding: 0;} 
+    .imgSection{display: none;}
+    .textSection .anchors{margin-bottom: 26px;} 
+}

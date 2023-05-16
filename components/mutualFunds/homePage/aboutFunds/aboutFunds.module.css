@@ -1,0 +1,19 @@
+.content{padding: 0px 0 50px; background: url('/assets/images/right-ill.svg')no-repeat;background-position: right; }
+.contents{position: relative;}
+.contents .rightdoodel{position: absolute;right: -131px;}
+.content table{text-align: left; margin: 25px 0 3px 0;margin-left: 2px; border-collapse: collapse;width: 80%;overflow: hidden; border-radius: 4px;border-style: hidden;box-shadow: 0 0 0 1px #dfe6ee;}
+.content table td p{margin-bottom: 0;}
+.content table+p{margin-top: 15px;}
+.content table th,.content table td{color: #313541;font-size: 14px;line-height: 22px;vertical-align: top; padding: 15px;border: 1px solid #dfe6ee;}
+.showMore{height: 0px;overflow: hidden;}
+.showMore.active{height: auto;}
+
+@media only screen and (max-width: 1024px) {
+    .contents .rightdoodel{position: absolute;right: 0px;}
+}
+
+@media only screen and (max-width: 540px) {
+    .contents .rightdoodel{position: absolute;right: 0px;}
+    .contents .rightdoodel img{max-width: 130px;opacity: 30%;}
+    .content table{width: 100%;}
+}

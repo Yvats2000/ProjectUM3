@@ -1,0 +1,20 @@
+[
+    {
+        "bankLogo":"/assets/images/IDFC_First_Bank_logo 1@3x.png",
+        "bankName":"IDFC Bank Credit Cards",
+        "ctaName":"Know more",
+        "ctaLink":"/credit-card/idfc-first-bank"
+    },
+    {
+        "bankLogo":"/assets/images/yesBank.jpg",
+        "bankName":"Yes Bank Credit Cards",
+        "ctaName":"Know more",
+        "ctaLink":"/credit-card/yes-bank"
+    },
+    {
+        "bankLogo":"/assets/images/StandardChartered.png",
+        "bankName":"Standard Chartered Bank Credit Cards",
+        "ctaName":"Know more",
+        "ctaLink":"/credit-card/standard-chartered"
+    }
+]

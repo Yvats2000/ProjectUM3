@@ -1,0 +1,36 @@
+
+.bankCards {display: flex;grid-gap: 0 36px; }
+.indBankCard {width: 385px; position: relative; padding: 25px 20px;border-radius: 8px;flex-shrink: 0;}
+.ribbon{position: absolute;right: -6px; padding: 6px;color: #f5f3f3;font-size: 11px;border-radius: 0 4px 0px 0px;}
+.red{background-image: linear-gradient(272deg, #622774, #c53364 100%);}
+.red::after{background:linear-gradient(332deg, rgba(98,39,116,1) 0%, rgba(197,51,100,1) 93%);}
+.ribbon::before{content: '';width: 0;top: 0;position: absolute;left: -25px; height: 0;border-top: 12.5px solid transparent;border-bottom: 13px solid transparent;border-right: 25px solid #000;bottom: 0;}
+.red::before{border-right: 25px solid #c43364;}
+.blue{background-image: linear-gradient(100deg, #5daef9 1%, #6078ea 100%);}
+.blue::after{background:linear-gradient(332deg, #5daef9 0%, #6078ea 93%);}
+.blue::before{border-right: 25px solid #5daef9;}
+.PersonalizedOffers{margin-bottom: 50px;padding-top: 30px;}
+.ribbon::after{content: '';width: 6px;height: 4px;border-radius: 0px 0px 4px 0; position: absolute;right: 0;bottom: -4px;;}
+.ribbonArrow{height: 25px;position: absolute;left: -17px;top: 0;}
+.ribbonArrow svg{height: 100%;}
+.sbi{ background-image: linear-gradient(138deg, rgba(255, 217, 124, 0.55) 1%, rgba(246, 167, 66, 0.55) 98%);}
+.postionrigt{position: absolute;right: 0;bottom: 0;}
+.loans {font-size: 50px;}
+
+.hdfc{ background-image: linear-gradient(138deg, rgba(217, 226, 240, 0.44) 3%, rgba(213, 224, 238, 0.41) 99%);}
+.hdfc .priceRate{display: flex;align-items: center;justify-content: space-between;margin-left: -20px;}
+.hdfc .priceRate .price{padding:20px 30px;background: #ffffff;border-radius: 0 8px 8px 0;}
+.hdfc .lstsection{display: flex;justify-content: space-between;align-items: center;}
+.reportDetails{flex: 0 0 70%;}
+.fontA {font-size: 36px;display: flex;align-items: flex-end;}
+@media screen and (max-width:768px){
+    .bankCards{overflow: auto;grid-gap: 25px;}
+}
+@media screen and (max-width:680px) {
+    .indBankCard {width: 90%;padding: 20px;}
+    .ribbon {font-size: 8px;}
+    .loans {font-size: 40px;line-height: 45px;}
+    .fontA {font-size: 26px;}
+    .btnsmall {padding: 8px 12px;border-radius: 8px;}
+    .sbi .postionrigt {width: 50%;}
+}

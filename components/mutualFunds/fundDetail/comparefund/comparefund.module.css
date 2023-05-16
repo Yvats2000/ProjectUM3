@@ -1,0 +1,21 @@
+.section{padding: 40px 0;}
+.comareBox{display: flex;overflow: auto;grid-gap: 20px;padding: 20px;}
+.comareBox::-webkit-scrollbar{width: 5px;height:5px;}
+.comareBox::-webkit-scrollbar-track {background: #f3f3f3;border-radius: 0px 8px 8px 0;height: 10px; }
+.comareBox::-webkit-scrollbar-thumb {background: #888;border-radius: 8px;height: 10px;}
+
+.compareTile{display: flex;flex-wrap: wrap;padding: 22px 20px;flex-shrink: 0; border-radius: 8px;box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.1);background-color: #fff;max-width: 348px;}
+.compareBank{display: flex;grid-gap: 30px;}
+.compareName{flex: 1;}
+.compareName figure{max-width: 45px;}
+.compareVs{width: 45px;height: 45px;flex-shrink: 0;align-self: center; border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fbfbfb;color: #333;font-size: 16px;font-weight: 600;display: flex;justify-content: center;align-items: center;border-radius: 50%;}
+.compareName{flex: 1;}
+.compareName figure{max-width: 45px;}
+.btnCompare{justify-content: center; border-radius: 12px;border: solid 1px rgba(157, 157, 157, 0.2);background-color: #f6f6f6;font-weight: bold;color: #474ebb;font-size: 16px;letter-spacing: 0.1px;}
+
+
+
+@media screen and (max-width: 680px){
+    .tabSection{top: 67px;}
+    .section{padding: 15px 0;}
+}

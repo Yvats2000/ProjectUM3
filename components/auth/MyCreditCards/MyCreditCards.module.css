@@ -1,0 +1,54 @@
+.cardWraps{display: flex;justify-content: space-between;padding: 50px 0;gap: 40px;}
+.centerheading::after {content: '';width: 30px;height: 3px;background: #f5a623;border-radius: 5px;position: absolute;bottom: -16px;left: calc(50% - 15px);}
+.centerheading::after{left: 0;width: 50px;height: 5px;}
+.cardsStatus{margin: 70px 0 30px 0;display: flex;gap: 24px;}
+
+.bankCard{cursor: pointer; padding: 20px;padding-bottom: 40px; position: relative;max-width: 265px;width: 100%; border-radius: 8px;box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.1);border: solid 1px #ebedff;background-color: #fdfdff;}
+.sccardtile{border-bottom: 3px solid #0093d5;} 
+.yesbank{border-bottom: 3px solid #0963b1;} 
+.flipkartaxis{border-bottom: 3px solid #3a7691;} 
+
+.bankCard .cardimg{max-width: 110px; padding: 5px;margin-top: -68px;display: inline-block;border-radius: 8px;box-shadow: 10px 10px 20px 0 rgba(30, 30, 30, 0.05);border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fff;}
+.bankCard .cardimg img{border-radius: 8px; object-fit: contain !important;}
+.bankCard .pending{ border-radius: 4px;  color: #e18115; border: solid 1px #f8eac2;background-color: #fcf5e0;}
+
+.bankLogoabs{position: absolute;right: 16px;top: 16px;}
+.bankLogoabs img{max-width: 70px;object-fit: contain;}
+.cardbtmhead{margin-bottom: 50px;max-width: 205px;margin-top: 30px;position: relative;}
+.cardbtmhead::after{  width: 42px;height: 4px;}
+.scbtmgrad::after{background-image: linear-gradient(95deg, #0093d5 0%, #00c5d0 99%);}
+.yesbtmgrad::after{background:#0963b1}
+
+.applicationProgress{margin-bottom: 15px;}
+.applicationProgress ul {display: flex;flex-direction: column;gap: 20px;}
+.applicationProgress ul li{display: flex;gap: 12px;}
+.applicationtxt .applicationStatus{font-size: 12px; color: #6d7278;line-height: 10px;opacity: 0.8;}
+.applicationProgress ul .steps{position: relative;}
+.applicationProgress ul .steps::before{height: calc(100% + 6px);position: absolute;content: '';top: 14px;left: 6px;border: solid 1px #bebebe;}
+.applicationProgress ul .steps:last-child::before{content: unset;}
+.applicationProgress ul li.active .applicationStatus{display: inline-block; border-radius: 4px;padding: 6px;  color: #454ec2;font-size: 12px;font-weight: 500; background-color: #ebedff;opacity: 1;}
+.applicationProgress ul li.active .steps{position: relative;}
+.applicationProgress ul li.active.steps::before{border: dashed 0.5px #5457ca;}
+.applicationProgress ul li.active .progressicon svg path{fill: #474ebb;}
+.applicationProgress ul li.active.steps::before {
+    border: dashed 0.5px #5457ca;
+}
+.applicationProgress ul li.active .applicationStatus {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px;
+    color: #454ec2;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #ebedff;
+    opacity: 1;
+}
+@media screen and (max-width:680px) {
+    /* .cardsStatus{overflow: hidden;} */
+    .centerheading::after {width: 43px;height: 3px;bottom: -11px;}
+    .cardWraps{padding: 40px 0 10px;}
+    .bankCard{flex: 0 0 100%;max-width: 305px;padding-bottom: 10px;}
+    .cardsStatus{margin-top: 55px;justify-content: center;}
+    .cardbtmhead{margin: 15px 0 30px;}
+    .applicationProgress ul li.active .applicationStatus{font-size: 11px;}
+}

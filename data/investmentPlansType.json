@@ -1,0 +1,90 @@
+[
+    {
+        "class": "eligibilty",
+        "title": "Fixed Deposit",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/fixed_deposit.svg",
+        "height":"30px",
+        "width":"30px",
+        "path": "/fixed-deposit-rate"
+    },
+    {
+        "class": "balance",
+        "title": "Mutual Funds",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/mutual_fund.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/mutual-funds"
+    },
+    {
+        "class": "payment",
+        "title": "Recurring Deposit",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/fixed_deposit.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/recurring-deposit"
+    },
+    {
+        "class": "emi",
+        "title": "Systematic Investment",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/mutual_fund.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/sip"
+    },
+    {
+        "class": "eligibilty",
+        "title": "Employee Provident",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/fixed_deposit.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/epf"
+    },
+    {
+        "class": "balance",
+        "title": "Public Provident",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/mutual_fund.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/ppf"
+    },
+    {
+        "class": "payment",
+        "title": "Voluntary Provident",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/fixed_deposit.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/vpf"
+    },
+    {
+        "class": "emi",
+        "title": "Equity Linked",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/mutual_fund.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/elss"
+    },
+    {
+        "class": "eligibilty",
+        "title": "National Pension",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/fixed_deposit.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/nps"
+    },
+    {
+        "class": "balance",
+        "title": "National Savings",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/mutual_fund.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/nsc"
+    },
+    {
+        "class": "payment",
+        "title": "Senior Citizens",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/fixed_deposit.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/investment-plans/senior-citizens-saving-scheme"
+    }
+]

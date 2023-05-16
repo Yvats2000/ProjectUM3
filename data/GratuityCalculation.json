@@ -1,0 +1,16 @@
+{
+    "MonthlySalary" : {
+        "minValue" : "10000",
+        "defaultValue" : "30000",
+        "minText" : "10 K",
+        "maxValue" : "10000000",
+        "maxText" : "1 Cr"
+    },
+    "Years" : {
+        "minValue" : "5",
+        "defaultValue" : "10",
+        "minText" : "5",
+        "maxValue" : "50",
+        "maxText" : "50"
+    }
+}

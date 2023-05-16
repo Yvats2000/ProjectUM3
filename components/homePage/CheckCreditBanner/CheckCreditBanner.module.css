@@ -1,0 +1,33 @@
+.cibilBannerWeb{overflow: hidden; margin: 40px 0;z-index: 1; background: #112a66; position: relative;border-radius: 8px; padding: 25px 15px; display: flex;justify-content: space-between;align-items: center;}
+.webBackImg{position: absolute;z-index: -1;left: 0;top: 0;max-width: 100%;bottom: 0;height: 100%;border-radius: 8px;}
+.cibilheading{font-size: 22px;font-weight: 500;line-height: 30px;}
+.sideWrap .cibilmeter{position: absolute;left: 26px;bottom: -31px;}
+.cibilContent{padding-left: 220px;}
+.cibilBannerMobile{display: none;}
+.cibilBtnweb{color: #122d6c;gap: 4px;white-space: nowrap;cursor: pointer;z-index: 10;}
+.cibilBtnweb em{font-size: 14px;}
+.cibilBtnmob{display: none !important;}
+.mobileBackImg{display: none;}
+
+
+@media screen and (max-width: 860px){
+    .cibilBannerWeb{flex-direction: column;align-items: center;gap: 20px;}
+    .cibilContent {padding-left: 150px;}
+    .webBackImg{object-fit: cover;}
+}
+
+@media screen and (max-width: 680px){
+
+    .cibilBannerWeb{flex-direction: column;gap: 15px;align-items: flex-start;padding: 18px;}
+    .webBackImg{display: none;}
+    .mobileBackImg{display: block;position: absolute;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;}
+    .cibilContent{padding: 0;}
+    .sideWrap .cibilmeter{right: -37px;left: unset;max-width: 175px;}
+    .cibilBtnweb{display: none !important;}
+    .cibilBtnmob{display: flex !important; padding: 6px;border-radius: 4px;cursor: pointer;z-index: 10;}
+    .cibilBtnmob em{font-size: 12px;}
+    .dblock{display: block;}
+    .mobdisplaynoneheading{display: none;}
+    .cibilheading{font-size: 18px;line-height: 26px;}
+    .mobfontthin{font-weight: 300;}
+}

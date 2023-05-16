@@ -1,0 +1,45 @@
+{
+    "text": "Top 10 AMC",
+    "child": [
+      {
+        "text": "SBI Mutual Fund",
+        "path": "/mutual-funds/sbi-mutual-fund"
+      },
+      {
+        "text": "Axis Mutual Fund",
+        "path": "/mutual-funds/axis-mutual-fund"
+      },
+      {
+        "text": "HDFC Mutual Fund",
+        "path": "/mutual-funds/hdfc-mutual-fund"
+      },
+      {
+        "text": "UTI Mutual Fund",
+        "path": "/mutual-funds/uti-mutual-fund"
+      },
+      {
+        "text": "ICICI Prudential Mutual Fund",
+        "path": "/mutual-funds/icici-prudential-mutual-fund"
+      },
+      {
+        "text": "Tata Mutual Fund",
+        "path": "/mutual-funds/tata-mutual-fund"
+      },
+      {
+        "text": "Kotak Mahindra Mutual Fund",
+        "path": "/mutual-funds/kotak-mahindra-mutual-fund"
+      },
+      {
+        "text": "Canara Rodeco Mutual Fund",
+        "path": "/mutual-funds/canara-robeco-mutual-fund"
+      },
+      {
+        "text": "Mirae Asset Mutual Fund",
+        "path": "/mutual-funds/mirae-asset-mutual-fund"
+      },
+      {
+        "text": "Bandhan Mutual Fund",
+        "path": "/mutual-funds/bandhan-mutual-fund"
+      }
+    ]
+  }

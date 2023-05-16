@@ -1,0 +1,49 @@
+[
+    {
+        "class": "personalLoan",
+        "gaClass":"pl_eligbility_card",
+        "name": "Personal <br /> Loan",
+        "description": "Paperless process at low rate",
+        "roi" : "10.49%",
+        "slug" : "loans/personal-loan",
+        "eligibilitySlug" : "loans/personal-loan/eligibility-calculator",
+        "imageSrc" : "personal-loan.svg",
+        "width":"135",
+        "height":"212"
+    },
+    {
+      "class": "homeLoan",
+      "gaClass":"hl_eligbility_card",
+      "name": "Home <br /> Loan",
+      "description": "Instant approval at lowest interest rates",
+      "roi" : "8.35%",
+      "slug" : "loans/home-loan",
+      "eligibilitySlug" : "loans/home-loan/eligibility-calculator",
+      "imageSrc" : "home-loan.svg",
+      "width":"120",
+      "height":"219"
+    },
+    {
+        "class": "propertyLoan",
+        "gaClass":"lap_eligbility_card",
+        "name": "Loan Against <br /> Property",
+        "description": "Lowest interest rate",
+        "roi" : "9.2%",
+        "slug" : "loans/loan-against-property",
+        "imageSrc" : "property-loan.svg",
+        "width":"129",
+        "height":"219"
+    },
+    {
+        "class": "businessLoan",
+        "gaClass":"bl_eligbility_card",
+        "name": "Business <br /> Loan",
+        "description": "Interest rate starting from",
+        "roi" : "14%",
+        "slug" : "loans/business-loan",
+        "imageSrc" : "business-loan.svg",
+        "width":"172",
+        "height":"217"
+
+    }
+]

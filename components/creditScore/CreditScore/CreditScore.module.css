@@ -1,0 +1,10 @@
+.creditDesc{padding-right: 37px;text-align: justify;}
+.creditCont{display: flex;justify-content: space-between;}
+.overview{margin-top: 30px;}
+
+@media  screen and (max-width: 540px) {
+  .creditCont{display: block;}
+	.overview p{line-height: 5.866666666666666vw}
+	.overview{margin-top: 6.11vw}
+	.creditDesc{padding-right: 0;}
+}

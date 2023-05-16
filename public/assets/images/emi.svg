@@ -1,0 +1,17 @@
+<svg width="19" height="18" viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="mtncceda5a" d="M0 18h18.578V0H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M4.064 5.518a5.515 5.515 0 1 0 11.03 0 5.515 5.515 0 0 0-11.03 0" fill="#E9EAEB"/>
+        <path fill="#FFF" d="M13.933 15.678v-5.225L8.708 5.228l-5.225 5.225v5.225zM4.354 3.196v3.483l1.742-1.742V3.196z"/>
+        <path stroke="#2A5082" d="M4.354 3.196v3.483l1.742-1.742V3.196zM3.483 15.678v-5.225"/>
+        <path fill="#A3D4FF" d="M8.708 2.325 1.161 9.872l1.452 1.452 6.095-6.096 6.096 6.096 1.452-1.452z"/>
+        <path stroke="#2A5082" stroke-linejoin="round" d="M8.708 2.325 1.161 9.872l1.452 1.452 6.095-6.096 6.096 6.096 1.452-1.452z"/>
+        <mask id="hd7hheyulb" fill="#fff">
+            <use xlink:href="#mtncceda5a"/>
+        </mask>
+        <path stroke="#2A5082" mask="url(#hd7hheyulb)" d="M5.515 15.678h2.323v-4.064H5.515z"/>
+        <path stroke="#2A5082" stroke-linecap="round" mask="url(#hd7hheyulb)" d="M1.742 15.678h6.966M10.45 12.485a1.161 1.161 0 1 0 0 2.322 1.161 1.161 0 0 0 0-2.322zM13.933 17.71h0a1.161 1.161 0 1 1 0-2.323 1.161 1.161 0 0 1 0 2.323zM9.87 17.71l4.644-5.225M9.58 8.13a.87.87 0 1 1-1.742 0 .87.87 0 0 1 1.741 0z"/>
+    </g>
+</svg>

@@ -1,0 +1,56 @@
+[
+   
+    {
+        "slide":"3",
+        "title":"Get Your",
+        "heading":"<span class=' text7c70d8 fontsemiBold letterspace32'>Personal Loan    <b class='text181b30  fontThin'>Loaded </b></span><br/><span class='text181b30 inline fontThin '>  with Benefits!</span>",
+        "point":[
+            "- Attractive Interest Rates",
+            "- 100% Paperless"
+        ],
+        "cta":"Apply Now",
+        "ctaLink":"loans/personal-loan",
+        "img" : "/assets/images/personlloanbanner.svg",
+        "mobImg":"/assets/images/personal-loanbanner.svg"
+    },
+    {
+        "slide":"3",
+        "title":"Shop smarter, <span class='text0473EA inline fontsemiBold'>Earn more</span> with",
+        "heading":"<span class='text181b30 inline fontThin '>  Standard Chartered Credit Card!</span>",
+        "point":[
+            "- 100% Paperless",
+            "- Instant approval"
+        ],
+        "cta":"Apply Now",
+        "ctaLink":"credit-card/standard-chartered/online-application-form",
+        "img" : "/assets/images/sc_card.png",
+        "mobImg":"/assets/images/mob_sc_card.png"
+    },
+    {
+        "slide":"1",
+        "title":"Get Instant",
+        "heading":"<span class='   fontThin letterspace32'> Now that's a Real Plus Free </span> <span class='textLink fontsemiBold'>Credit Score</span>",
+        "point":[
+            "- Free Monthly Updates ",
+            "- No Impact on Credit Score "
+        ],
+        "cta":"Check Credit Score",
+        "ctaLink":"/credit-score",
+        "img" : "/assets/images/imag-home-loan.svg",
+        "mobImg":"/assets/images/herobanner-creditscoreMobile.svg"
+    },
+    {
+        "slide":"2",
+        "title":"Your Dream",
+        "heading":"<span class=' fontThin letterspace32 adwidth'>Home with Simpler Faster Friendlier <span class='text3fabbf inline fontsemiBold'> Home Loans</span></span>",
+        "point":[
+            "- 100% Paperless",
+            "- Lowest interest Rate"
+        ],
+        "cta":"Apply Now",
+        "ctaLink":"loans/home-loan",
+        "img" : "/assets/images/homeloanbanner.svg",
+        "mobImg":"/assets/images/home-loanMobilebanner.svg"
+    }
+
+]

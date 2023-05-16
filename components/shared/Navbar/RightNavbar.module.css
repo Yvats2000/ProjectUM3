@@ -1,0 +1,40 @@
+.sideMenu{width: 285px;background: #ffffff;border: 1px solid #dbdbdb;border-radius: 0 0 8px 8px;position: fixed;top: 0;bottom: 0;overflow-y: auto;z-index: 6;right: 0;}
+.rightBox{  position: fixed;width: 285px;right: 0;bottom: 0;z-index: 4;top: 0;}
+.sideMenu::-webkit-scrollbar {display: none;}
+.sideMenu{-ms-overflow-style: none;  scrollbar-width: none; }
+.iconName{display: flex;flex-wrap: wrap;border-top: 1px solid #f6f6f6;border-bottom: 1px solid #f6f6f6; justify-content: space-between; align-items: center;position: relative;}
+.iconName a{width: 100%;}
+.iconName em{font-size: 6px;transform: rotate(270deg);margin-left: auto;}
+.imgWrap{display: flex;gap: 16px;padding: 15px;width: 100%;}
+.iconName.active .imgWrap{ background-color: #f6f6f6;}
+.menuItem .active  p{ color: #474ebb;font-weight: 500;}
+.menuItem .active em{ color: #474ebb;font-weight: 500;transform: rotate(0);margin-left: auto;top: 7px;position: relative;right: 10px;}
+.iconName p{font-size: 14px;color: #292929;font-weight: 500;line-height: 22px;}
+.expMenu{display: none;padding: 15px 46px;}
+.loan{margin-bottom: 15px;}
+.expMenu .loan  a, .dropdownChild a{color: #707070;font-size: 12px;line-height: 22px;margin-bottom: 5px;display: block;}
+.expMenu .loan p{color: #181b30;margin-bottom: 12px;font-weight: normal; font-size: 14px;line-height: 26px;position: relative;}
+.expMenu .loan p::before{position: absolute; bottom: 0; content: '';width: 40px;height: 2px;border-radius: 2px;}
+.expMenu .personal p{color: #d44b5e;}
+.expMenu .home p::before{background-color: #5457ca;}
+.expMenu .personal p::before{background-color: #d44b5e;}
+.expMenu .business p{color:#181b30}
+.expMenu .business p::before{background-color: #aaabdc;}
+.iconName.active .expMenu{display: block;width: 100%;}
+.navToggle{display:flex;display:-webkit-flex;position: absolute;z-index: 3;left: -36px;top: 10px;cursor: pointer; align-items:center;justify-content:center;margin-right:15px;height: 30px;}
+	.navToggle span{position:relative!important}
+	.navToggle span,.navToggle span:before,.navToggle span:after{content:'';cursor:pointer;height:2px;width:26px;background:#fff;position:absolute;display:block;border-radius:2px}
+	.navToggle span:before{top:-7px}
+	.navToggle span:after{bottom:-7px}
+	.navToggle span,.navToggle span:before,.navToggle span:after{transition:all 200ms ease-in-out}
+	.navToggle.active span{background-color:transparent}
+	.navToggle.active span:before,.navToggle.active span:after{top:0}
+	.navToggle.active span:before{transform:rotate(45deg)}
+	.navToggle.active span:after{transform:rotate(-45deg)}
+.dropdownMain{margin-bottom: 15px;}
+.dropdownMain p .notActive{font-size: 6px;transform: rotate(270deg);margin-left: auto;top: 0;}
+.dropdownMain p em.active{transform: rotate(0);margin-left: auto;top: 6px;position: relative;right: 10px;}
+.dropdownMain p{display: flex;justify-content: space-between;font-size: 13px;font-weight: normal;}
+.dropdownChild a{margin-bottom: 0;}
+.dropdownChild{display: none;padding:6px 15px;}
+.dropdownChild.active{display: block;}

@@ -1,0 +1,74 @@
+
+.tableSection{  background-color: #fafafa;}
+
+.currentRatetables{display: flex;  border-radius: 8px;border: solid 0.5px #c2c2c2;background: #fff;gap: 24px;padding: 16px;margin-bottom: 24px;}
+.mainRateTable{width: 40%;}
+.selectGrid{display: grid;grid-template-columns: repeat(2,1fr);gap: 10px;margin-bottom: 16px;}
+.grid2{display: grid;grid-template-columns: repeat(2,1fr);gap: 10px;margin-bottom: 16px;}
+.mainRateTable .resultShown{ border: solid 0.5px #e2c354 ;border-bottom: none; text-align: center;padding: 20px 0;border-radius: 8px 8px 0 0; background-color: #fff8e1;}
+.mainRateTable .resultSilver{ border: solid 0.5px #959595 ;border-bottom: none; text-align: center;padding: 20px 0;border-radius: 8px 8px 0 0; background: rgb(255,255,255);background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 100%);}
+
+
+.results .currentPrice{display: grid;grid-template-columns: repeat(2,1fr);}
+.results .currentPrice li{padding: 11px 16px;text-align: center;}
+.results .currentPrice li:first-child{border: solid 0.5px #87b86a;background-color: #d2eac3;border-bottom: none;border-right: none;}
+.results .currentPrice li:nth-child(2){border: solid 0.5px #87b86a;background-color: #d2eac3;border-bottom: none;}
+.results .currentPrice li:nth-child(3){border: solid 0.5px #72accd;background-color: #fbc1c1;border-radius: 0 0 0px 8px;border-right: none;}
+.results .currentPrice li:nth-child(4){border: solid 0.5px #72accd;background-color: #fbc1c1;border-radius: 0 0 8px 0px;}
+
+
+/* .mainRateTable .results table{width: 100%;border-collapse: collapse;border-radius: 0 0 8px 8px;overflow: hidden; border-bottom: solid 0.5px #72accd;}
+.mainRateTable .results table tr:first-child{ border: solid 0.5px #87b86a;background-color: #d2eac3;}
+.mainRateTable .results table tr:first-child td{ border-right: solid 0.5px #87b86a;}
+.mainRateTable .results table tr:nth-child(2){ border: solid 0.5px #72accd;background-color: #fbc1c1;}
+.mainRateTable .results table tr:nth-child(2) td{ border-right: solid 0.5px #72accd;} */
+
+.mainRateTable .results table tr td{padding: 11px 0;text-align: center;}
+.ratesincities{flex: 1;}
+ .citiesHeading{ border-radius: 8px;padding: 10px 16px; background-color: #dfe2e4;margin-bottom: 10px;}
+
+ .tblResponsive{overflow: auto;padding: 5px;}
+.tableh200{min-height: 110px;}
+.tableGrey{width: 100%;border-collapse: collapse;border-radius: 8px;overflow: hidden; border-style: hidden; box-shadow: 0 0 0 1px #c2c2c2; }
+.tableGrey thead tr{background-color: #dfe2e4;}
+.tableGrey td{padding: 16px ;text-align: center;border: solid 0.5px #c2c2c2;}
+.tableGrey tbody tr:nth-child(odd){background-color: #f8f8f8;}
+.tableTr{display: none;}
+.tableTr.active{display: table-row;}
+
+.pricelistDetails{display: flex;gap: 24px;width: 100%;}
+.listingTable{width: 70%;flex: 1;}
+.listingTable .particularDay{ border-radius: 8px;background: #fff;padding: 16px;margin-bottom: 24px; border: solid 0.5px #c2c2c2;}
+.sibeBar{display: flex;flex-direction: column;grid-gap: 30px;}
+.ratesinTopCities{ border: solid 0.5px #c2c2c2;border-radius: 8px;overflow: hidden;height: fit-content;}
+.ratesinTopCities .topCitesHeading{ background-color: #dfe2e4;padding: 16px; font-size: 14px;  color: #181d2f;font-weight: 600;}
+.ratesinTopCities ul{max-height: 400px;overflow: auto;}
+.ratesinTopCities ul li{padding: 16px;}
+.ratesinTopCities ul a{color:#181d2f ;}
+.ratesinTopCities ul a:nth-child(even){  background-color: rgba(245, 245, 245, 0.7);display: block;}
+.accodienMain{border:solid 0.5px #c2c2c2;border-radius: 8px;overflow: hidden;}
+/* .accodienBox{border-bottom:solid 0.5px #c2c2c2;} */
+.historyTitle{background-color: #f8f8f8;padding: 15px 16px;display: flex;justify-content: space-between;border-bottom:solid 0.5px #c2c2c2;}
+.accodienBody{padding: 16px;}
+.pluseIcon{width: 22px;height: 22px;border-radius: 50%;position: relative;flex-shrink: 0;}
+.pluseIcon::before{content: '';position: absolute;left: 50%;top: 50%;width:10px;height:2px;background: #000;transform: translate(-50%, -50%);border-radius: 8px;}
+.pluseIcon::after{    content: '';position: absolute;left: 50%;top: 50%;width:10px;height: 2px;background: #000;transform: translate(-50%, -50%) rotate(90deg);border-radius: 8px;transition: 0.3s;}
+.expendIcon{top: 0; right: 0;background: #484A4B;}
+.expendIcon::after{display: none;}
+.up{vertical-align: middle;display: inline-block;transform: rotate(180deg);}
+.up svg{fill:#474ebb ;}
+@media screen and (max-width:860px){
+    .mainRateTable{width: 100%;}
+    .currentRatetables{flex-direction: column;padding: 25px 10px;gap: 15px;}
+    .pricelistDetails{flex-direction: column;}
+    .mainRateTable .results table tr td{font-size: 12px;}
+    .results .currentPrice li{font-size: 14px;}
+    .tableh200{min-height: unset;}
+
+    .tableGrey td{padding: 10px;font-size: 13px;}
+
+    .listingTable{width: 100%;}
+    .ratesinTopCities{width: 100%;max-width: 370px;margin: 0 auto;}
+    .listingTable .particularDay{padding: 15px 10px;}
+    
+}

@@ -1,0 +1,51 @@
+.priceTrending{padding: 40px 0 0;}
+.mainHeading{line-height: normal;}
+.subHeading{margin-top: 8px;line-height: 24px;max-width: 80%;text-align: center;margin-left: auto;margin-right: auto;}
+.priceTrendingGrid{display: grid; padding:40px 0 40px 0 ; grid-gap:0 42px;grid-template-columns: repeat(4, minmax(auto, 1fr) );}
+.priceTrendingGrid::-webkit-scrollbar{display: none;}
+.trendingCard{border-radius: 8px;box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.1);background-color: #fff;padding: 20px;position: relative;}
+.loanHeading{position: relative;line-height: 1.5;}
+.loanHeading:after{content: '';width: 40px;height:3px;background: #000; border-radius: 3px;position: absolute;bottom: -15px;left: 0;}
+.loanApproval{margin-top: 36px;line-height: 22px;min-height: 66px;width: 55%;}
+.interestRate{width:90px;height:45px; background: #000;border-radius: 0 08px 08px 0;position: relative;left: -20px;margin: 15px 0;display: flex;align-items: center;padding-left:20px;}
+.interestTop{background: #000;border-radius: 0 08px 08px 08px;position: absolute;right: 0;top: 0;  display: flex;align-items: center;padding: 15px;}
+.checkEl{color: #474ebb;margin-top:16px;display: block;line-height: normal;font-weight: 500;}
+.arrowSm{font-size: 80%;font-weight: 700;margin-top:4px;margin-left: 5px;}
+.loanIcon{position: absolute;right: -26px;bottom: 0;display: flex;align-items: flex-end;}
+.loanIcon span{max-height: 100%;}
+.loanIcon img{width: 100%;height: 100%;}
+.trendingCard.homeLoan .loanHeading:after{background: #5457CA;}
+.trendingCard.homeLoan .interestRate{background: #5457CA;}
+.trendingCard.homeLoan .interestTop{background: #5457CA;}
+.trendingCard.homeLoan .loanIcon{height: 207px;}
+.trendingCard.trendingCard.propertyLoan h3{color: #4f94c6;}
+.trendingCard.trendingCard.personalLoan h3{color: #d44b5e;}
+.trendingCard.personalLoan .loanHeading:after{background: #e2919c;}
+.trendingCard.personalLoan .interestRate{background: #C65764;}
+.trendingCard.personalLoan .interestTop{background: #C65764;}
+.trendingCard.personalLoan .loanIcon{right: -13px;}
+.trendingCard.personalLoan .loanIcon{height: 207px;}
+.trendingCard.propertyLoan .loanHeading:after{background: #59ABE7;}
+.trendingCard.propertyLoan .interestRate{background: #59ABE7;}
+.trendingCard.propertyLoan .interestTop{background: #59ABE7;}
+.trendingCard.propertyLoan .loanIcon{height: 207px;}
+.trendingCard.businessLoan .loanHeading:after{background: #9293C4;}
+.trendingCard.businessLoan .interestRate{background: #9293C4;}
+.trendingCard.businessLoan .interestTop{background: #9293C4;}
+.trendingCard.businessLoan .loanIcon{right: -70px;height: 207px;}
+
+.serviceOffred{display: grid; grid-gap:0 42px;grid-template-columns: repeat(4, minmax(auto, 1fr) );padding-bottom: 40px;padding-top: 27px;}
+.content{width: 60%;}
+.readmore{display: none;}
+.readText{display: inline;}
+@media screen and (max-width: 1024px){
+	.priceTrending{padding: 40px 0 0;}
+	.subHeading{margin-top: 8px;max-width: 100%;}
+	.readText.active {display:inline;}
+	.priceTrendingGrid{display: grid;padding: 32px 0  32px 0 ; grid-gap:0 38px;grid-template-columns: repeat(4, minmax(260px, 1fr) );grid-auto-flow: column;grid-auto-columns: minmax(260px,1fr);overflow-x: auto}
+	.serviceOffred{display: grid; grid-gap:0 38px;grid-template-columns: repeat(4, minmax(260px, 1fr) );grid-auto-flow: column;grid-auto-columns: minmax(260px,1fr);overflow-x: auto}
+}
+@media screen and (max-width:768px){
+	.readmore{display: inline;}
+	.readText{display: none;}
+}

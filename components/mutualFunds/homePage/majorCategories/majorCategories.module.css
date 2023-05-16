@@ -1,0 +1,41 @@
+.majorCateg{padding-bottom: 90px;margin-top: -60px;}
+.categoryWrap{display: flex;gap: 100px;align-items: flex-start;}
+.tiles{display: grid;grid-template-columns: repeat(2,1fr); gap: 0 25px;position: relative;}
+.tiles .majorcatback{position: absolute;right: -41px;bottom: -37px;}
+.tile{ max-width: 250px;max-height: 258px; border-radius: 12px;position: relative; text-align: center; box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.1);background-color: #fff;padding: 36px 30px 20px ;}
+
+.tile .cattype { width: 60px;height: 60px;display: flex;align-items: center;justify-content: center; border-radius: 50%;margin: 0 auto;margin-bottom: 12px;}
+.tile .debt {background: #ff6cb3;}
+.tile .equity {background: #2793e9;}
+.tile .Hybrid {background: #1c49db;}
+.tile .Tax{background: #00c997;}
+.tile a{display: flex;align-items: center;justify-content: center;gap: 10px;}
+.text{flex: 1;position: relative;margin-top: 40px;}
+.text a{display: flex;align-items: center;gap: 17px;}
+.dotimg{position: absolute;top: -44px;z-index: -1;right: -43px;}
+.text .backdoodel{position: absolute;right: 0;top: 0;}
+.wbehide{display: none;}
+.ctamobile{display: none;}
+
+@media only screen and (max-width: 768px) {
+    .majorCateg{padding-bottom:0 ;}
+    .categoryWrap{flex-direction: column-reverse;gap: 25px;}
+    .tiles .majorcatback{right: 0;}
+    
+}
+@media only screen and (max-width: 540px) {
+        .categoryWrap{flex-direction: column-reverse;padding: 40px 0;gap: 0;padding-top: 0;}
+        .majorCateg{padding: 0;}
+        .tiles{margin-bottom: 30px;gap: 0 15px;}
+        .tile{max-height: 100%;padding: 25px 15px;height: fit-content;}
+        .text{margin-bottom: 0;}
+        .dotimg{right: -9px;top: -35px;}
+        .dotimg img{max-width: 100px;}
+        .text a{display: none;}
+        .text .backdoodel img{max-width: 120px;}
+        .tile p{margin-bottom: 20px;line-height: 20px;}
+        .tile .cattype img{max-width: 22px;}
+        .wbehide{display: block;}
+        .webcta{display: none;}
+        .ctamobile{margin-top: 81px;display: flex;justify-content: center;}
+}

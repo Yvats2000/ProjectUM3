@@ -1,0 +1,83 @@
+.hraContainer{display: flex;margin-bottom: 24px;justify-content: space-between;background: #f3f3f3;}
+.calcSection{padding: 24px;background-color: #f3f3f3;flex: 1;padding-bottom: 0;}
+.head{display: flex;margin-bottom: 26px;justify-content: space-between;}
+.head button{padding: 5px 16px ;border-radius: 0 5px 5px 0;font-size: 12px;color: #000;background: #fff;border: none;outline: none;}
+.head .active{background: #474dbb;color: #fff;border-radius: 5px 0 0 5px;}
+.btns{display: flex;border: 1px solid #cccccc;border-radius: 5px;}
+.inpFields{display: grid;grid-template-columns: repeat(3,1fr);gap: 13px 24px;}
+.inpFields input{width: 100%;}
+.inpFields button{background: #474dbb;width: 100%; color: #fff;border-radius: 5px;border: none;height: 40px;}
+.calcValues{overflow: hidden;flex-direction: column;flex: 0 0 325px; display: flex;background: #fff;border-radius: 0 5px 5px 0px;border: 1px solid #cccccc;}
+.chart{display: flex;justify-content: center;border-bottom: 1px solid #cccccc; align-items: center;flex-direction: column;padding: 30px 26px;}
+.chart img{max-width: 193px;width: 100%;margin-bottom: 8px;}
+.taxScale{width: 100%;text-align: center;}
+.hraType{display: flex;justify-content: space-between;width: 100%;max-width: 193px;}
+.hraType p:first-child{color: #ff4456;font-size: 10px;font-weight: 500;}
+.hraType p:nth-child(2){color: #3b419e;font-size: 10px;font-weight: 500;}
+.taxScale .taxScaleVal{display: flex;justify-content: space-between;border-bottom: 1px solid #cccccc;}
+.taxScale .taxScaleVal li{text-align: center; color: #222222;font-size: 12px; padding: 8px 15px;border-right: 1px solid #cccccc;width: 100%;white-space: nowrap;}
+.taxScale .taxScaleVal  .active{background: #474dbb;color: #fff;}
+.taxScale .taxScaleVal  .active p{color: #fff;}
+.taxScale .taxScaleVal li:last-child{border: none;}
+.innertaxSlab{padding:  24px}
+.innertaxSlab ul{display: flex;flex-direction: column;justify-content: center;gap: 15px;}
+.innertaxSlab ul li{border-bottom: 1px solid #cccccc; text-align: center;text-align: center;}
+.innertaxSlab ul li:last-child{border: none;}
+.innertaxSlab ul .heading{font-size: 14px;color: #222222;margin-bottom: 6px;white-space: nowrap;;text-align: left;}
+.innertaxSlab ul .value{font-size: 22px;color: #222222;margin-bottom: 12px;font-weight: bold;white-space: nowrap;text-align: left;color: #ff4456;}
+.innertaxSlab ul .textblue{color: #3b419e;}
+.innertaxSlab .highLight{color: #474dbb;font-size: 12px;text-align: left;font-weight: 500;}
+.hrabanner{background: #474dbb;width: 100%;display: flex;flex: 0 0 331px; align-items: center;justify-content: center;border-radius: 0 5px 5px 0;}
+.dwnlReport{display: flex;gap: 20px; padding: 15px;border-radius: 5px; background: linear-gradient(90deg, rgba(64,129,198,1) 0%, rgba(71,78,187,1) 30%);;}
+.dwnlReport .Report:first-child{border-right: 1px solid #fff;padding-right: 20px;}
+.dwnlReport .Report{display: flex;align-items: center;}
+.Report img{margin-right: 16px;}
+/* .Report button{margin-left: 32px;} */
+.Report .heading{font-size: 14px;font-weight: 500;color: #fff;}
+.Report button{margin-left: 36px; background: #fff;white-space: nowrap; color: #474dbb;font-size: 12px;font-weight: 500;border-radius: 5px;}
+@media screen and (max-width:1024px){
+.hrabanner{display: none;}
+
+.Report button{white-space: nowrap;padding-left:  10px;padding-right:  10px;}
+.innertaxSlab ul .heading{font-size: 14px;white-space: unset;}
+.dwnlReport{gap: 20px;}
+}
+@media screen and (max-width:768px){
+    .hraContainer{flex-direction: column;}
+    .hrabanner{display: none;}
+    .calcSection{flex: 0 0 100%;}
+    .calcValues{flex: 0 0 100%;}
+    .chart{flex: 0 0 185px;}
+    .taxScale .taxScaleVal li{padding: 8px 10px;}
+    
+    .Report button{white-space: nowrap;font-size: 10px;margin: 0;}
+    .Report .heading{font-size: 12px;}
+    .dwnlReport{gap: 20px;}
+    }
+
+    @media screen and (max-width:540px){
+        
+        .calcSection{border-radius: 5px;background: #fff;padding: 0;}
+        .wrap{background: #f3f3f3;padding: 16px;margin-bottom: 16px;border-radius: 5px;}
+        .head{flex-direction: column;margin-bottom: 24px;}
+        .head h3{font-size: 16px;}
+        .btns{display: flex;border: 1px solid #cccccc;border-radius: 5px;}
+        .btns button{width: 50%;height: 30px;}
+        .inpFields{    grid-template-columns: repeat(1,1fr);gap: 6px;}
+        .inpFields button{font-size: 12px;}
+        .calcValues{background: #fff;flex: 0 0 100%;border-radius: 5px;}
+        .taxScale .taxScaleVal{flex-wrap: wrap;border-radius: 5px;border: 1px solid #cccccc;overflow: hidden;}
+        .taxScale .taxScaleVal li:first-child{border-right: none; background: #fff; flex: 0 0 100%;border-bottom: 1px solid #cccccc;}
+        .taxScale .taxScaleVal li{width: 16.66%;background: #fff;}
+        
+        .innertaxSlab ul{justify-content: center;margin-bottom: 10px;}
+        .innertaxSlab ul .heading{font-size: 14px;}
+        .innertaxSlab ul .value{font-size: 16px;}
+        
+        .chart{background: #fff;border-radius: 5px;border: 1px solid #cccccc;}
+        .dwnlReport{ background:linear-gradient(180deg, rgba(64,129,198,1) 0%, rgba(71,78,187,1) 30%);}
+        .dwnlReport{flex-wrap: wrap;margin-bottom: 30px;}
+        .dwnlReport .Report{justify-content: center;flex-wrap: wrap;width: 100%;}
+        .dwnlReport .Report:first-child{padding: 0;justify-content: center;flex-wrap: wrap;border-bottom: 1px solid rgba(255, 255, 255, 0.3);border-right: none;padding-bottom: 15px;}
+        .dwnlReport .Report button{margin: 0;width: 100%;margin-top: 24px;font-size: 12px;}
+    }

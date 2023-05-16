@@ -1,0 +1,54 @@
+.body{background: #F8F8F8;}
+.login{position: relative;}
+/* .login::after{content: '';position: absolute;background-image: linear-gradient(145deg, #2b399b 16%, #3d63d1 50%, #4a83f2 79%, #3e5bbb 100%);width: calc(100% - 55%);right: 0;bottom: 0;top: 0;z-index: -1;} */
+.login::after{content: '';position: absolute;background:#171c64;width: calc(100% - 55%);right: 0;bottom: 0;top: 0;z-index: -2;background-size: cover;}
+.login::before{content: '';position: absolute;background: url('../../../public/assets/images/img_login.png');width: calc(100% - 55%);right: 0;bottom: 0;top: 0;z-index: -1;background-size: cover;opacity: 0.8;}
+.logoBox{margin: 50px 0;}
+.loginBox{display: flex;}
+.loginContent{width: 55%;}
+.loginTextimg{margin-top: 50px;}
+.loginForm{padding: 50px 70px;background-size: cover;flex: 1;height: 100vh;}
+.loginIcon{margin-bottom: 50px;}
+.loginForm h1{font-size: 36px;color: #fff;font-weight: 500;margin-bottom: 5px;}
+.loginSub{font-size: 14px;color: #fff;letter-spacing: 1.5px;line-height: normal;opacity: 0.6;text-transform: uppercase;}
+.iconGroup{position: relative;display: flex;align-items: center;}
+.iconGroup input{background: transparent;color: #fff;padding-left: 25px;border-bottom:  solid 1px rgba(255, 255, 255, 0.85);;}
+.iconGroup span{color: #fff;position: absolute;left: 0;}
+.loginBtn{color: #3b419e;font-weight: bold;}
+.loginInput{background: transparent;}
+.otpBox{display: flex;grid-gap: 10px;}
+.otpBox input{width: 40px;flex:1; border-radius: 4px;padding: 6px 8px;text-align: center;height: 40px;background:#fff;border-bottom: none;}
+.bulletList li {
+    position: relative;
+    line-height: 32px;
+    padding-left: 20px;
+    list-style-position: inside;
+    font-size: 14px;
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+}
+.bulletList li::before {
+    content: "";
+    font-weight: bold;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    background: #474ebb;
+}
+.resendOtp{display: flex;justify-content: space-between;padding-top: 15px;}
+@media screen and (max-width: 680px){
+    .loginIcon{max-width: 100px;display: none;}
+    .loginContent{width: 100%;margin-bottom: 20px;}
+    .logoBox{padding: 15px 0;margin: 0; position: fixed;top: 0;top: 0;background: #fff;width: 100%;left: 0;padding-left: 15px;z-index: 2;}
+    .loginBox{flex-direction:column-reverse;padding-top: 66px;grid-gap: 40px;}
+    .loginTextimg{display: none;}
+    .loginForm{padding: 32px 20px;margin-left: -15px;margin-right: -15px;height: inherit;}
+    .bulletList li{line-height: 22px;}
+    .bulletList li::before{top: 8px}
+    .login::after,.login::before{top: 66px;left: 0;right: 0;width: 100%;height: 290px;}
+    .login.active::after,.login.active::before{height: 355px;}
+}

@@ -1,0 +1,182 @@
+.topBlogSection{padding:30px 0 30px 0;background:#F8F9FA;display:block}
+.wrap{display: flex;gap: 30px;}
+.tilea{width: 32%;}
+.scnwrap{display: flex;gap: 20px;flex: 1;}
+.tag{padding:0 15px;white-space: nowrap;text-overflow: ellipsis;max-width: 100%;overflow: hidden; border-radius:20px;background:#474ebb;font-size:12px;line-height:24px;font-weight:700;color:#fff;display:inline-flex}
+.tag a{color: #fff;}
+.bigTile{ border-radius:8px;background:#fff;border:#e8e8e8 solid 1px;min-height:390px;overflow:hidden;position:relative}
+.bigTile figure{position:relative;margin: 0;}
+.bigTile figure img{height:188px;width:100%}
+.bigTile .detailsBox{padding:20px}
+.bigTile .detailsBox h3{margin:10px 0;font-size:18px;color:#333;line-height:26px;font-weight:700}
+.bigTile .detailsBox h3 a{color:#333;text-decoration: none; display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.bigTile .detailsBox p{margin:0;font-size:14px;color:#666;line-height:20px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.bigTile:hover .detailsBox h3 a{color:#000;text-decoration:none}
+.bigTile .userDetails{padding:0 20px 20px;display:flex}
+.bigTile .userDetails figure{margin-right:15px;display:block;width:40px;height:40px;border-radius:100px;overflow:hidden}
+.bigTile .userDetails figure img{display:block;width:40px;height:40px;object-fit:cover}
+.bigTile .userData{width:calc(100% - 80px)}
+.bigTile .userData .userName a{font-size:14px;color:#333}
+.bigTile .userData .dateAndTime{font-size:14px;color:#666}
+.bigTile .postReadMore{padding-top:8px}
+.newswrap{flex: 0 0 50%;}
+.mediumTile{display:block;border-radius:8px;background:#fff;border:#e8e8e8 solid 1px;height:204px;overflow:hidden;position:relative}
+.mediumTile figure{position:relative;margin: 0;}
+.mediumTile figure:after{content:'';width:100%;height:138px;display: block; background-image:linear-gradient(to bottom,#00000000,#000000bf 58%,#000);position:absolute;bottom:0}
+.mediumTile figure img{object-fit:cover;height:204px;width:100%}
+.mediumTile .detailsBox{padding:10px 15px;position:absolute;bottom:0;z-index:1}
+.mediumTile .detailsBox h3{margin:10px 0 0;font-size:16px;color:#fff;line-height:22px;font-weight:700}
+.mediumTile .detailsBox h3 a{text-decoration: none; color:#fff;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.mediumTile:hover .detailsBox h3 a{color:#fff;text-decoration:none}
+.smallTileSection{margin-top:14px;display:flex}
+.smallTile{display:block;border-radius:8px;background:#fff;border:#e8e8e8 solid 1px;height:172px;overflow:hidden;position:relative}
+.smallTile + .smallTile{margin-left:14px}
+.smallTile figure{position:relative;margin: 0;}
+.smallTile figure:after{content:'';display: block; width:100%;height:138px;background-image:linear-gradient(to bottom,#00000000,#000000bf 58%,#000);position:absolute;bottom:0}
+.smallTile figure img{object-fit:cover;height:172px;width:100%}
+.smallTile .detailsBox{padding:10px 15px;position:absolute;bottom:0;z-index:1}
+.smallTile .detailsBox h3{margin:10px 0 0;font-size:16px;color:#fff;line-height:22px;font-weight:700}
+.smallTile .detailsBox h3 a{text-decoration: none; color:#fff;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.smallTileSection.mobile .smallTile{width:25%}
+.smallTile:hover .detailsBox h3 a{color:#fff;text-decoration:none}
+.horizontalSmallTileSection{height: 390px;overflow-y: auto;}
+.horizontalSmallTileSection {border-radius: 10px;}
+.horizontalSmallTileSection {scrollbar-width: auto;scrollbar-color: #dcdcdc #F8F9FA;}
+.horizontalSmallTileSection::-webkit-scrollbar {width: 5px;}
+.horizontalSmallTileSection::-webkit-scrollbar-track {background: #F8F9FA ;}
+.horizontalSmallTileSection::-webkit-scrollbar-thumb {background-color: #dcdcdc;border-radius: 10px;border: 1px solid #dcdcdc;}
+.horizontalSmallTile{padding:10px;display:flex;border-bottom:#e5e5e5 solid 1px}
+.horizontalSmallTile:first-child{padding-top:0}
+.horizontalSmallTile figure{width:100px;height:100px;border-radius:8px;overflow:hidden;margin: 0;flex: 1;}
+.horizontalSmallTile figure img{object-fit:cover;height:100px;width:100%}
+.horizontalSmallTile .detailsBox{padding-left:15px;width:calc(100% - 100px)}
+.horizontalSmallTile .detailsBox h3{margin:10px 0 0;font-size:16px;color:#333;line-height:22px; font-weight:700}
+.horizontalSmallTile .detailsBox h3 a{color:#333;text-decoration: none; display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.horizontalSmallTile .detailsBox .date{font-size:12px;color:#666;line-height:20px}
+.horizontalSmallTile:hover .detailsBox h3 a{color:#000;text-decoration:none}
+.horizontalBigTile{margin-bottom:15px;display:flex;border-radius:8px;background:#fff;border:#e8e8e8 solid 1px;height:200px;overflow:hidden;position:relative}
+.horizontalBigTile figure{position:relative;width:50%}
+.horizontalBigTile figure img{object-fit:cover;height:200px;width:100%}
+.horizontalBigTile .detailsBox{padding:20px;width:50%}
+.horizontalBigTile .detailsBox h3{margin:10px 0;font-size:16px;color:#333;line-height:23px;font-weight:700}
+.horizontalBigTile .detailsBox h3 a{color:#333;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.horizontalBigTile .detailsBox p{font-size:14px;color:#666;line-height:20px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.horizontalBigTile:hover .detailsBox h3 a{color:#000;text-decoration:none}
+.hotTopicsTile{display:block;border-radius:8px;background:#fff;border:#e8e8e8 solid 1px;height:165px;overflow:hidden;position:relative}
+.hotTopicsTile .detailsBox a{color:#fff;display:block}
+.hotTopicsTile figure{position:relative}
+.hotTopicsTile figure:after{content:'';width:100%;height:65px;background-image:linear-gradient(to bottom,#00000000,#000000bf 58%,#000);position:absolute;bottom:0}
+.hotTopicsTile figure img{object-fit:cover;height:165px;width:100%}
+.hotTopicsTile h3{padding:12px 15px;margin:10px 0 0;font-size:16px;color:#fff;line-height:22px;font-weight:400;position:absolute;bottom:0;z-index:1;font-weight: bold;}
+.hotTopicsTile:hover a{color:#fff;text-decoration:none}
+.whitBoxSection{padding:0 0 50px;background:#fff;display:block}
+.headingBox{margin-bottom:20px;display:block;position:relative;border-bottom:#e2e2e2 solid 1px;line-height:40px}
+.headingBox span{padding-bottom:8px;border-bottom:#474ebb solid 4px;font-size:22px;line-height:20px;font-weight:700}
+.tabBox{padding-bottom:20px;display:block}
+.tabBox ul{padding:0;margin:0;display:block;white-space:nowrap;overflow:hidden;overflow-x:auto}
+.tabBox ul li{padding:0 20px;margin-right:10px;display:inline-block;border-radius:8px;background:#f3ebff;line-height:38px;font-size:14px;color:#5f449b;cursor:pointer}
+.tabBox ul li.active{background:#5f449b;color:#fff;cursor:default}
+.serviceBox{margin:-15px -15px 0;display:block;overflow:hidden}
+ .serviceCard{margin:15px;border-radius:8px;box-shadow:0 4px 18px 0 #0000000f;background:#fff;height:170px;position:relative;overflow:hidden;border:solid 1px #f2f2f2;display:block;float:left;width:calc(25% - 30px)}
+ .serviceCard.serviceCard1:after{content:'';position:absolute;right:-20px;top:-12px;width:73px;height:59px;background:#ffeddb;border-radius:10px}
+ .serviceCard.serviceCard2:after{content:'';position:absolute;right:-23px;top:-23px;width:73px;height:73px;background:#FCF5F9;border-radius:100px}
+ .serviceCard.serviceCard3:after{content:'';position:absolute;right:-28px;top:-8px;width:0;height:0;border-left:50px solid transparent;border-right:50px solid transparent;border-top:55px solid #F1FBF9;border-radius:50%;transform:rotate(113deg)}
+ .serviceCard.serviceCard4:after{content:'';position:absolute;right:-23px;top:-23px;width:73px;height:73px;background:#F7FBFF;border-radius:100px}
+ .serviceCard.serviceCard9{display:none}
+ .serviceCard a{padding:18px 20px;width:100%;height:100%;display:block;position:relative;z-index:1}
+ .serviceCard a:hover{text-decoration:none}
+ .serviceCard em.nsi{margin-bottom:8px;width:60px;height:60px;display:block;background:url(https://img.squareyards.com/assets/images/new-services/services-sprite-icons.svg) no-repeat;background-size:249px}
+ .serviceCard em.nsi1{background-position:-2px -2px}
+ .serviceCard em.nsi2{background-position:-64px -2px}
+ .serviceCard em.nsi3{background-position:-125px -2px}
+ .serviceCard em.nsi4{background-position:-187px -2px}
+ .serviceCard em.nsi5{background-position:-2px -64px}
+ .serviceCard em.nsi6{background-position:-64px -64px}
+ .serviceCard em.nsi7{background-position:-125px -64px}
+ .serviceCard em.nsi8{background-position:-187px -64px}
+ .serviceCard figure{height:18px;width:65px;position:absolute;top:15px;right:15px;overflow:hidden}
+ .serviceCard .serviceLink{color:#333;font-size:14px;white-space:nowrap;font-weight:600}
+ .serviceCard .serviceLink em{position:relative;top:2px;left:5px;font-weight:600;font-size:13px;color:#5f449b;transition:.3s}
+ .serviceCard:hover .serviceLink em{left:10px;transition:.3s}
+ .serviceCard p{padding-top:5px;line-height:20px;color:#666}
+ .serviceCard .serviceLink small{padding:0 5px;height:18px;border-radius:3px;background:#4dc191;color:#fff;font-weight:400;display:inline-flex;align-items:center;justify-content:center}
+	 .serviceCard .serviceLink br{ display: none}
+.desktopAppDownloadBox{display:block;background:#faf8ff;height:362px}
+.desktopAppDownloadBox h3{margin-top:60px;font-size:36px;line-height:46px;color:#333;font-weight:700}
+.desktopAppDownloadBox p{margin-top:15px;font-size:18px;line-height:26px;color:#666}
+.desktopAppDownloadBox ul{padding:0;margin:15px 0 0;display:flex;align-items:center}
+.desktopAppDownloadBox ul li{margin-left:15px;display:inline-block}
+.desktopAppDownloadBox ul li:nth-child(1){margin-left:0}
+.desktopAppDownloadBox ul li img{border-radius:8px;overflow:hidden}
+.desktopAppDownloadBox figure img{image-rendering:auto;image-rendering:crisp-edges;image-rendering:pixelated}
+.desktopAppDownloadBox .mobile-app-screen,.desktopAppDownloadBox .btnBox{display:none}
+.blogCatBtnBox{padding:0 0 20px 0;align-items: center;display: flex;grid-gap: 15px;width: 100%;overflow: auto;}
+.blogCatBtnBox li{white-space: nowrap;}
+@media screen and (max-width:1024px) {
+.desktopAppDownloadBox ul li:nth-child(3){display:none}
+.desktopAppDownloadBox p br{display:none}
+}
+@media screen and (max-width:768px) {
+.wrap{flex-direction: column;}
+.tilea{width: 100%;}
+.bigTile.ipad{margin-bottom:30px;display:flex;height:200px;min-height:inherit}
+.bigTile.ipad figure img{height:200px}
+.detail{flex: 0 0 50%;}
+.horizontalSmallTileSection.ipad{margin-top:15px}
+.serviceBox{margin:0 -7px}
+ .serviceCard{margin:7px;width:calc(25% - 14px);box-shadow:0 2px 8px 0 #0000000f}
+ .serviceCard a{padding:15px}
+ .serviceCard .serviceLink{font-size:12px}
+ .serviceCard .serviceLink em{left:0;font-size:12px}
+ .serviceCard p{font-size:11px;line-height:16px}
+ .serviceCard .serviceLink small{display:none}
+ .serviceCard .serviceLink br{ display: block}
+.desktopAppDownloadBox{height:272px;overflow:hidden}
+.desktopAppDownloadBox h3{margin-top:35px;font-size:30px;line-height:35px}
+.desktopAppDownloadBox p{font-size:16px;line-height:22px}
+}
+@media screen and (max-width:540px) {
+.wrap{flex-direction: column;}
+.topBlogSection {padding: 30px 0;}
+.whitBoxSection{padding:0 0 20px;}
+.scnwrap{flex-direction: column;}
+.headingBox span{font-size:18px}
+.tilea{width: 100%;}
+.bigTile.ipad{margin-bottom:15px;display:block;height:auto;min-height:390px;width: 100%;}
+.bigTile.ipad figure img{height:188px}
+.bigTile.ipad .detailsBox{padding: 15px;}
+.bigTile .detailsBox h3{font-size:16px}
+.horizontalSmallTileSection.mobile{margin-top:15px;width: 100%;}
+.horizontalBigTile{display:block;height:auto;min-height:390px}
+.horizontalBigTile figure,.horizontalBigTile .detailsBox{width:100%}
+.horizontalBigTile .detailsBox p{margin:0}
+.smallTileSection.mobile{display:block}
+.smallTileSection.mobile .smallTile{width:calc(50% - 10px);display:inline-block}
+.smallTileSection.mobile .smallTile:nth-child(3){margin:10px 0 0}
+.serviceBox{margin:0 -15px;border-bottom:solid 1px #f2f2f2}
+.serviceBox .serviceCard{margin:0;width:33.3%;height:145px;box-shadow:none;border-radius:0;border:0;border-right:solid 1px #f2f2f2;border-top:solid 1px #f2f2f2}
+.serviceBox .serviceCard:nth-child(3),.serviceBox .serviceCard:nth-child(6){border-right:0}
+.serviceBox .serviceCard em.nsi{margin-bottom:5px;width:60px;height:60px;display:inline-block;background:url(https://img.squareyards.com/assets/images/new-services/services-sprite-icons-mobile.svg) no-repeat;background-size:249px;margin-bottom:5px;width:60px;height:60px;display:inline-block;background:url(https://img.squareyards.com/assets/images/new-services/services-sprite-icons-mobile.svg) no-repeat;background-size:249px}
+.serviceBox .serviceCard em.nsi1{background-position:-2px -2px}
+.serviceBox .serviceCard em.nsi2{background-position:-64px -2px}
+.serviceBox .serviceCard em.nsi3{background-position:-125px -2px}
+.serviceBox .serviceCard em.nsi4{background-position:-187px -2px}
+.serviceBox .serviceCard em.nsi5{background-position:-2px -64px}
+.serviceBox .serviceCard em.nsi6{background-position:-64px -64px}
+.serviceBox .serviceCard em.nsi7{background-position:-125px -64px}
+.serviceBox .serviceCard em.nsi8{background-position:-187px -64px}
+.serviceBox .serviceCard em.nsi9{background-position:-2px -125px}
+.serviceBox .serviceCard p,.serviceBox .serviceCard figure,.serviceBox .serviceCard:after,.serviceBox .serviceCard .serviceLink em{display:none}
+.serviceBox .serviceCard a{display:flex;flex-direction:column;align-items:center}
+.serviceBox .serviceCard .serviceLink{white-space:normal;display:block;text-align:center}
+.serviceBox .serviceCard.serviceCard9{display:block}
+.desktopAppDownloadBox{height:auto;overflow:hidden}
+.desktopAppDownloadBox h3{padding:0;font-size:20px;line-height:22px;color:#333;font-weight:700}
+.desktopAppDownloadBox h3 br{display:none}
+.desktopAppDownloadBox p{padding:0;margin-top:5px;font-size:14px;line-height:24px;color:#666}
+.desktopAppDownloadBox ul,.desktopAppDownloadBox .desktop-app-screen{display:none}
+.desktopAppDownloadBox .mobile-app-screen,.desktopAppDownloadBox .btnBox{display:block}
+.desktopAppDownloadBox .mobile-app-screen{margin:0 -15px}
+.desktopAppDownloadBox .btnBox{padding-bottom:40px;display:block}
+.desktopAppDownloadBox .btnBox .btn{padding:0;width:100%;font-size:16px;line-height:45px;height:45px;border-radius:8px}
+}

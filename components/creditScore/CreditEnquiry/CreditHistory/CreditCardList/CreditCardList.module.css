@@ -1,0 +1,42 @@
+.bankDetails{ border-radius: 8px; box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fff;margin-bottom: 30px;}
+.bankadd{display: flex;  padding: 20px 31px 20px 15px;justify-content: space-between;}
+.logoBankname{display: flex;gap: 20px;align-content: center;}
+.logoBankname figure{max-width: 20px;max-height: 20px;}
+.grdgap{grid-gap: 20%;justify-content: flex-start;}
+.postDate .active{color: #6dd400;font-weight: bold;padding-bottom: 6px;}
+.bankadd .Bankname {color: #4a4a4a;font-weight: bold;margin-bottom: 6px;}
+.bankadd .loanType{color: #666;opacity: 80%;font-size: 14px;}
+.error .btn{width: 100%; border-radius: 0 0 5px 8px;padding: 20px;display: flex; justify-content: center;align-items: center; color: #474ebb;font-weight: 500;font-size: 14px; background-color: #f8f9fa;border: solid 1px rgba(157, 157, 157, 0.2);}
+.error{display: flex; box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);border-radius: 0 8px 0 8px;}
+.moreDetails .btn{flex: 1;width: 100%;cursor: pointer;}
+.moreDetails .btn img{padding-left: 6px;}
+.rotate{margin-left: 10px;transform: rotate(90deg);}
+.moreDetails .btn:last-child{border-top: solid 1px rgba(157, 157, 157, 0.2);border-left: none; border-radius: 0 0px 8px 0px;;}
+.moreDetails .btn:first-child{border-radius: 0px 0  0 6px ;border-right: solid 1px rgba(157, 157, 157, 0.2);}
+.detailexpand .accdetails {font-size: 12px;color: #666666;opacity: 60%;width: 37%;}
+.detailexpand{  box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);border-top: solid 1px rgba(157, 157, 157, 0.2);border-left: 5px solid #1b1d1f;border-radius: 0px 0 8px 0px;;  background-color: #fbfdff;position: absolute;height: 0px;opacity: 0;z-index: -1;transition: height 1s ease;}
+.detailexpand .values {font-size: 12px;color: #4a4a4a;font-weight: 500;}
+.detailexpand ul li{display: flex;padding-bottom: 20px;grid-gap: 15px;}
+.detailexpand ul {padding: 25px  56px 0 56px;}
+.bankDetails.active .detailexpand{position: relative;opacity: 1;height: auto;z-index: 1;transition: height 1s ease;}
+.bankDetails.active .error{border-left: 5px solid #1b1d1f;}
+.toppadding {
+    padding-top: 27px;
+}
+@media screen and (max-width:768px) {
+    .bankadd{margin-bottom: 15px;flex-wrap: wrap;grid-gap: 0px 5px;}
+    .grdgap{flex-wrap: wrap;}
+    .logoBankname{width: 100%;margin-bottom: 30px;}
+    .enqSection{width: 100%;flex: 1;}
+    .wraper{flex-wrap: wrap;}
+    .crdeqnimpacts .noOfenq{margin-bottom: 24px;border: none;width: 100%;flex: 0 0 100%;padding-left: 35px;}
+    .allenq .type{font-size: 11px;}
+    .crdeqnimpacts .iconBord{top: 30px;left: 9px;}
+    .crdeqnimpacts .allenq{flex: 0 0 33%;align-items: center;padding-left: 0;border-right: 1px solid rgba(223,230,238,0.4)}
+    .crdeqnimpacts .allenq:nth-child(5){border: none;}
+    .crdeqnimpacts .allenq:last-child{border: none;width: 100%; background-color: #f8f9fa;position: absolute;left: 0;border-radius: 8px;padding: 10px;bottom: 0;}
+    .detailexpand ul{padding: 25px 15px;}
+    .detailexpand .accdetails{width: 39%;}
+    .bankDetails{margin: 30px 0 20px;}
+    .error a{font-size: 12px;}
+}

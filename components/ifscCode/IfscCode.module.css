@@ -1,0 +1,115 @@
+.ifscFinder{ border: solid 1px rgba(157, 157, 157, 0.2);background-color: #f8f9fa;padding: 20px 0 45px 0;}
+.finder p{color: #282828;font-size: 16px;line-height: 22px;margin-bottom: 30px;}
+.selectDetails{display: flex;gap: 20px;flex-direction: column;}
+.selectBank{display: flex;justify-content: space-between;gap: 10px;margin-bottom: 36px; background: #f3f3f3;padding: 16px;border-radius: 5px;}
+.innerWrap{width: 100%;max-width: 850px;}
+
+.respTable{overflow-x: auto;padding-left: 1px;}
+.table{border-collapse: collapse;}
+.table th,.table td{color: #313541;font-size: 14px; padding: 15px;border: 1px solid #dfe6ee;vertical-align: top;}
+.table th{background-color: #e0e2e4;font-weight: 500; }
+
+.formControl{padding:6px 12px;display:block;width:100%;height:40px;font-size:13px;color:#333;background:#fff;border-radius:5px;border:1px solid #e8e8e8;box-shadow:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:none}
+.rangecalc{position: relative;margin-bottom: 15px;width: 25%;}
+.rangecalc label{margin-bottom: 10px;font-size: 12px;}
+.rangecalc select{background: #fff;color:rgba(102, 102, 102, 1);width: 100%;}
+.rangecalc em{font-size: 6px;top: 40px;}
+
+.bankInfo{ box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);flex:0 0 54%; border: solid 1px rgba(157, 157, 157, 0.2); border-radius: 8px; background-color: #fff;}
+.bankInfo .logoName{ display: flex;padding: 20px 20px 10px 20px;align-items: center;border-radius: 8px 8px 0 0; justify-content: space-between; border-bottom: solid 1px rgba(157, 157, 157, 0.2); background-color: #f8f9fa;}
+.bankInfo .logoName figure img{object-fit: contain !important;object-position: left center !important;}
+.logoName .bankifsc{  color: #474ebb;font-size: 14px;font-weight: 500;}
+.allInfo{border-radius: 0 0 8px 8px;padding: 25px 25px 15px 25px;}
+.allInfo ul li{display: flex;align-items: center;margin-bottom: 16px;}
+.allInfo .heading{color: #666;font-size: 14px;opacity: 80%;line-height: 30px;width: 40%;}
+.allInfo .res{color: #4a4a4a;font-size: 14px;font-weight: 500;padding-left: 30px;padding: 15px 30px;}
+.allInfo table{width: 100%;border-collapse: collapse;}
+.allInfo table td{border-bottom: 1px solid #e8e8e8;border-collapse: collapse;word-break: break-all;}
+.allInfo table tr:last-child td{border-bottom: none;}
+.bankdtls ul {display: flex;padding: 0;margin-bottom: 20px;}
+.bankdtls ul li{position: relative;margin: 0 10px;font-size: 14px;}
+.bankdtls ul li::after{position: absolute;content: '|';width: 2px;height: 10px;margin:  0 5px;}
+.bankdtls ul li:last-child:after{display: none;}
+.bankdtls ul li:first-child{margin-left: 0;}
+.bankWrap{display: flex;gap: 24px;justify-content: space-between;}
+.creditDesc{padding-right: 2.7086383601756956vw;text-align: justify;}
+.bankInfo{flex: 0 0 64%;margin-bottom: 15px;}
+.lstBank{margin-bottom: 15px;}
+.stateTile{margin-bottom: 15px;}
+
+.lstBank ul{display: flex;gap: 24px;flex-wrap: wrap;margin-top: 30px;}
+.lstBank ul li{background: #fff;border-radius: 5px; border: solid 1px #e8e8e8;flex: 0 0 48%;display: none;}
+.lstBank ul li.active{display: flex;}
+.lstBank ul li a{padding: 20px 16px; display: flex;gap: 20px;align-items: center;}
+.lstBank ul li img{max-height: 26px;width: auto;}
+.lstBank ul li p{ color: #181d2f;font-size: 14px;}
+.lstBank ul li .border{width: 1px;height: 28px;background-color: #181d2f;}
+
+.stateList ul{display: flex;margin-top: 30px;gap: 13px;flex-wrap: wrap;}
+.stateList ul li{ padding: 12px;background: #fff; border-radius: 5px; border: solid 0.5px #474ebb;}
+.stateList ul li a{color: #474ebb;font-size: 12px;text-decoration: none;}
+
+.overview{margin-top: 2.1961932650073206vw;}
+.creditTile{background: #f3f3f3;padding: 20px;width: 286px;margin-bottom: 1.171303074670571vw;border-radius: 0.5856515373352855vw;}
+.creditTile a{display: block;margin-bottom: 10px;line-height: 24px;border-bottom: 1px solid #e8e8e8;padding-bottom: 10px;}
+.creditTile h3{margin-bottom: 30px;}
+
+/* Banks list  */
+.bankHead{color: #000;font-size: 24px;font-weight: 500;margin-bottom: 30px;}
+.bankList{display: inline-flex;flex-wrap: wrap;grid-gap: 20px;}
+.bankList li{border-radius: 10px;border: solid 1px #dbdee5;max-width: 200px; background-color: #fff;flex:0 0 auto;padding: 15px;overflow: hidden;max-height: 105px;}
+.bluemarker  li{position: relative;line-height: 2.342606149341142vw;padding-left: 1.4641288433382138vw;list-style-position: inside;font-size: 1.0248901903367496vw;color: #4a4a4a;}
+.bluemarker  li::before{content: "";font-weight: bold;display: inline-block;width: 0.43923865300146414vw;height: 0.43923865300146414vw;position: absolute;border-radius: 50%;left: 0;background: #474ebb;top: 0.8784773060029283vw;}
+.bluemarker  li p{color: #4a4a4a;font-size: 16px;margin-bottom: 0; line-height: 32px;}
+.bluemarker {margin-bottom: 30px;}
+.ifscBankContent .subHead{color: #181d2f;font-size: 18px;line-height: 26px;margin-bottom: 15px;}
+.ifscBankContent p{font-size: 14px;line-height: 24px;color: #4a4a4a;margin-bottom: 20px;}
+.strip{border: solid 1px #dfe6ee;border-radius:  4px;margin-bottom: 30px;}
+.measstrip{display: flex;padding: 20px 18px; border-radius: 4px 4px 0 0;border: solid 1px #dfe6ee; background-color: #e0e2e4;}
+.measstrip ul{display: flex;}
+.measstrip ul li{color: #313541;font-size: 16px;font-weight: 500;width: 100px;}
+.otherinfo{display: flex;padding: 20px 18px;}
+.strip table{border-collapse: collapse;}
+.strip table tr:first-child{ border-radius: 4px 4px 0 0;border: solid 1px #dfe6ee; background-color: #e0e2e4;}
+.strip table td{color: #313541;font-size: 14px;width: 104px;padding: 20px 18px;}
+.strip table tr:nth-child(2) td{padding: 9px;}
+.strip .bdr{border-right: solid 1px #d6d6d6;}
+
+@media screen and (max-width:768px){
+    .tiles{display: none;}
+    .innerWrap{flex: 1;width: 100%;}
+}
+
+@media screen and (max-width:540px){
+    
+    .selectDetails{flex-direction: column;gap: 20px;}
+    .bankHead{margin-bottom: 15px;font-size: 20px;}
+    .allbanksList{padding: 25px 0;}
+    .allInfo ul li{justify-content: space-between;flex-wrap: wrap;}
+    .allInfo .heading{width: 31%;line-height: 33px;font-size: 12px;}
+    .rangecalc em{right: 15px;}
+    .strip table td{padding: 20px 9px;}
+    .strip table tr:nth-child(2) td {font-size: 12px;}
+
+    .bankInIndia{padding:9.166vw 0}
+    .bankList li{width: 47%;}
+    .bluemarker li p{font-size: 14px;line-height: 24px;}
+    .bluemarker li{padding-left: 15px;}
+    .bluemarker li::before{width: 5px;height: 5px;top: 8px;}
+    .bankWrap{flex-direction: column;}
+    .selectBank{flex-direction: column;margin-bottom: 20px;padding: 12px;gap: 5px;}
+    .rangecalc{width: 100%;}
+    .rangecalc{margin-bottom: 10px;}
+    .finder p{margin-bottom: 16px;}
+    .allInfo .res{font-size: 12px;padding: 12px 10px;}
+    .lstBank ul{gap: 16px;}
+    .lstBank ul li img{width: 80px;height: 20px;object-fit: contain;}
+    .lstBank ul li{flex: 1 0 100%;}
+    .lstBank ul li a{padding: 10px;}
+    .lstBank ul li p{font-size: 12px;}
+    .stateList ul li a{font-size: 10px;}
+    .stateList ul li{padding: 10px;}
+    .tiles{display: none;}
+    .ifscBankContent p{font-size: 12px;}
+    .ifscBankContent .subHead{font-size: 14px;}
+}

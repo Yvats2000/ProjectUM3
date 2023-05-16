@@ -1,0 +1,42 @@
+{
+   "fundOverview": [
+    {
+        "question":"Share of funds asset utilised towards operating expenses and other administrative charges"
+    },
+    {
+        "question":"Percentage Net Asset Value (NAV) that an investor possess in their mutual fund portfolio"
+    },
+    {
+        "question":"Lock-in period refers to the tenure for which the assets in a mutual fund cannot be redeemed or sold."
+    },
+    {
+        "question":"The total value of investment in an investors mutual fund portfolio"
+    },
+    {
+        "question":" A group of securities or other financial instruments that depicts the performance of a particular industry, asset, market sector, strategy, etc"
+    },
+    {
+        "question":"The smallest amount or quantity of share that an investor can purchase while investing in a particular mutual fund."
+    }
+],
+   "riskRatio": [
+        {
+            "question":"Price-to-earnings ratio is the ratio used for the valuation of a company that determines the current share price with relation to the earning per share."
+        },
+        {
+            "question":"The ratio used to determine the market valuation of a company with respect to the book value."
+        },
+        {
+            "question":"The additional returns received with respect to the average market benchmark for a certain amount of risk undertaken by the mutual fund scheme."
+        },
+        {
+            "question":"Is an indicator to the investor of how risky the fund can be as compared to the market."
+        },
+        {
+            "question":"The Sharpe ratio is an indicator of the potential returns from an investment after considering all the related risks."
+        },
+        {
+            "question":"A variation of the Sharpe ratio that aids in the differentiation of potentially harmful volatility from total risk by utilising the asset’s standard deviation."
+        }
+]
+}

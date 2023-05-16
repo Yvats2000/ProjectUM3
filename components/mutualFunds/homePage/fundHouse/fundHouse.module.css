@@ -1,0 +1,53 @@
+.fundHouse{position: relative;width: 100%; height:620px;overflow: hidden;}
+.fundHouse::before{    position: absolute;left: -50px;top: 80px;right: -40px;bottom: 0;content: '';
+ background: url('/assets/images/calcback.svg') no-repeat;background-size: cover; z-index: -1;
+}
+
+
+.fundHouseWrap{display: flex;align-items: center;}
+.fundHouseWrap .textSection{    max-width: 380px;}
+.fundHouseWrap .floatingTles{flex: 1;position: relative;}
+.floatingTles  .float {cursor: pointer; width: 235px;position:absolute; height: 240px;display: flex;align-items: center;justify-content: center; background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='252px' height='242px' viewBox='0 0 252 242' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ETriangle-fund-house%3C/title%3E%3Cdefs%3E%3Cpath d='M166.930786,69.1820105 L192.126511,108.301688 C207.976151,132.91034 200.875569,165.708265 176.266918,181.557905 C167.709888,187.069213 157.746881,190 147.568606,190 L97.1771567,190 C67.9060649,190 44.1771567,166.271092 44.1771567,137 C44.1771567,126.821725 47.107944,116.858718 52.6192516,108.301688 L77.8149763,69.1820105 C93.6646162,44.573359 126.462542,37.4727772 151.071193,53.3224172 C157.428591,57.4170125 162.836191,62.8246125 166.930786,69.1820105 Z' id='path-1'%3E%3C/path%3E%3Cfilter x='-33.9%25' y='-35.3%25' width='167.8%25' height='187.4%25' filterUnits='objectBoundingBox' id='filter-2'%3E%3CfeOffset dx='0' dy='16' in='SourceAlpha' result='shadowOffsetOuter1'%3E%3C/feOffset%3E%3CfeGaussianBlur stdDeviation='25' in='shadowOffsetOuter1' result='shadowBlurOuter1'%3E%3C/feGaussianBlur%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0' type='matrix' in='shadowBlurOuter1'%3E%3C/feColorMatrix%3E%3C/filter%3E%3C/defs%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='01_Mutual-Fund_UM-V-2.0' transform='translate(-608.000000, -2674.000000)'%3E%3Cg id='fund-houses' transform='translate(0.000000, 2503.000000)'%3E%3Cg id='Group-48' transform='translate(163.500000, 30.000000)'%3E%3Cg id='Group-12' transform='translate(448.500000, 25.500000)'%3E%3Cg id='Group-8' transform='translate(-0.000000, 0.000000)'%3E%3Cg id='Triangle-fund-house' transform='translate(0.000000, 102.378641)'%3E%3Cuse fill='black' fill-opacity='1' filter='url(%23filter-2)' xlink:href='%23path-1'%3E%3C/use%3E%3Cuse fill='%23FFFFFF' fill-rule='evenodd' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E ") no-repeat;padding: 10px;}
+.floatingTles  .float figure{transform: translate(5px ,-5px);max-width: 100px;position: relative;}
+.floatingTles  .float figure img{object-fit: contain;}
+.floatingTles  .float:nth-child(1){left: -19px;top: -12px;}
+.floatingTles  .float:nth-child(2){left: 150px;top: -125px;}
+.floatingTles  .float:nth-child(3){left: 150px;top: 70px;}
+.floatingTles  .float:nth-child(4){left: 344px;top: -12px;}
+.floatingTles  .float:nth-child(5){ top: -125px;left: 525px}
+.floatingTles  .float:nth-child(6){ top: 70px;left: 525px}
+@media only screen and (max-width: 1024px) {
+    .floatingTles .float:nth-child(1){left: -66px;}
+    .floatingTles .float:nth-child(2){left: 79px;}
+    .floatingTles .float:nth-child(3){left: 85px;}
+    .floatingTles .float:nth-child(4){left: 230px;}
+    .floatingTles .float:nth-child(5){left: 359px;}
+    .floatingTles .float:nth-child(6){left: 375px;}
+}
+
+
+@media only screen and (max-width: 768px) {
+    .fundHouse{padding: 40px 0 150px;overflow-x: hidden;}
+    .fundHouseWrap{flex-direction: column;align-items: flex-start;}
+    .floatingTles .float:nth-child(1){top: 18px;left: 0;}
+    .floatingTles .float:nth-child(2){left: 154px;}
+    .floatingTles .float:nth-child(3) {left: 154px;top: 106px;}
+    .floatingTles .float:nth-child(4) {left: 281px;top: 1px;}
+    .floatingTles .float:nth-child(5) {left: 460px;}
+    .floatingTles .float:nth-child(6) {left: 460px;}
+}
+@media only screen and (max-width: 540px) {
+    .fundHouse{padding: 40px 0;overflow: hidden;height: 100%;}
+    .fundHouseWrap{gap: 70px;padding-bottom: 130px;align-items: center;}
+    .floatingTles .float{width: 158px;height: 190px;z-index: 1;background-size: 100%;}
+    .floatingTles .float figure{width: 66px;height: 120px;transform: translate(0px ,-19px); display: flex;align-items: center;justify-content: center;}
+    /* .floatingTles  .float{background: url('../images/mobnlk---Triangle.svg');} */
+    .floatingTles .float:nth-child(1){left: -185px;top: -30px;}
+    .floatingTles .float:nth-child(2){left: -115px;top: -110px;}
+    .floatingTles .float:nth-child(3){left: -115px;top: 50px;}
+    .floatingTles .float:nth-child(4){left: -40px;top: -30px;}
+    .floatingTles .float:nth-child(5){    left: 30px;top: -110px;}
+    .floatingTles .float:nth-child(6){    left: 30px;top: 50px;}
+    .ctamobile{margin-top: 81px;display: flex;justify-content: center;position: relative;z-index: 3;}
+ 
+}

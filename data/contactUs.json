@@ -1,0 +1,104 @@
+[
+    {
+      "city": "Chennai",
+      "address": "4th floor, mount chambers, anna saslai Chennai-600002.",
+      "mobile": "9036699997",
+      "isCorporate": false
+    },
+    {
+      "city": "Vizag",
+      "address": "D. No. -50-83-15, 1st Floor Madhur nagar ,seethampeta, Visakhapatnam-530016.",
+      "mobile": "7981136874",
+      "isCorporate": false
+    },
+    {
+        "city": "Vijaywada",
+        "address": "40-9-37, 1st Floor, Acharya Ranga Nagar, Near Benz Circle. Vijayawada-520010.",
+        "mobile": "7981136874",
+        "isCorporate": false
+    },
+    {
+        "city": "Rajendra Place",
+        "address": "3-B, 3rd Floor, Rajendra Park, Pusa Road, Near-Rajendra Place metro Station, Gate number 4, New Delhi-110060.",
+        "mobile": "9871855521",
+        "isCorporate": false
+    },
+    {
+        "city": "Ludhiana",
+        "address": "K-10, Tower SCO 22-23, Office no-403, Feroze Gandhi Market- Ludhiana-141001.",
+        "mobile": "9891650420",
+        "isCorporate": false
+    },
+    {
+        "city": "Bhopal",
+        "address": "2nd Floor,244 zone-1, M.P. Nagar-Bhopal,462011.",
+        "mobile": "8518009797",
+        "isCorporate": false
+    },
+    {
+        "city": "Ranchi",
+        "address": "505,5th Floor ,Samriddhi Square,Kishoreganj Chowk,Harmu Road Ranchi-834002.",
+        "mobile": "8518009797",
+        "isCorporate": false
+    },
+    {
+        "city": "Raipur",
+        "address": "2nd Floor office No-SF18, Millenium Plaza,Baanstal, Raipour Chattisgarh-",
+        "mobile": "8518009797",
+        "isCorporate": false
+    },
+    {
+        "city": "Kolkata",
+        "address": "Ecospace business park,rajarhat phase 2, 6th Floor kolkata West Bengal-700156.",
+        "mobile": "8742968952",
+        "isCorporate": false
+    },
+    {
+        "city": "Ahmedabad - Shree Balaji Heights",
+        "address": "904, Shree Balaji Heights, Off C G Road, Ahmedabad, Gujarat - 380009.",
+        "mobile": "9867501416",
+        "isCorporate": false
+    },
+    {
+        "city": "Surat",
+        "address": "G-27, International Trade Centre, Ring Road, Majura Gate, Surat, Gujarat - 395001.",
+        "mobile": "9867501416",
+        "isCorporate": false
+    },
+    {
+        "city": "Nagpur",
+        "address": "Mohta Apartments, Flat no. 303, State bank of India compound, Chhaoni, Katol Road, Nagpur 440013.",
+        "mobile": "9867501416",
+        "isCorporate": false
+    },
+    {
+        "city": "Pune-2",
+        "address": "Office No 107-108, 1st Floor, Corporate Plaza,Senapati Bapat Road, Near Chaturshringi Temple,Shivajinagar Pune-411016.",
+        "mobile": "9503431622",
+        "isCorporate": false
+    },
+    {
+        "city": "Rustomjee-Centr park",
+        "address": "Unit A-401-403 & B-406, wing A&B Rusymjee central park,CTS 484 Chaala,Andheri kurla road,Andheri (mumbai)-400069.",
+        "mobile": "845490408",
+        "isCorporate": false
+    },
+    {
+        "city": "Pune-5",
+        "address": "233, B  Lokmanya Bal Gangadhar Tilak Rd, Above Bank of Baroda, Lokamanya Nagar, Sadashiv Peth, Pune, Maharashtra 411030.",
+        "mobile": "9503431622",
+        "isCorporate": false
+    },
+    {
+        "city": "Rajkot",
+        "address": "2nd Floor A-207 WESTGATE ,OPP.NEW NAGRIK BANK,NEAR RAIYA CIRCLE,150FEET RING ROAD, RAJKOT-360005.",
+        "mobile": "9503431622",
+        "isCorporate": false
+    },
+    {
+        "city": "Ahmedabad-Ratnakar",
+        "address": "B-613,Ratnakar nine square,opp keshav baug party plot,vastrapur, Ahemdabad.",
+        "mobile": "9867501416",
+        "isCorporate": false
+    }
+  ]

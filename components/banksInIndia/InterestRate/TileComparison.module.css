@@ -1,0 +1,61 @@
+/* ctatable  */
+.ctaSection {margin-bottom: 60px;}
+.webCtaContent{padding: 24px;position: relative;border: 1px solid #9da1f1; border-radius: 10px;overflow: hidden;}
+.webCtaContent .cta{position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;right: 0;left: 0;z-index: -1;}
+.webCtaContent ul{display: flex;align-items: center;justify-content: space-between;}
+.webCtaContent ul li{z-index: 1;}
+.webCtaContent ul li ~ li{text-align: center;z-index: 1;}
+.webCtaContent ul li span{display: block;margin-top: 12px;}
+.webCtaContent ul li button{padding: 13px 21px 11px;border-radius: 8px;background-color: #3c4198;border: none;outline: none;cursor: pointer;}
+.mobCtaContent{display: none;}
+.bankText p{color: #4a4a4a;line-height: 24px;font-size: 14px;margin-bottom:20px;}
+
+@media screen and (max-width:768px) {
+.ctaSection{margin: 30px 0;}
+.webCtaContent{display: none;}
+.mobCtaContent{display: block;}
+.mobCtaContent {border: 1px solid #9da1f1; border-radius: 10px;overflow: hidden;display: block;}
+.mobCtaContent .ctaContent{position: relative;border-bottom: 1px solid #9da1f1; border-radius:0 0 10px 10px;}
+.ctaContent .cta{position: absolute;width: 100%;height: 100%;top: 0;bottom: 0;right: 0;left: 0;z-index: -1;}
+.ctaContent .logoBox {padding:16px;display: flex;align-items: center;justify-content: space-between;z-index: 1;}
+.logoBox li .logo{width: 58px;}
+.logoBox li span{display: block;margin-top: 9px;}
+.logoBox li button{ padding: 8px 13px;border-radius: 8px;background-color: #3c4198;border: none;outline: none;cursor: pointer;}
+
+.contentBox{padding: 16px;display: flex;align-items: center;justify-content: space-between;text-align: center;}
+.contentBox li span{display: block;margin-top: 7px;}
+}
+/* ctatable  */
+
+.nillAplly{padding: 10px 15px;border-radius: 20px;background:#f9f3b1;}
+
+/* compareRateTable */
+.LoanTABLEWRAP{ display: flex;gap: 24px;align-items: center;margin-bottom: 40px;}
+
+.tableHeadings ul li{height: 65px;display: flex;align-items: center;position: relative;}
+.tableHeadings ul li:not(:last-child):after{height: 0.5px; position: absolute;content: '';width: 100%;top: 65px;   background: #dbdbdb}
+
+.allLoanstable{display: flex;gap: 24px;}
+.allLoanstable::-webkit-scrollbar{display: none;}
+.bankTable{width: 230px;flex-shrink: 0; padding: 26px 16px; border-radius: 10px;box-shadow: 10px 5px 25px 0 rgba(220, 214, 214, 0.25);border: solid 0.5px #9da1f1;background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, #eff0ff 100%);}
+.bankTable .bankicon{max-height: 30px;}
+.bankTable ul li:first-child{padding-bottom: 20px;}
+.bankTable ul li{height: 65px; position: relative; display: flex;justify-content: center;align-items: center;flex-direction: column;}
+.bankTable ul li button{max-width: 140px;margin-top: 30px;font-size: 12px;}
+.bankTable ul li:not(:last-child):after{position: absolute;content: '';width: 100%;top: 65px; background: #dbdbdb;height: 0.5px;}
+
+
+@media screen and (max-width:680px){
+	.nillAplly{padding:8px 10px;display: inline-block;}
+}
+@media only screen and (max-width: 1024px) {
+.allLoanstable{overflow: auto;gap: 16px;}
+}
+
+@media only screen and (max-width: 540px) {
+.bankText p{line-height: 6.666666666666667vw;font-size: 3.888888888888889vw;}
+.LoanTABLEWRAP{margin-top: 0px;margin-bottom: 20px;}
+.bankTable{width: 175px;}   
+}
+
+/* compareRateTable */

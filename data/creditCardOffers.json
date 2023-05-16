@@ -1,0 +1,44 @@
+[
+    {
+        "creditCardImg":"/assets/images/IDFCCreditCard.webp",
+        "approval":"100% paperless Approval",
+        "bankName":"IDFC First Millenia<br/>  Credit Card",
+        "cardDetails":"First Millenia is an innovative Credit Card for young professionals. Not only does it come with an attractive and chic design, but it also offers users an array of lucrative benefits. ",
+        "annualFee":"Annual Fee: No Annual or Joining Fee",
+        "bonusPoint":"Grab welcome gift vouchers worth more than INR 500 for purchases above INR 15,000 within the first three months of IDFC First Millenia Card use.",
+        "memberShipReward":"Includes an array of benefits such as a 25% discount on movie tickets, railway lounge visits, roadside assistance, fuel surcharge waiver, and much more.",
+        "redeemPoint":"Enjoy the provision of lifetime free usage and low-interest rates.",
+        "exploreMore":"Know more",
+        "exploreMoreLink":"/credit-card/idfc-first-bank",
+        "applyNow":"Apply Now",
+        "applyNowLink":"https://www.idfcfirstbank.com/credit-card/ntb-diy/apply?utm_source=Partner&utm_medium=NTB_Urban_Money&utm_campaign=NTB_Urban_Money"
+    },
+    {
+        "creditCardImg":"/assets/images/standarchartedtcard.webp",
+        "approval":"100% paperless Approval",
+        "bankName":"Standard Chartered Platinum Rewards<br/>Credit Card",
+        "cardDetails":"Earn attractive rewards on every payment of INR 150 across various avenues, including dining, travel, shopping, and more, with the lucrative Platinum Rewards Credit Card.",
+        "annualFee":"Annual Fee: Minimum of INR 250 annual fees.",
+        "bonusPoint":"The variant comes with the provision of additional lifetime credit cards. So gift your family members the perks of supplementary credit cards with lifetime free access today!",
+        "memberShipReward":"Enjoy the satisfaction of secure payments with the Platinum Rewards Credit Cards, wherein transactions are contactless and guarded. ",
+        "redeemPoint":"No processing fee on outstanding payment conversion into EMIs. ",
+        "exploreMore":"Know more",
+        "exploreMoreLink":"/credit-card/standard-chartered",
+        "applyNow":"Apply Now",
+        "applyNowLink":"/credit-card/standard-chartered/online-application-form"
+    },
+    {
+        "creditCardImg":"/assets/images/yesBank.png",
+        "approval":"100% paperless Approval",
+        "bankName":"YES Prosperity Reward Plus<br/>Credit Card",
+        "cardDetails":"Stunning and accelerated reward options on multiple avenues through YES Cart and extra reward points for payments in dining and travel. Also, enjoy fuel waivers. ",
+        "annualFee":"Annual Fee: INR 399 on first-year membership. ",
+        "bonusPoint":"Grab exciting reward points on every transaction of INR 200 across various categories of expenses, including entertainment and leisure. ",
+        "memberShipReward":"Spend efficiently with the YES Prosperity Reward Plus Credit Card, which has an exclusive reward point system and hassle-free redeemable options.",
+        "redeemPoint":"Enjoy alluring rewards with exciting discount options and easy EMI payment facilities.",
+        "exploreMore":"Know more",
+        "exploreMoreLink":"/credit-card/yes-bank",
+        "applyNow":"Apply Now",
+        "applyNowLink":"https://applycc.yesbank.in/YESBankCreditCard?uid=ab047"
+    }
+]

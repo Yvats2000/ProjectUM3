@@ -1,0 +1,23 @@
+.allWrap{display: flex;gap: 20px;}
+.indTilesWrap{display: grid;grid-template-columns: repeat(3,1fr);gap: 24px;margin-top: 28px;margin-bottom: 80px;}
+.listOne{padding-top: 50px;}
+@media screen and (max-width:1024px) {
+    .allWrap{flex-direction: column;}
+}
+@media screen and (max-width:860px) {
+    .indTilesWrap{grid-template-columns: repeat(2,1fr);margin-top: 24px;margin-bottom: 30px;}
+}
+@media screen and (max-width:540px) {
+    .indTilesWrap{grid-template-columns: repeat(1,1fr);margin-top: 24px;margin-bottom: 30px;gap: 15px;}
+}
+.listTabs{  background-color: #f7f8fd;padding: 6px 0;margin-bottom: 28px;position: sticky;top: 67px;z-index: 5;}
+.Lists ul{display: flex;padding: 10px;align-items: center;gap: 60px;}
+.Lists ul li{font-size: 14px;color: #222 ;  padding: 0px 61px;cursor: pointer;}
+.Lists ul li.active{line-height: 28px;transition:  0.7s; color: #414db3;text-align: center; border-radius: 6px;border: solid 1px #9da1f1;background-color: #e5e8ff;}
+
+@media screen and (max-width:540px) {
+    .Lists ul{overflow: auto;gap: unset;justify-content: space-between;padding: 15px;}
+    .Lists ul::-webkit-scrollbar{display: none;}
+    .Lists ul li{font-size: 14px;padding: 0px 22px;white-space: nowrap;}
+    
+}

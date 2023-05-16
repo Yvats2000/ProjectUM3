@@ -1,0 +1,76 @@
+.mutualFundSection{  background-color: #fbfbfb;}
+
+.sectorTilesFlex{display: flex;justify-content: space-between; align-items: center;padding: 90px 0;}
+.bestSectors{width: 40%;position: relative;}
+.bestSectors  .fundHousebg{    position: absolute;right: -26px;bottom: 0;}
+.mobcta{display: none;}
+
+.main{border-radius: 50%; width:486px;position:relative;height:486px;border: dashed 2px #fbfbfb;background-color:#fbfbfb}
+.inner{ display: flex;cursor: pointer; flex-direction: column;gap: 13px;width: 80px;height: 82px;text-align: center; align-items: center;position: absolute;}
+.innerCircle{ width: 204px;height: 204px;border-radius: 50%; position: absolute;top: calc(50% - 102px);left: calc(50% - 102px); border: dashed 2px #d5d6e5;background-color: #fbfbfe;}
+.inner .sectorlogo{box-shadow: 0 16px 50px 0 rgba(0, 0, 0, 0.1); display: flex;align-items: center;justify-content: center;flex-shrink: 0; width:80px;height:80px;content:"";border-radius:50%;background: #fff;} 
+.inner .sectorlogo img{max-width: 30px;}
+.bonds{top: calc(50% - 41px);left: -40px;}
+.hospitality{    bottom: 20px;left: 40px;}
+.distributors{bottom: -41px;left: calc(50% - 40px);}
+.chemicals{bottom: 20px;right: 40px}
+.carmanufacture{top:calc(50% - 41px);right:-40px}
+.metals{top: 5%;right: 24px;}
+.autocomponent{right: calc(50% - 40px);top: -41px;}
+.energy{top: 5%;left: 40px;}
+.broadcasting{top: -41px;left: calc(50% - 40px);}
+.autoparts{left: -40px;bottom: 24px;}
+.conglo{right: -40px;bottom: 24px;}
+
+.mainc{-webkit-animation: spin 15s linear infinite;animation: spin 15s linear infinite; border-radius:50%;width:486px;position:relative;height:486px;border: dashed 2px #dcdcdc;background-color: rgba(247, 247, 247, 0.6);}
+@-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media only screen and (max-width: 860px) {
+    .sectorTilesFlex{flex-direction: column;gap: 30px;}
+    .bestSectors{width: 100%;}
+    .webcta{display: none;}
+    .mobcta{display: block;margin-top: 60px;width: 100%;}
+  }
+@media only screen and (max-width: 680px) {
+    .mutualFundSection{overflow: hidden;}
+    .sectorTilesFlex{flex-direction: column;gap: 20px;padding: 30px 0;}
+    
+    .bestSectors .fundHousebg{display: none;}
+    
+    .mobilewidth{max-width: 80px;text-align: center;}
+    .bestSectors,.popularSectors{width: 100%;margin: 0 auto;}
+    .main{width: 300px;height: 300px;margin: 0 auto;}
+    .mainc{width: 300px;height: 300px;margin: 0 auto;}
+    .inner{width:56px;height: 60px;gap: 5px;}
+    .inner .sectorlogo{width: 50px;height: 50px;}
+    .inner .sectorlogo img{max-width: 25px;}
+    .innerCircle{width: 140px;height: 140px;top: calc(50% - 70px);left: calc(50% - 70px);}
+    .broadcasting {top: -30px;left: calc(50% - 28px);}
+    .conglo{right: -18px;bottom: 0;}
+    .autoparts{left: -18px;bottom: 0;}
+    .autocomponent {    right: calc(50% - 28px);top: -40px;}
+    .chemicals {bottom: 14px;right: 0px;}
+    .hospitality {    bottom: 18px;left: 0;}
+    .distributors {    bottom: -40px;left: calc(50% - 28px);}
+    .carmanufacture {top: calc(50% - 30px);right: -26px;}
+    .bonds {top: calc(50% - 30px);left: -24px;}
+    .metals {top: 0;right: 20px;}
+    .energy {top: 0;left: 20px;}
+    
+}

@@ -1,0 +1,40 @@
+.creditCardbanner{position: relative;background: #f9fbfe;z-index: 2;}
+.bannerback{position: absolute;object-fit: fill;width: 100%;opacity: 0.6;z-index: -1;top: 0;}
+.bannerWrap{display: flex;align-items: center;gap: 30px;}
+.bannerText{flex: 1;}
+.bannerImg{flex: 1;position: relative;z-index: 5;}
+.bannerImg .opentext{line-height: 19px;min-width: 160px; height: fit-content;position: absolute; text-align: center; display: flex;gap: 10px;align-items: center;background: rgba(255, 255, 255,0.9);border-radius: 50px;padding: 10px 14px;}
+.bannerImg .tranfermoney{top: 100px; right: 0;animation-delay: -3s;}
+.bannerImg .realpart{bottom: 100px; right: 0;animation-delay: -5s;padding-left: 20px;}
+.bannerImg .safetransfer{bottom: 100px; left: 100px;animation-delay:-1s;}
+.mainTextHead span{display: block;}
+.centerheading{position: relative;}
+.centerheading::after{height: 5px;width: 50px;left: 0;content: '';background: #f5a623;border-radius: 5px;position: absolute;bottom: -16px;}
+.fontgradient{ font-size: 48px;font-weight: 900; letter-spacing: -0.03px; background: linear-gradient(105deg, #d22c5a 18%, #85aae9 84%);;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+.opentext {animation: opentext 3s linear infinite; }
+  @keyframes opentext {
+    0% { transform: translateX(0%); }
+    50% { transform: translateX(-10%); }
+  100% { transform: translateX(0%)}
+  }
+
+  @media screen and (max-width:860px){
+    .bannerWrap{flex-direction: column;}
+    .bannerImg{max-width: 600px;}
+  }
+
+  @media screen and (max-width:680px){
+    .bannerWrap{flex-direction: column;gap: 0;}
+    .bannerback{display: none;}
+    .mainTextHead{line-height: 57px;}
+    .respmarg5{margin-bottom: 5px;}
+    .centerheading::after{bottom: -9px;}
+    .fontgradient{font-size: 40px;}
+    .bannerImg .opentext{font-size: 12px;padding: 5px 15px;min-width: unset;}
+    .bannerImg .opentext img{max-height: 35px;}
+    .bannerImg .tranfermoney {top: 50px;right: 4px;}
+    .bannerImg .safetransfer{bottom: 80px; left: 35px;}
+    .bannerImg .realpart{bottom: 72px; right: -15px;}
+    .mobilecta{justify-content: center;width: 80% ;margin: 0  auto;}
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "text": "Loan",
+    "child": [
+      {
+        "text": "loan 1",
+        "path": "#"
+      },
+      {
+        "text": "loan 2",
+        "path": "#"
+      },
+      {
+        "text": "loan 3",
+        "path": "#"
+      }
+    ]
+  },
+  {
+    "text": "Cards",
+    "child": [
+      {
+        "text": "card 1",
+        "path": "#"
+      },
+      {
+        "text": "card 2",
+        "path": "#"
+      }
+    ]
+  },
+  {
+    "text": "Insurance",
+    "child": [
+      {
+        "text": "Insurance 1",
+        "path": "#"
+      },
+      {
+        "text": "Insurance 2",
+        "path": "#"
+      }
+    ]
+  },
+  {
+    "text": "Investments",
+    "child": [
+      {
+        "text": "Investments 1",
+        "path": "#"
+      },
+      {
+        "text": "Investments 2",
+        "path": "#"
+      }
+    ]
+  },
+  {
+    "label": "AI Based",
+    "text": "Eligibilty Calculator",
+    "path": "#"
+  }
+]

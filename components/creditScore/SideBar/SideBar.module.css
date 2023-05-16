@@ -1,0 +1,15 @@
+.creditReport{display: flex;gap: 0 35px;}
+.creditReportTabsection{height: fit-content;flex-shrink: 0; width: 250px;margin-bottom: 40px; padding: 15px;border-radius: 8px;border: solid 1px #ebebeb;background-color: #fff;}
+.mainTab li{display: flex;align-items: center;font-weight: 500;grid-gap: 0 10px; font-size: 14px;line-height: 26px;color: #181b30;margin-bottom: 12px;padding: 8px 20px;border:1px solid transparent;position: relative;margin-bottom: 10px;}
+.mainTab a{margin-bottom: 10px;display: block;}
+.mainTab li.active,.mainTab li:hover{border:1px solid #c2c2c2;background: #EFEFEF;border-radius: 8px;color: #454ec2;}
+.mainTab li.active svg,.mainTab li:hover svg{fill: #454ec2;}
+.mainTab li.active::after,.mainTab li:hover::after{content: "\e900";position: absolute;right: 15px;font-family: 'icomoon' !important;font-size: 12px;}
+.mainTab li em{font-size: 20px;}
+.mainTab li img{margin-right:15px ;}
+.mainTab li:last-child{margin: 0;}
+.creditTab ul {padding: 10px 0;margin: 0 30px;}
+.creditTab ul li{font-size: 14px;line-height: 28px; color: #777;}
+@media screen and (max-width:768px){
+    .creditReportTabsection{display: none;}
+}

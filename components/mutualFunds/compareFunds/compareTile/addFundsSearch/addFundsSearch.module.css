@@ -1,0 +1,28 @@
+
+.popupBg{position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 13;background: rgba(0,0,0,.7);    transition: 0.3s;}
+.bankModel.active .popupBg{display: block;}
+.addCardPopup {position: relative;}
+.addCardPopup::before {content: '';position: absolute;top: -5px;right: 100px;width: 10px;height: 10px;background: #fff;transform: rotate(45deg);z-index: -1;}
+.addCardPopup h3{margin-bottom: 20px;font-size: 16px;color: #333;}
+.addCardPopup p{margin-top:22px;font-size: 14px;color: #333;line-height: 26px;}
+.addCardPopup p span{color: #666;}
+.addCardPopup{padding: 30px; max-width: 443px;width: 443px;background: #fff;border-radius: 8px;position: absolute;top: 80px;right: 37px;z-index: 14;}
+.addCardPopup .inputSearch {width: 100%; position: relative;}
+.addCardPopup .inputSearch input{ font-size: 14px; color: #4a4a4a; border-radius: 12px;border: solid 1px #e9e9f5;background-color: #fff;padding: 12px 110px 12px 12px;width: 100%;}
+.addCardPopup .inputSearch input::placeholder{font-size: 14px; color: #4a4a4a;opacity: 30%;}
+.addCardPopup .inputSearch button{display: flex;align-items: center;justify-content: center;top: 0;background: #474ebb;position: absolute;right: 0px;}
+
+.addCardPopup .drpDown {max-width: 262px;z-index: 10; width: 100%;max-height: 320px;overflow: auto; border-radius: 8px;background: #fff;border: 1px solid #e3e3e3;position: absolute;left: 5px;}
+.addCardPopup .drpDown li{padding: 15px; border-bottom:  solid 1px rgba(227, 227, 227,0.6);}
+.addCardPopup .drpDown li a{color: #333;transition: all .2s;display: block;white-space: normal;}
+.addCardPopup .drpDown li:hover a{ color: #424242;border-radius: 8px;background: #f3f3f3;padding: 11px 15px;}
+.addCardPopup .drpDown li:last-child{border-bottom: none;}
+.addCardPopup.modelCenter{right: inherit;left: 50%;transform: translate(-50%, 0); position: fixed;top: 162px;height: inherit;width: 100%;bottom: inherit;}
+.addCardPopup.modelCenter::before{display: none;}
+.crossicon{position: absolute;top: 10px;right: 16px;cursor: pointer;}
+@media only screen and (max-width: 540px){
+  .addCardPopup {right: 0;position: fixed;top: 162px;height: inherit;width: 100%;bottom: inherit;}
+  .addCardPopup::before{display: none;}
+  .addCardPopup .inputSearch button{padding: 10px;font-size: 12px;}
+  .addCardPopup .inputSearch input{font-size: 12px;}
+}

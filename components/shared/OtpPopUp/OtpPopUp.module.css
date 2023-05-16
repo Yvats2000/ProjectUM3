@@ -1,0 +1,36 @@
+
+/* POP US CSS  */
+.popUpBox{position:fixed;left:0;top:0;background-color:rgba(0,0,0,.8);display:none;align-items:center;justify-content:center;z-index:14;width:100%;height:100%;overflow:hidden}
+.popUpBox.active{display:flex}
+.contentBox{display:flex;align-items:flex-start;justify-content:space-between}
+.contentBox .otpBox .otpInputbox{text-align:center}
+.popUpWindow{width:850px;border-radius:8px;padding:35px 40px;margin:0 auto;background:#fff}
+.popUpWindow h2{position:relative}
+.popUpWindow a{display:block}
+.headingBox{display:flex;align-items:flex-start;justify-content:space-between;position:relative}
+.headingBox .clseBtn{width:22px;height:22px;border:2px soild #000;border-radius:50%;background:#fff;padding:4px;font-weight:700;}
+.headingBox .clseBtn::after{content:'';width:8px;height:0.265vh;background:#000}
+.otpBox{width:350px}
+.otpBox .otpInputbox{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:1.041vw;}
+.otpBox .otpInputbox input{width:66px;height:80px;background:rgba(238 238 238 / 60%); border-radius:8px;border:solid 1px rgba(232 232 232 / 60%);display:flex}
+.otpBox button{width:100%;justify-content:center}
+.imgBox{display: flex;align-items:center;flex: 1;justify-content:flex-end;}
+
+.close{width:24px;height:24px;background:transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/8px auto no-repeat;border-radius:50%;border:solid 2px #000}
+.thanksMessage{display: flex;flex-direction: column;justify-content: center;}
+.popUpThanks{max-width: 375px;padding: 15px 20px;}
+.popupHeading{position: relative;}
+.popupHeading::after{content: '';width: 50px;height: 3px;background: #f5a623;border-radius: 5px;position: absolute;bottom: -8px;left: 0;}
+.checkTik{margin: 20px 0;}
+.otpBox{display: flex;grid-gap: 10px;justify-content: center;}
+.otpBox input{width: 40px;border-radius: 4px;padding: 6px 8px;text-align: center;height: 40px;background: rgba(238 238 238 / 60%);border-bottom: none;}
+/* POP US CSS   end */
+.powerdByBox{display: flex;width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;grid-gap: 20px;}
+.powerdByBox figure{flex-shrink: 0;}
+.btnAlign{align-self: center;}
+@media screen and (max-width:680px){
+    .popUpThanks{width: 100%;}
+}

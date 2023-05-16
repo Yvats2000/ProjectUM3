@@ -1,0 +1,34 @@
+.bannerTop{display: flex;}
+.bannerLeft{display: flex;flex-direction: column;position: relative; align-items: flex-start;padding: 30px;width: 56%;background: #f4f4f4;}
+.bannerIcon{position: absolute;right: 18px;bottom: 27px;width:288px;}
+.bannerIcon img{width: 100%;}
+.getYour{font-size:40px;line-height: 53px;color: #181b30;font-weight: 100;}
+.bannerHeading{font-size:40px;line-height: 1.19;color: #181b30;font-weight: 300;}
+.bannerHeading{font-size:40px;line-height: 1.19;color: #181b30;font-weight: 300;}
+.bannerHeading span{color: #f1444a;}
+.freeUpdate{line-height: 1.67;color: #4a4a4a;margin:  17px 0 27px 0;}
+.bannerRight{width: 42%;padding:77px 0 0 123px;display: flex;align-items: flex-start; flex-direction: column; background: #fff url('/assets/images/paths.svg') no-repeat left;background-size: auto 100%;}
+.cKyc{color: rgba(0, 0, 0, .54);line-height: 1.58;}
+.cKyc span{color: #474ebb;}
+.instantLoan{font-size:40px;color: #000;line-height: normal;margin: 8px 0;position: relative;font-weight: 300;}
+.instantLoan:after{position: absolute;content: '';right: 8%;height: 147px;width: 147px;background: url('/assets/images/hedingPettern.svg') no-repeat;bottom: -4px;}
+.loanInterest{margin:0 0 40px 0;line-height: normal;}
+.serviceHading{font-size: 24px;font-weight: normal;margin-bottom: 15px;color: rgba(0, 0, 0, .54);}
+@media screen and (max-width:1090px){
+	.bannerIcon{width: 215px;}
+	.bannerRight{padding: 78px 0 0 80px;}
+}
+
+@media screen and (max-width: 768px){
+	.serviceHading{font-size: 20px;margin-bottom: 10px;margin-top: 45px;}
+	.bannerTop{flex-direction: column;}
+	.bannerLeft{width:100%;padding: 20px;}
+	.bannerHeading,.getYour{font-size: 30px;line-height: 42px;}
+	.freeUpdate{font-size: 17px;margin: 5px 0;}
+	.bannerIcon{position: static;width: 75%;margin:25px auto;}
+	.bannerRight{width: 100%;background: #f8f6f6;padding:20px;}
+	.instantLoan:after{right: -8%;}
+	.cKyc{font-size: 20px;margin-top: 0px;}
+	.loanInterest{margin-bottom: 30px;margin-top: 5px;}
+	.instantLoan{font-size: 36px;margin: 0;}
+}

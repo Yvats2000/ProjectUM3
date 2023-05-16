@@ -1,0 +1,28 @@
+.section{padding: 0px 0 40px;}
+.Holdingtabs{display: flex;position: relative;z-index: 1;width: 100%;overflow: auto;padding-left: 35px;}
+.Holdingtabs li {border-radius: 8px 8px 0 0;box-shadow: -1px 10px 20px 0 rgb(30 30 30 / 5%);border: solid 1px rgba(157, 157, 157, 0.1);background-color: rgba(255, 255, 255, 0.6);opacity: 0.7;width: 93px;height: 49px;font-size: 14px;font-weight: 500;display: flex;align-items: center;justify-content: center;transition: all 0.5;position: relative;}
+.Holdingtabs li.active, .Holdingtabs li:hover {opacity: 1;background: #fff;color: #454ec2;border: solid 1px rgba(157, 157, 157, 0.2);border-bottom: none;}
+.HoldingtabsContent{display: flex;border-radius: 8px;box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.1);background-color: #fff;}
+.progressBox{flex: 1;}
+.progressBox{padding: 25px 30px;}
+.progressBox .holdingBank{display: flex;justify-content: space-between;font-size: 14px;color: #5b5b5b;margin-bottom: 10px;}
+.progressBox .holdingBank span{color: #666;}
+.progressBox .progressBar{ border-radius: 4px;background-color: #f1f1f1;position: relative;overflow: hidden;height: 4px;}
+.progressBox .progressBar .progressFill{position: absolute;left: 0;top: 0;bottom: 0;border-radius: 4px;}
+.SchemeHeading{display: flex;justify-content: space-between;border-bottom: solid 1px #e7eaee;padding-bottom: 15px;margin-bottom: 30px;}
+.SchemeHeading p{font-size: 14px;color:#908f8f;display: flex;grid-gap: 5px;}
+.scrollwrap {height: 400px; overflow: hidden;}
+.scrollwrap.active{max-height: 400px;overflow: auto;padding-right: 20px;}
+.scrollwrap::-webkit-scrollbar{width: 5px;}
+.scrollwrap::-webkit-scrollbar-track {background: #f3f3f3;border-radius: 0px 8px 8px 0; }
+.scrollwrap::-webkit-scrollbar-thumb {background: #888;border-radius: 8px;height: 50px;}
+.holdingProgress{display: flex;flex-direction: column;grid-gap: 28px;}
+.progressBlueWhite{background: linear-gradient(90deg, hsla(197, 100%, 60%, 1) 0%, hsla(205, 73%, 47%, 1) 100%);}
+.showAll{padding: 15px 0;}
+.showAll .btn{padding: 0;}
+.holdingCart{max-width: 362px;width: 100%;}
+.holdingCart{display: flex;flex-direction: column;align-items: center;border-left: solid 1px rgba(157, 157, 157, 0.2);padding: 40px;}
+
+@media screen and (max-width: 680px){
+    .HoldingtabsContent{flex-direction: column;}
+}

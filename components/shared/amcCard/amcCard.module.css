@@ -1,0 +1,8 @@
+.clientBx {cursor: pointer; max-width: 280px;display: none; margin: 0 auto;width: 100%; border-radius: 10px;border: solid 1px #dbdee5; background-color: #fff;}
+.clientBx.active{display: block;}
+.clientBx figure{margin:20px;position: relative;height: 50px;}
+.clientBx .amcimage{object-fit: contain;}
+.clientBx span{padding: 19px 15px; display: block;border-top: solid 1px rgba(157, 157, 157, 0.2);}
+@media screen and (max-width:680px){
+    .clientBx{max-width: 100%;}
+}

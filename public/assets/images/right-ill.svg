@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="186px" height="321px" viewBox="0 0 186 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>right-ill</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="184.742268" height="320" rx="8"></rect>
+        <linearGradient x1="100%" y1="27.4008372%" x2="0%" y2="72.5991628%" id="linearGradient-3">
+            <stop stop-color="#32C5FF" offset="0%"></stop>
+            <stop stop-color="#B620E0" offset="51.2583893%"></stop>
+            <stop stop-color="#F7B500" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#9B9B9B" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Mutual-Fund_UM-V-2.0" transform="translate(-1261.000000, -3901.000000)">
+            <g id="Rectangle-Copy-5-+-Rectangle-Copy-3-Mask" transform="translate(1261.295152, 3901.045091)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M583.32744,-196.123996 C613.759224,-210.31457 647.0619,-210.826806 676.304274,-200.183452 C705.546648,-189.540098 730.728719,-167.741155 744.919293,-137.309371 C759.109867,-106.877587 759.622103,-73.5749108 748.978749,-44.332537 C738.335396,-15.0901633 716.536453,10.091908 686.104668,24.2824819 L165.617789,266.9895 C135.186005,281.180074 101.883329,281.69231 72.6409551,271.048956 C43.3985813,260.405602 18.2165101,238.606659 4.02593613,208.174875 C-10.1646379,177.743091 -10.6768737,144.440415 -0.0335201187,115.198041 C10.6098335,85.9556671 32.4087767,60.7735959 62.8405608,46.5830219 Z" id="Rectangle-Copy-5" stroke="url(#linearGradient-3)" stroke-width="3" opacity="0.231073289" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(374.472615, 35.432752) rotate(-5.000000) translate(-374.472615, -35.432752) "></path>
+                <path d="M83.2125321,55.1827986 L603.699411,-187.524219 C665.313789,-216.255475 738.553397,-189.598438 767.284653,-127.98406 C796.01591,-66.369682 769.358873,6.86992565 707.744495,35.601182 L187.257615,278.3082 C125.643237,307.039456 52.4036295,280.382419 23.6723731,218.768041 C-5.05888327,157.153663 21.5981539,83.914055 83.2125321,55.1827986 Z" id="Rectangle-Copy-3" fill="url(#linearGradient-4)" opacity="0.200000003" mask="url(#mask-2)" transform="translate(395.478513, 45.391990) rotate(-5.000000) translate(-395.478513, -45.391990) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,185 @@
+[
+  {
+    "text":"EMI Calcualtor",
+    "child":[
+      {
+        "text":"Home Loan EMI Calcualtor",
+        "path":"/loans/home-loan/emi-calculator"
+      },
+      {
+        "text":"Home Loan Balance Transfer Calulator",
+        "path":"/loans/home-loan/balance-transfer-calculator"
+      },
+      {
+        "text":"Home Loan Pre Payment Calculator",
+        "path":"/loans/home-loan/pre-payment-calculator"
+      }
+    ]
+  },
+  {
+    "text": "Eligibility Calculator",
+    "child": [
+      {
+        "text": "Home Loan",
+        "path": "/loans/home-loan/eligibility-calculator"
+      },
+      {
+        "text": "Personal Loan",
+        "path": "/loans/personal-loan/eligibility-calculator"
+      }
+    ]
+  },
+    {
+      "text": "Loan Types",
+      "child": [
+        {
+          "text": "Home Loan",
+          "path": "/loans/home-loan"
+        },
+        {
+          "text": "Personal Loan",
+          "path": "/loans/personal-loan"
+        },
+        {
+          "text": "Business Loan",
+          "path": "/loans/business-loan"
+        },
+        {
+          "text": "Loan Against Property",
+          "path": "/loans/loan-against-property"
+        }
+      ]
+    },
+    {
+      "text": "Top 10 Banks",
+      "child": [
+        {
+          "text": "CITI Bank",
+          "path": "/banks-in-india/citi-bank"
+        },
+        {
+          "text": "RBL Bank",
+          "path": "/banks-in-india/rbl-bank"
+        },
+        {
+          "text": "Bank of Baroda",
+          "path": "/banks-in-india/bank-of-baroda"
+        },
+        {
+          "text": "Canara Bank",
+          "path": "/banks-in-india/canara-bank"
+        },
+        {
+          "text": "Bajaj Finserv",
+          "path": "/banks-in-india/bajaj-finserv"
+        },
+        {
+          "text": "Yes Bank",
+          "path": "/banks-in-india/yes-bank"
+        },
+        {
+          "text": "Deutsche Bank",
+          "path": "/banks-in-india/deutsche-bank"
+        },
+        {
+          "text": "IDFC FIRST Bank",
+          "path": "/banks-in-india/idfc-first-bank"
+        },
+        {
+          "text": "DCB Bank",
+          "path": "/banks-in-india/dcb-bank"
+        },
+        {
+          "text": "Kotak Bank",
+          "path": "/banks-in-india/kotak-bank"
+        }
+      ]
+    },
+    {
+      "text": "Investment Options",
+      "child": [
+        {
+          "text": "Fixed Deposit",
+          "path": "/fixed-deposit-rate"
+        },
+        {
+          "text": "Mutual Funds",
+          "path": "/mutual-funds"
+        },
+        {
+          "text":"Systematic Investment Plan",
+          "path":"/investment-plans/sip"
+        },
+        {
+          "text": "Recurring Deposit",
+          "path": "/investment-plans/recurring-deposit"
+        },
+        {
+          "text": "Employees Provident Fund",
+          "path": "/investment-plans/epf"
+        },
+        {
+          "text": "Public Provident Fund",
+          "path": "/investment-plans/ppf"
+        },
+        {
+          "text": "Voluntary Provident Fund",
+          "path": "/investment-plans/vpf"
+        },
+        {
+          "text": "ELSS",
+          "path": "/investment-plans/elss"
+        },
+        {
+          "text": "National Pension Scheme",
+          "path": "/investment-plans/nps"
+        },
+        {
+          "text": "National Savings Certificate",
+          "path": "/investment-plans/nsc"
+        },
+        {
+          "text": "Senior Citizen Saving Scheme",
+          "path": "/investment-plans/senior-citizens-saving-scheme"
+        }
+      ]
+    },
+    {
+      "text":"Mutual Fund Scheme",
+      "child":[
+        {
+          "text":"Commodity Fund",
+          "path":"/mutual-funds/commodity"
+        },
+        {
+          "text":"Debt Fund",
+          "path":"/mutual-funds/debt"
+        },
+        {
+          "text":"Equity Fund",
+          "path":"/mutual-funds/equity"
+        },
+        {
+          "text":"Hybrid",
+          "path":"/mutual-funds/hybrid"
+        },
+        {
+          "text":"Tax Saver",
+          "path":"/mutual-funds/tax-saver"
+        }
+      ]
+    },
+    {
+      "text":"Gold & Silver Rate",
+      "child":[
+        {
+          "text":"Today Gold Rate",
+          "path":"/gold-rate"
+        },
+        {
+          "text":"Today Silver Rate",
+          "path":"/silver-rate"
+        }
+      ]
+    }
+  ]

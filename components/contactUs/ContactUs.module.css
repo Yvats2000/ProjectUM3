@@ -1,0 +1,81 @@
+.contact .banner .row{display: flex;grid-gap: 50px;align-items: center;}
+.contact{background:#fff;overflow:hidden}
+.contact .banner{padding-top: 80px;background:#171717 url('../../public/assets/images/contactus-bg.svg') no-repeat right 5% center;background-size: 415px; height:520px;position:relative;margin-bottom: 50px;}
+.contact .banner .floatright {display: block;float: right;}
+/* .contact .banner::before{content: '';position: absolute;width: 0;height: 0;bottom: 0px;border-right: 0px solid transparent;border-left: 4000px solid #fff;border-top: 305px solid transparent;}
+.contact .banner::after{content: '';width: 100%;height: 100%;position: absolute;top: 0;left: 0;opacity: .1;} */
+.contact .banner .bannerTagline{display:inline-block;line-height:35px;font-size:30px;color:#fff;border-radius:8px;max-width: 485px;width:100%;font-weight: bold;}
+.subText{color: #fff;font-size: 18px;line-height: 42px;font-weight: 300;opacity: 0.5;}
+.tollFree{color: #fff;font-size: 28px;line-height: 48px;font-weight: 300;}
+/* .contact .banner .bannerTagline p{color: #fff;font-size: 28px;line-height: 42px;font-weight: 400;} */
+.contact .banner .bannerTagline span{display: block;}
+.contact .formBox{z-index: 3;box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.13);padding: 20px;}
+.contact .formBox h5{font-size: 22px;padding-bottom: 15px;line-height: 26px; border: none;position: relative;z-index: 3}
+/* .contact .form::before{content: '';position: absolute;left: 67px;top: 102px;border-radius: 16px;height: 45%;width: 88px;background: #fff;opacity: 0.8;z-index: 2;box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.13);} */
+/* .contact .form::after{content: '';position: absolute;left: 31px;top: 125px;border-radius: 16px;height: 35%;width: 88px;background: #fff;opacity: 0.8;z-index: 1;box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.13);} */
+.contact .formBox button{width: 100%;justify-content: center;}
+.formBox{width: 311px; padding: 0 20px 20px;border-radius: 8px;box-shadow: 0 0 17px 0 rgb(0 0 0 / 8%);border: solid 1px #ededed;background: #fff;position: relative;}
+.contact .form .formgroup{margin-bottom: 15px;position: relative;}
+.contact .form .formgroup .selectBox{padding: 0;display: flex;margin-bottom: 7px;position: relative;}
+.contact  .inputgroup{display: flex;}
+.contact  .inputgroup .selectBox{width: 70px;}
+.contact  .inputgroup .selectBox select{padding: 6px 5px;border-right: 0;border-radius:4px 0px 0px 4px ;}
+.contact  .inputgroup input{border-radius: 0px 4px 4px 0;}
+.contact .addressBox{margin-bottom: 50px;padding: 23px 40px;display: block;position: relative;border-radius: 8px;background:#F8F8F8;border: 1px solid #CCCCCC;color: #000;box-shadow:-10px 10px 20px 0 rgb(30 30 30 / 5%);}
+.contact .addressBox img{position: absolute;right: 22px;top: 0px;}
+.contact .addressBox li{display: inline-block;font-size: 16px;line-height: 26px}
+.contact .addressBox li:first-child{font-size: 26px;position: relative;top: -28px;line-height: normal;padding-right: 53px;margin-right: 53px;font-weight: bold;}
+.contact .addressBox li:first-child::before{content:'';background-color: rgba(0,0,0,1.00);width: 1px;height: 42px;position: absolute;right: 0;top: -4px;}
+.contact .addressBox li strong{font-weight: normal;font-weight: bold;}
+
+.particularAddre{padding: 20px;background: #fff;border: 1px solid #ccc;border-radius: 10px;flex: 0 0 32%;width: 30%;}
+.particularAddre strong{margin-bottom: 10px;display: block; color: #333333;font-size: 16px;font-weight: bold;}
+.particularAddre p{font-size: 14px;line-height: 24px;}
+.particularAddre p strong{margin-left:3px; display: inherit;}
+.particularAddre span{color:#666;}
+
+.officeLocation{display:inline-flex;grid-gap: 30px 20px;flex-wrap: wrap;margin-bottom: 30px;}
+
+@media screen and (max-width:1280px) {
+    
+    .contact .addressBox img{top: 0;right: 0;bottom: 0;}
+
+.contact .form::before,.form::after{display: none;}
+}
+@media screen and (max-width:768px) {
+.contact .banner{background-image: none;}
+.contact .banner{ margin-bottom: 30px;padding-top: 30px;padding-bottom: 30px;height: inherit;}
+.contact .banner::before{display: none}
+.contact .banner .bannerTagline{margin:0px 0px 30px 0px;max-width: 100%;}
+.contact .banner .bannerTagline h1{margin-bottom: 15px;}
+.contact .formBox .form-group{width:45%;margin-right: 15px;float: left;}
+.contact .formBox .form-group:nth-child(2),.formBox .form-group:nth-child(4),.formBox .form-group:nth-child(6){margin-right:4%}
+.contact .formBox .form-group textarea.formcontrol{height: 40px}
+.contact .addressBox img{top: 0;right: 0;bottom: 0;}
+.contact .addressBox li:first-child{padding: 0 0px 12px;top: 0;}
+.contact .addressBox li:first-child::before{ width: 42px;height: 1px;left: 0;bottom: -12px;top: initial;}
+.contact .addressBox li {padding-top: 30px;}
+.contact .contact .box{min-height: 210px;}
+
+.contact .banner .row{flex-direction: column-reverse;}
+.formBox{width: 100%;}
+.subText{font-size: 16px;}
+.tollFree{font-size: 24px;}
+.contact .banner .row{grid-gap: 0px;}
+}
+@media screen and (max-width:540px){
+    .particularAddre{width: 100%;}
+    .officeLocation{flex-direction: column;}
+
+}
+@media screen and (max-width:480px) {
+
+.contact .banner .bannerTagline h1{font-size: 35px;}
+
+.contact .addressBox{padding: 20px;margin-bottom: 30px;}
+.contact .addressBox li:first-child{font-size: 22px;margin-right: 0;}
+.contact .addressBox li:first-child::before{bottom: 0;}
+.contact .addressBox li{padding-top: 12px;    font-size: 18px;}
+.contact .formBox .form-group{width: 100%;}
+.contact .contact .box {min-height: 140px;}
+}

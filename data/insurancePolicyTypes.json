@@ -1,0 +1,18 @@
+[
+    {
+        "class": "eligibilty",
+        "title": "General Insurance",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/general_insurance.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/insurance-policy/general-insurance-plans"
+    },
+    {
+        "class": "balance",
+        "title": "Life Insurance",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/life_insurance.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/insurance-policy/life-insurance-plans"
+    }
+]

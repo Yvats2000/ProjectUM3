@@ -1,0 +1,45 @@
+
+/* graph section  */
+.graph{max-width: 750px;background-color: #fff;}
+.navHistory{width: 65%;margin-bottom: 50px;}
+/* graph section  */
+.btncenter{display: flex; justify-content: center;}
+/* Table css */
+.table {width: 100%;background-color: transparent;border-collapse: collapse;border-radius: 8px;}
+.table td, .table th{padding:15px 25px;font-size: 14px;}
+.tableResponsive{width: 100%; margin: 15px 0;box-shadow: 0 20px 80px 0 rgb(0 0 0 / 10%); border: 1px solid #c2c2c2;overflow: hidden;border-radius: 4px;max-width: 100%;overflow: auto;}
+.tableBordered td {border-top: 1px solid #c2c2c2;}
+.tableBordered thead th:first-child td{border-top:none;white-space: nowrap;}
+.table tr{background-color: #fff;}
+.table tbody td,.table thead th{font-weight: bold;border-right: 1px solid #c2c2c2;}
+.lowest td:last-child,.lowest th:last-child{border-right: none;}
+.tableStriped tbody tr:nth-child(odd) {background-color: #F8F8F8;}
+
+.navTable tr{display: flex;}
+.navTable tr td:last-child,.navTable tr th:last-child{border-right: none;}
+.navTable tbody tr:nth-child(odd) {background-color: #F8F8F8;}
+.navTable thead th,.navTable tbody td{flex: 1;}
+.navTable tbody tr{display: none;}
+.navTable tbody tr.active{display:flex;} 
+.headingTabs{display: flex;justify-content: space-between;padding: 16px 0;}
+        .timeselectionTabs{display: flex;gap: 20px;align-items: center;}
+        .timeselectionTabs li{color: #474ebb;font-size: 14px;background: #f8f8f8;padding: 7px;border-radius: 8px;}
+        .timeselectionTabs li.active{background: #e5e8ff;transition: 0.5s;}
+/* Table css */
+.up{vertical-align: middle;display: inline-block;transform: rotate(180deg);}
+.up svg{fill:#474ebb ;}
+
+
+@media screen and (max-width: 680px){
+    .tabSection{top: 67px;}
+    .section{padding: 15px 0;}
+    .impact{font-size: 11px;}
+    .capType li{font-size: 11px;}
+    .navHistory{width: 100%;}
+    .table tbody td,.table thead th{white-space: nowrap;}
+
+}
+@media screen and (max-width:980px){
+	.tabElement ul{overflow: auto;}
+	.tabElement ul li,.tabElement ul li a{white-space: nowrap;}
+}

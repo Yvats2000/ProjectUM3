@@ -1,0 +1,37 @@
+{
+    "loanAmount" : {
+        "minValue" : "50000",
+        "defaultValue" : "1000000",
+        "minText" : "50 K",
+        "maxValue" : "10000000",
+        "maxText" : "1 Cr"
+    },
+    "tenure" : {
+        "minValue" : "1",
+        "defaultValue" : "5",
+        "minText" : "1",
+        "maxValue" : "5",
+        "maxText" : "5"
+    },
+    "rate" : {
+        "minValue" : "8",
+        "defaultValue" : "9",
+        "minText" : "8",
+        "maxValue" : "25",
+        "maxText" : "25"
+    },
+    "prepayament" : {
+        "minValue" : "1000",
+        "defaultValue" : "1000",
+        "minText" : "1 K",
+        "maxValue" : "1000000000",
+        "maxText" : "100 Cr"
+    },
+    "numberofemi" : {
+        "minValue" : "0",
+        "defaultValue" : "0",
+        "minText" : "0",
+        "maxValue" : "59",
+        "maxText" : "59"
+    }
+}

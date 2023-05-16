@@ -1,0 +1,12 @@
+.breadCrumb{padding: 15px 0;}
+.breadCrumb ul{display: flex;position: relative;white-space: nowrap;flex-wrap: wrap;}
+.breadCrumb ul li a{color: #313541;opacity: 60%;font-size: 12px;}
+.breadCrumb ul li .active{color:#313541;opacity: 100%;}
+.breadCrumb ul li:first-child{margin-left: 0;}
+.breadCrumb ul li::after{content: '/';color: #4a4a4a;margin: 0 4px;font-size:12px;opacity: 60%;}
+.breadCrumb ul li:last-child{background: transparent;}
+.breadCrumb ul li:last-child a{color:#4a4a4a ;opacity: 0.9;}
+.breadCrumb ul li:last-child::after{display: none;}
+@media screen  and (max-width:680px){
+    .breadCrumb ul li a{font-size: 10px;white-space: nowrap;}
+}

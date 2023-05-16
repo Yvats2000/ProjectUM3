@@ -1,0 +1,20 @@
+.bankLoanDetail{margin-bottom: 30px;} 
+.bankLoanDetail H1{width: 100%;}
+.bankLoanDetail figure .displayNoneOnMobile{max-width: 166px;object-fit: contain;}
+.bankLoanDetail figure img{object-fit: contain;object-position: left;}
+.bankLoanDetail .tabHead{display: flex;  border-radius: 8px 8px 0 0;border: solid 1px #dfe6ee;background: #e0e2e4;border-radius: 8px;margin-bottom: 10px;}
+.bankLoanDetail .tabHead li{padding: 20px;color: #313541;font-size: 14px;width: 20%;}
+.bankText p{color: #4a4a4a;line-height: 24px;font-size: 14px;margin-bottom:20px;}
+.logoandRatingBox{display: flex;align-items: center;margin-bottom: 25px;}
+.ratingStar{background:  url("/assets/images/star.svg") no-repeat; width:10px;height: 10px;;}
+.ratingBox{padding: 4px 7px;margin-left: 25px; background: #f7be00;border-radius: 3px;font-family: Arial;font-weight: bold;color: #ffffff;font-size: 12px;align-items: center;gap: 0  6px;display: flex;}
+@media screen and (max-width: 540px){
+  .bankLoanDetail figure{max-width: inherit;height: 30px;display: flex;}
+  .displayNoneOnMobile{display: none !important;}
+  .bankText p{line-height: 6.666666666666667vw;font-size: 3.888888888888889vw;}
+  .logoandRatingBox{margin-bottom: 6.038647342995169vw;}
+  .ratingBox{display: none;}
+  .ratingBox{padding: 0.966183574879227vw 1.6908212560386473vw;font-size: 2.898550724637681vw;border-radius: 0.7246376811594203vw;margin-left: 6.038647342995169vw;}
+  .ratingStar{width: 2.4154589371980677vw;height: 2.4154589371980677vw;}
+  .radioInput .radioText{margin-left: 2.585652vw;}
+}

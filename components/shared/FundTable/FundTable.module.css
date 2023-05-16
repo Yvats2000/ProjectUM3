@@ -1,0 +1,146 @@
+.section{padding: 40px 0;}
+.bgGray{background: #fafafa;}
+.mutualFund{display: flex;grid-gap: 18px;}
+.fundFilter{width: 290px;flex-shrink: 0;border-radius: 12px;max-height: 945px;overflow: auto;border:solid 1px #ebecfb}
+.fundFilter ul{display: flex;flex-direction: column;grid-gap: 10px;padding-top: 15px;}
+.fundFilter ul li {border-bottom: solid 1px #e3e3e3;}
+.fundFilter ul li a{color: #4a4a4a;line-height: 40px;font-size: 14px;padding: 0 15px;display: block;position: relative;}
+.fundFilter ul li.active,.fundFilter ul li:hover{color: #fff;position: relative;border-bottom:solid 1px transparent; }
+.fundFilter ul li.active a,.fundFilter ul li:hover a{color: #fff;background: #1b1d1f;padding: 0 12px;margin: 0 15px;border-radius: 8px;}
+.fundFilter ul li.active a::after,.fundFilter ul li:hover a::after{content: "\e905";font-family: icomoon;font-size: 7px;color: #fff;position: absolute;right: 13px;transform: rotateZ(270deg);z-index: 1;}
+.fundFilter::-webkit-scrollbar{width: 2px;}
+.fundFilter::-webkit-scrollbar-track {background: #f3f3f3;border-radius: 0px 8px 8px 0; }
+.fundFilter::-webkit-scrollbar-thumb {background: #888;border-radius: 8px;height: 20px;}
+.fundBG{background: #f8f8f8;}
+.fundTable{flex: 1;}
+.tableTab{display: flex;position: relative;z-index: 1;width: 100%;overflow: auto;}
+.tableTab li{border-radius: 8px 8px 0 0;padding: 0 15px;min-width: 120px; box-shadow: -1px 10px 20px 0 rgba(30, 30, 30, 0.05);border: solid 1px rgba(157, 157, 157, 0.1);background-color: rgba(255, 255, 255, 0.6);opacity: 0.7;height: 45px;font-size: 14px;font-weight: 500;display: flex;align-items: center;justify-content: center;transition: all 0.5;position: relative;display: flex;align-items: center;grid-gap: 15px;}
+.tableTab li svg{fill: #666;}
+.tableTab li .tabIcon{flex-shrink: 0;display: inline-flex;width: 17px;}
+.tableTab li.active,.tableTab li:hover{opacity: 1;background: #fff;color: #454ec2;border: solid 1px rgba(157, 157, 157, 0.2);border-bottom:solid 1px transparent;}
+.tableTab li.active svg,.tableTab li:hover svg{fill:#454ec2 ;}
+.tableTab li.active::after{content: '';position: absolute;bottom: 0;width: 100%;height: 2px;background: #fff;z-index: 2;}
+.tableDesktop{background: #fff;position: relative;z-index: 3;}
+.tableRow,.tableRow.active{display: flex;}
+.tableRowBg{background:#e0e2e4;;}
+.tableRow.border{border-bottom: solid 1px rgba(157, 157, 157, 0.2);}
+.tableRow.border:last-child{border-bottom: none;}
+.tableTd{padding:15px 20px;font-size: 14px;}
+
+.SchemeName{width: 38%;display: flex;grid-gap: 25px;align-items: center;flex: 1 1 0;}
+.SchemeNameHead{grid-gap: 0px;}
+.SchemeName figure{width: 20px;height: 20px;flex-shrink: 0;}
+.SubCategory,.Ratings,.Returns,.Fundsize,.Compare{white-space: nowrap;text-align: center;width: 14%;}
+/* .Returns span */
+.SchemeName p{display: flex;flex-direction: column;grid-gap: 8px;}
+
+.Ratings{background: #ffac1e;padding: 3px 3px 3px 6px;color: #fff;border-radius: 3px;}
+.tableRowBox{ border-radius: 4px;border: solid 1px rgba(157, 157, 157, 0.2);}
+.table {width: 100%;background-color: transparent;border-collapse: collapse;border-radius: 4px;}
+.table td, .table th{padding:15px 25px;font-size: 14px;}
+.tableResponsive{border: 1px solid #dfe6ee;overflow: hidden;border-radius: 4px;width: fit-content;max-width: 100%;overflow: auto;}
+.tableBordered td, .tableBordered th {border-top: 1px solid #dfe6ee;color: #313541;}
+.tableBordered tr:first-child td{border-top:none;}
+.table td:first-child{font-weight: 500;border-right: 1px solid #dfe6ee;}
+.tableStriped tbody tr:nth-of-type(odd) {background-color: #f4f7fa;}
+
+.tableHeaderMobile{border: solid 1px rgba(157, 157, 157, 0.2);box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);display: none;}
+.tableHeaderMobile ul{background: #fdfdfd;padding: 10px 0;display: flex;justify-content: space-between;border-bottom: solid 1px rgba(157, 157, 157, 0.2);padding-left: 15px;padding-right: 15px;}
+.tableHeaderMobile ul li{flex: 1;display: flex;align-items: center;}
+.tableHeaderMobile ul li img{max-height: 20px;height: 20px;}
+.tableHeaderMobile ul li figure{max-width:100%;}
+.tableHeaderMobile .btn{padding: 8px 12px;font-size: 10px;border-radius: 4px;}
+.tableHeaderMobile .bankName{font-size: 12px;font-weight: bold;color: #4a4a4a;justify-content: center;}
+.dataTable{width: 100%;}
+.dataTable td,.dataTable th{padding: 5px 10px;}
+.planDiv{width: 100%;margin-bottom: 20px;}
+.planDiv .planTable{width: 100%;border-collapse: collapse;}
+.planName{display: block;padding-top: 10px;display: block;padding-top: 10px;font-size: 16px;font-weight: 500;}
+.planDiv .planTable tr{display: flex;border: solid 1px rgba(157, 157, 157, 0.2);border-radius: 8px;margin-bottom: 10px;box-shadow: -10px 10px 20px 0 rgb(30 30 30 / 5%);}
+.planDiv .planTable tr td{position: relative; flex: 1;border-right: solid 1px rgba(157, 157, 157, 0.2);padding: 25px;;display: flex;justify-content: center;flex-direction: column;align-items: center;}
+/* .planDiv .planTable:nth-child(even){background: ;} */
+.planDiv .planTable tr td:last-child{border-radius: 0 8px 8px 0;border-right: none;}
+.planDiv .planTable tr td:first-child{border-radius: 8px 0 0 8px;align-items: center;}
+.planDiv .planTable thead tr{background: #e0e2e4;}
+.planDiv .planTable thead th{border-right:none;padding: 20px 15px;text-align: center;width: 20%;}
+.planDiv .planTable thead th:first-child{align-items: flex-start;text-align: left;}
+.planDiv .planTable tr td figure img{max-height: 30px;object-fit: contain;}
+.mobFund{display: none;}
+.filterModal{position: fixed;left: 0;top: 0;background-color: rgba(0,0,0,.8);display: none;align-items: flex-end;justify-content: center;z-index: 14;width: 100%;height: 100%;overflow: hidden;}
+.filterModal.active{display: flex;}
+.filterBody{width: 100%;background: #fff;border-radius: 20px 20px 0 0 ;max-height: 85vh;}
+.filterHeader{padding: 15px 20px;display: flex;justify-content: space-between;border-bottom: solid 1px #e3e3e3;}
+.fitler,.filterFooter{padding: 15px;}
+.filterFooter{border-top:solid 1px #e3e3e3;}
+.fitler{max-height: 75%;overflow: auto;}
+.filterList{display: flex;justify-content: space-between;margin-bottom: 18px;}
+.filterList:last-child{margin-bottom: 0;}
+.filterList.active .filterName p,.filterList.active .filterShort{color: #474ebb;}
+.filterName{display: flex;grid-gap: 15px;}
+.filterName figure{width: 16px;text-align: center;}
+.filterName p{font-size: 13px;color: #4a4a4a;}
+.filterDual{display: flex;}
+.showAllFund{display: flex;justify-content: center;padding-top: 20px;}
+.fundNameMob{padding: 18px 16px 15px 18px;margin-bottom: 20px; border-radius: 12px;border: solid 1px #e9e9f5;background-color: #fff;}
+.fundNameMob::after{top: 20px !important;}
+.fundBankName{height: 100%;overflow: auto;max-height: calc(85vh - 50px);}
+.fundBankName ul{padding: 15px;display: inline-flex;flex-wrap: wrap;grid-gap: 12px;}
+.fundBankName ul li a{border-radius: 3px;color: #666;display: block; padding: 3px 7px 3px 6px;border: solid 1px rgba(157, 157, 157, 0.2);background-color: #f8f9fa;}
+.fundBankName ul li.active a,.fundBankName ul li:hover a{background-color: #474ebb;color: #fff;}
+.up{vertical-align: middle;display: inline-block;transform: rotate(180deg);}
+.up svg{fill:#474ebb ;}
+.tableTd.active{color: #474ebb;}
+ .cursorpoint{cursor: pointer;}
+/* .tableTd.active .up{transform: rotate(180deg);} */
+/* .tableTd.active .down{transform: rotate(1deg);} */
+.tableTd.active svg path{fill: #454ec2;}
+.checkBoxCenter{justify-content: center;}
+
+/* Mobile Table css */
+.MobileTable{width: calc(100% + 30px);margin-right: -15px;margin-left: -15px;display: block;}
+.filterMob{display: flex;justify-content: flex-end;background: #fff;}
+.filterMob .filterBtn{color: #908f8f;padding: 15px 10px;display: flex;grid-gap: 5px;}
+.fundTableMob{display: flex;grid-gap: 12px;margin-bottom: 12px; padding: 12px 15px 18px 12px;box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fff;}
+.fundTableMob.active{display: flex;}
+.fundTableMob figure{flex-shrink: 0;width: 22px;}
+.fundDetails{display: grid;grid-template-columns: repeat(3,1fr);grid-gap: 15px;flex: 1;}
+.fundDetails p{display: flex;flex-direction: column;grid-gap: 10px;}
+.fundDetails .fundName{grid-column: span 3;display: flex;flex-direction: column;grid-gap: 7px;}
+.fundDetails .fundName p{display: flex;justify-content: space-between;flex-direction: row;}
+.fundDetails .ratingWrap{display: flex;grid-gap: 6px;align-items: flex-start;}
+
+.mobFund{display: block;}
+.capTypeBox{display: flex;grid-gap: 12px;}
+.impact{ border-radius: 4px;align-self: flex-start;}
+.impactGood{color: #55a105;}
+.capType{display: inline-flex;grid-gap: 5px;}
+.capType li{list-style-type: disc;list-style-position: inside;display: flex;align-items: center;position: relative;padding-left: 10px;}
+.capType li:before{width: 5px;height: 5px;background-color: #666;content: '';position: absolute;left: 0;border-radius: 50%;}
+.capType li:first-child::before{display: none;padding-left: 0;}
+.capType li:first-child{padding-left: 0;}
+.impact{font-size: 12px;align-self: flex-start;}
+.hightIm{color: #f8303c;}
+.medium{ color: #f59a02;}
+.goodIm{color: #55a105;}
+.fundListSearch{display: flex;flex-direction: column;grid-gap: 15px; border: solid 1px #ebecfb;border-radius: 4px;padding:15px;}
+.tbaleDNone{display: none;}
+.tableShow{display: block;}
+.BtnTabShow{display: flex;}
+.displayNone{display: none;}
+@media screen and (max-width:1024px){
+    .tableTd{padding: 13px;}
+    .tableRow .tableTd{font-size: 12px}
+}
+
+@media screen and (max-width: 680px){
+    
+    .fundFilter,.tableDesktop,.planTable{display: none;}
+    .tableHeaderMobile{display: block;}
+    .tableTab li{width: inherit;min-width: inherit;white-space: nowrap; flex: 1;font-size: 12px;height: 40px;grid-gap: 10px;}
+    .mutualFund{flex-direction: column;grid-gap: 0;}
+    .Ratings{font-size: 10px;border-radius: 9px;}
+    .Ratings img{width: 8px;}
+    .impact{font-size: 10px;}
+    .capType li:before{width: 3px;height: 3px;}
+    
+}

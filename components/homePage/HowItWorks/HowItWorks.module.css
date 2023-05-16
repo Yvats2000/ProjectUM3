@@ -1,0 +1,40 @@
+.howItworks{padding:40px 0;}
+.loanHeading{line-height:  24px;position: relative;}
+.loanHeading:after{content: '';width: 40px;height:3px;background: #F1444A; border-radius: 0.18vw;position: absolute;bottom: -1.171vw;left: 0;}
+.financialRequire:after{background: #5457CA;}
+.basedEligibility:after{background: #F5A623;}
+.digitalBank:after{background: #A2E360;}
+.quickSanction:after{background: #F1444A;}
+.hiwSub{margin-bottom: 50px;margin-top: 8px;line-height: normal;}
+.howitMain{display: flex;max-width:1056px;margin: auto;}
+.tellAboutus{max-width: 281px;display: flex;flex-direction: column;justify-content: space-between;}
+.getStart{display: flex;flex-direction: column;flex: 1;align-items: center;}
+.getStart figure{width: 100%;display: flex;justify-content: center;}
+.hotitCard{position: relative;padding-top: 54px;}
+.howitArrow{position: absolute;right: 0;top: 0;}
+.howItdownArrow{position: absolute;right: 0;bottom: 0;top: inherit;transform: rotateX(180deg);}
+.howitrightSide {padding-left: 40px;}
+.howitleftbottomSide{padding-bottom: 50px;}
+.howitrightbottomSide{padding-bottom:74px;}
+.howitArrowRight{transform: rotateY(180deg);left: 0;right: inherit;top: 0;}
+.howitArrowRightdown{transform: rotate(180deg);left: 0;right: inherit;}
+.hotitCard p{margin-top: 33px;padding-right: 25px;line-height: 26px;}
+.numberFormat{color:#5457CA ;font-weight: 500;margin-bottom: 10px;}
+@media screen and (max-width: 680px){
+	.howitMain{flex-direction: column;max-width: 100%;}
+	.hiwSub{margin-bottom: 14px;}
+	.tellAboutus{max-width: 100%;flex: 1;order: 1;}
+	.tellAboutus{order: 2;}
+	.getStart{order: 3;}
+	.getStart figure{display: none;}
+	.howitrightSide{padding-left: 0;}
+	.hotitCard{margin-bottom: 13px;padding-top: 0px;padding-bottom: 0px;}
+	.hotitCard .howitArrow,.howitArrowRight,.howitArrowRightdown{display: none;}
+	.hotitCard.rightSide{padding-left: 0;}
+	.hotitCard.bottomSide{padding-bottom: 0;}
+	.howItworks .loanHeading br{display: none;}
+	.loanHeading:after{bottom: -15px;}
+	.hotitCard p{line-height: 1.63;margin-top: 33px;padding-right: 0;}
+	.getStart{margin-top:17px;}
+	.getStart .btn{width: 100%;}
+}

@@ -1,0 +1,5 @@
+.fundHouseBox{padding: 0px 0 55px;}
+.fundClientmainBx{padding: 55px 0;background: #f8f8f8; }
+.fundClientmainBx .fundClientsTiles {display: grid;margin-bottom: 40px; grid-template-columns: repeat(auto-fit,minmax(270px,1fr)); gap: 20px;}
+.aboutAmcBox{padding: 55px 0;}
+.btncenter{display: flex;justify-content: center;align-items: center;padding: 0 15px;}

@@ -1,0 +1,60 @@
+.section{padding: 40px 0;}
+.comparsionTable{margin: 40px 0;padding: 35px;  border-radius: 8px;box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.1);background-color: #fff;}
+.titleHead{display: flex;align-items: center;justify-content: space-between;}
+.selectyeartab{display: flex;justify-content: center;align-items: center;}
+.selectyeartab ul{margin: 0 15px; min-width: 277px;width: 100%; display: flex; border-radius: 8px;box-shadow: 5px 5px 25px 0 rgba(179, 179, 179, 0.25);}
+.selectyeartab ul li{cursor: pointer; display: flex;align-items: center;justify-content: center;flex: 1;border-right: 1px solid #e8e6f4;}
+.selectyeartab ul li a{padding: 10px;}
+.selectyeartab ul li.active a{transition: all 0.2s;  border-radius: 4px;box-shadow: 0 5px 20px 0 rgba(94, 119, 255, 0.3);background-color: #474ebb;}
+.selectyeartab ul li.active a{color: #fff;padding: 10px 5px;width: 100%  ;  text-align: center;    transform: scale(1);}
+.selectyeartab ul li:last-child{border-right: none;}
+.comparisonTable table{width: 100%;}
+.comparisonTable table thead{margin-bottom: 30px;}
+.comparisonTable table tbody tr{ border-bottom: 1px solid #dfe6ee;display: flex;cursor: pointer;padding: 0 10px;}
+.comparisonTable table  tr{ display: flex;cursor: pointer;}
+.comparisonTable table tr.active {    min-height: 50px;align-items: center; padding: 13px 10px; border-radius: 12px;box-shadow: -4px 14px 20px 0 rgba(50, 59, 184, 0.08);border: solid 1px #c3c6ef;background-color: #fbfbfb;}
+.comparisonTable table tr.active td{padding: 0;}
+.comparisonTable table td{padding: 20px 0;flex: 1;text-align: center;  max-width: 262px; }
+.comparisonTable table tr .aligncntr img{flex-shrink: 0;}
+.aligncntr{display: flex;align-items: center;margin-top: 10px;}
+.aligncntr{display: flex;align-items: center;gap: 10px;text-align: left;max-width: 227px;}
+.Ratings {background: #ffac1e;align-items: center;padding: 3px 3px 3px 6px;color: #fff;border-radius: 3px;display: flex;grid-gap: 10px;gap: 5px;margin: 0 auto;max-width: 44px;} 
+.Ratings img{margin-left: 5px;} 
+.fundsMob{display: none;}
+.fundTableMob{margin: 0 -15px; display: flex;grid-gap: 12px;margin-bottom: 12px; padding: 12px 15px 18px 12px;box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fff;}
+.fundTableMob figure{flex-shrink: 0;width: 22px;}
+.fundDetails{display: grid;grid-template-columns: repeat(2,1fr);grid-gap: 15px;flex: 1;}
+.fundDetails .fundName{grid-column: span 3;display: flex;flex-direction: column;grid-gap: 7px;}
+.fundDetails .fundName p{display: flex;justify-content: space-between;}
+.fundDetails .ratingWrap{display: flex;grid-gap: 6px;align-items: flex-start;}
+.fundDetails p span{display: block;}
+.impact{border-radius: 4px;align-self: flex-start;}
+.impact{border-radius: 10px;font-size: 10px;align-self: flex-start;}
+.hightIm{color: #f8303c;}
+.medium{ color: #f59a02;background-color: #fff2e6;}
+.goodIm{color: #55a105;}
+.allfunds{display: flex;justify-content: center;}
+.allfunds a img{margin-left: 12px;}
+.shorInMonth{display: flex;align-self: flex-start;}
+.shorInMonth li{padding: 10px 11px;border: solid 1px rgba(157, 157, 157, 0.2);background-color: #f8f9fa;border-right: none;cursor: pointer;}
+.shorInMonth li:first-child{border-radius: 8px 0px 0px 8px;}
+.shorInMonth li:last-child{border-radius:0px 8px 8px 0;border-right: solid 1px rgba(157, 157, 157, 0.2);}
+.shorInMonth li.active,.shorInMonth li:hover{box-shadow: 0 5px 20px 0 rgba(94, 119, 255, 0.3);background-color: #474ebb;color: #fff;transform: scale(1.1);border-radius: 8px;}
+.graphDetails{display: flex;justify-content:space-between;flex-wrap: wrap;grid-gap: 10px;}
+.section{padding: 40px 0;}
+
+@media only screen and (max-width: 540px) {
+    .comparisonTable table{display: none;}
+    .comparsionTable{padding: 20px 15px;}
+    .titleHead {flex-direction: column;grid-gap: 20px;}
+    .selectyeartab{margin-top: 25px;}
+    .selectyeartab ul li a{font-size: 12px;}
+    .Ratings{max-height: 18px;}
+    .fundsMob{display: block;}
+    .allfunds a img{margin-bottom: 0;}
+}
+
+@media screen and (max-width: 680px){
+    .impact{font-size: 11px;}
+    .shorInMonth li{padding: 8px 10px;}
+}

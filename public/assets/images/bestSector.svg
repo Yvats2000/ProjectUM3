@@ -1,0 +1,18 @@
+<svg width="221" height="313" viewBox="0 0 221 313" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="incc64z47a">
+            <stop stop-color="#E02020" offset="0%"/>
+            <stop stop-color="#FA6400" offset="16.719%"/>
+            <stop stop-color="#F7B500" offset="33.39%"/>
+            <stop stop-color="#6DD400" offset="50.051%"/>
+            <stop stop-color="#0091FF" offset="66.567%"/>
+            <stop stop-color="#6236FF" offset="83.32%"/>
+            <stop stop-color="#B620E0" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill-rule="nonzero" fill="none">
+        <circle stroke="url(#incc64z47a)" stroke-width="3" opacity=".231" cx="163.5" cy="297.5" r="14"/>
+        <circle fill="#ECC6FF" opacity=".4" cx="211" cy="190" r="10"/>
+        <circle fill="#F9F9F9" opacity=".9" cx="55.5" cy="55.5" r="55.5"/>
+    </g>
+</svg>

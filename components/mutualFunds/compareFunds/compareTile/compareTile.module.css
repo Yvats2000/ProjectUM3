@@ -1,0 +1,39 @@
+.changingTiles{display: flex;width: 100%;}
+.crossicon{position: absolute;top: 10px;right: 16px;cursor: pointer;}
+.tile{border-right: 1px solid #dadada;padding: 18px 15px;max-width: 284px;width: 100%;position: relative;}
+.tile:last-child{border-right: none;}
+.tile .text{max-width: 170px;}
+.text .details{display: flex;gap: 33px;margin-top: 20px;}
+.bankFlex{display: flex;gap: 15px;align-items: flex-start;position: relative;}
+.bankFlex ~ .bankFlex::after{position: absolute;content: 'vs';width: 45px;height: 45px;top: 60px;left: -23px;z-index: 1; flex-shrink: 0;align-self: center; border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fbfbfb;color: #333;font-size: 16px;font-weight: 600;display: flex;justify-content: center;align-items: center;border-radius: 50%;}
+.impact{padding: 2px 7px;border-radius: 10px;background-color: #fef2ee;align-self: flex-start;white-space: nowrap;}
+.impacthigh{color: #f8303c;}
+.hightIm{color: #f8303c;}
+.medium{ color: #f59a02;}
+.goodIm{color: #55a105;}
+.impactgood{color: #55a105;}
+.addfunftile{ border:none;background-color: #fbfbfb; display: flex;justify-content: center;align-items: center;flex-direction: column;gap: 12px;    border-right: solid 1px #dadada;}
+.addfunftile:last-child{border-right: none;}
+.addfunftile figure{cursor: pointer; height: 30px;width: 30px;border-radius: 50%;background-color: #474ebb;display: flex;align-items: center;justify-content: center;}
+.bankModel.active .popupBg{display: block;}
+.lineClamp{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;min-height: 32px;}
+@media only screen and (max-width: 1024px) {
+    .tile{max-width: 249px;}
+    .bankFlex{flex: 1;}
+}  
+@media only screen and (max-width: 860px) {
+    .tile{max-width: 185px;flex: 1;}
+    .text p{max-width: 100px;white-space: normal;}
+    .text .details{flex-direction: column;gap: 10px;}
+ 
+} 
+@media only screen and (max-width: 540px) {
+    .changingTiles .tile{border-top: 1px solid #dadada;}
+    .changingTiles{justify-content: space-around;}
+    .crossicon{top: 11px;right: 8px;}
+    .text .details{gap: 5px;flex-direction: column;}
+    .details .categoryInfo p{font-size: 10px;}
+    .details .retunrInfo p{font-size: 10px;}
+    .bankFlex{flex-direction: column;}
+    .bankFlex ~ .bankFlex::after{content: none;}
+}

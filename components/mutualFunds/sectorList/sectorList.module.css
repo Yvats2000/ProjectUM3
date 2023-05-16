@@ -1,0 +1,12 @@
+.bestFundList{padding: 50px 0;border: solid 1px #e4e0e0;background-color: #f5f5f5;}
+.fundGrid{display: grid;grid-template-columns: repeat(4, minmax(20%, 1fr));grid-gap: 20px;}
+.topSection{position: relative;padding: 30px 0;}
+.topHeading{max-width: 60%;}
+.imageTop{position: absolute;right: 0; bottom: 0;z-index: -1;width: 40%;height: 100%;text-align: right;}
+.btncenter{display: flex;justify-content: center;align-items: center;padding: 0 15px;}
+
+@media screen and (max-width: 680px){
+	.topHeading{max-width: 100%;}
+	.imageTop{display: none;}
+	.fundGrid{grid-template-columns: repeat(1, minmax(20%, 1fr))}
+}

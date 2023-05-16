@@ -1,0 +1,23 @@
+.calculators{padding: 50px 0;}
+.calcWrap{ display: grid;grid-template-columns: repeat(3,1fr);gap: 20px;}
+.calc{ position: relative; width: 100%;border-radius: 8px;padding: 20px; box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.1);border: solid 1px #ececec;background-color: #fff;}
+.calc .textHead{position: relative;margin-bottom: 30px;}
+.calc .textHead::after{position: absolute;content: '';background-color: #e9eaeb;width: 42px;border-radius: 3px;top: 32px;left: 0; height: 5px;}
+.calc .calcicon{position: absolute;top: 20px; right: 20px;background-color: #F6F6F6;border-radius: 8px;padding: 13px 15px;max-width: 60px;width: 100%;}
+.calc .calcicon img{max-width: 30px;max-height: 30px;width: 100%;}
+.calc .textover{max-width: 240px; margin-bottom: 25px; overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;   -webkit-box-orient: vertical;}
+
+@media screen and (max-width:860px){
+    .calc .textHead{font-size: 14px;}
+    .calc .calcicon{top: 15px;max-width: 50px;}
+}
+
+@media screen and (max-width:768px) {
+.calcWrap{grid-template-columns: repeat(2,1fr);}
+}
+@media screen and (max-width:680px) {
+    .calcWrap{grid-template-columns: repeat(2,1fr);}
+    .calc .textHead{margin-bottom: 25px;margin-top: 55px;white-space: nowrap;font-size: 14px !important;}
+    .calc .calcicon{left: 20px;max-width: 50px;}
+    .calc .textover{line-height: 20px;margin-bottom: 20px;}
+}

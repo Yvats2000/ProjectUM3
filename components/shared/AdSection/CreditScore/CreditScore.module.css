@@ -1,0 +1,11 @@
+
+.addSection{padding: 30px 0px 0;}
+.latestCreditBlue{background: #323563;width: 100%; border-radius: 10px;margin-bottom: 30px; display: flex;padding: 20px 25px;display: flex;justify-content: space-between;}
+.creditHead{display: flex;gap: 20px;align-items: center;}
+.miloMeter{background: url("/assets/images/milometer.svg") no-repeat; width: 54px;height: 30px;flex-shrink: 0;}
+
+@media screen and (max-width:680px){
+	.latestCreditBlue{width: 100%;flex-direction: column;grid-gap: 15px;}	
+	.latestCreditBlue .btn{margin-top: 15px;}
+	.addSection .apply{justify-content: center;}
+}

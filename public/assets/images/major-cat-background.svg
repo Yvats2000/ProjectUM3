@@ -1,0 +1,14 @@
+<svg width="521" height="488" viewBox="0 0 521 488" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="vr1lua13aa" cx="235" cy="235" r="235"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="dl3tejnz2b" fill="#fff">
+            <use xlink:href="#vr1lua13aa"/>
+        </mask>
+        <use fill="#F8F8F8" fill-rule="nonzero" opacity=".2" xlink:href="#vr1lua13aa"/>
+        <circle stroke="#DFE6EE" fill="#E0E2E4" opacity=".2" mask="url(#dl3tejnz2b)" cx="332.657" cy="150.571" r="150.071"/>
+        <circle fill="#F2F2F2" fill-rule="nonzero" opacity=".4" cx="478.5" cy="445.5" r="42.5"/>
+        <circle fill="#F3F3F3" fill-rule="nonzero" opacity=".666" cx="478.5" cy="445.5" r="28.5"/>
+    </g>
+</svg>

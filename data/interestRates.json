@@ -1,0 +1,67 @@
+[
+  {
+    "productId" : 1,
+    "productName" : "Personal Loan",
+    "slug" : "",
+    "short_description" : "",
+    "description" : "",
+    "plans" : [
+      {
+        "lenderId" : 1,
+        "lenderName" : "Axis Bank",
+        "lenderLogo" : "https://d8r9ykw1krfqt.cloudfront.net/assets/banks/axis-bank.jpg",
+        "slug" : "",
+        "interestRateMetadata" : {
+          "min" : 6.75,
+          "max" : 7.30,
+          "type" : "Percentage",
+          "label" : "Floating Rate",
+          "text" : "6.75%-7.30%"
+        },
+        "processingFeeMetadata" : {
+          "min" : 0,
+          "max" : 0.35,
+          "type" : "Percentage",
+          "label" : "Floating Rate",
+          "text" : "6.75%-7.30%"
+        },
+        "loanAmountMetadata" : {
+          "min" : 500000,
+          "max" : 1000000,
+          "type" : "Rs",
+          "label" : "Loan Amount",
+          "text" : "₹ 5L - ₹ 10Crs"
+        },
+        "tenureMetadata" : {
+          "min" : 12,
+          "max" : 360,
+          "type" : "Months",
+          "label" : "",
+          "text" : "Tenure(1-30 Years)"
+        },
+        "details" : [
+          {
+            "title" : "What is Home Loan?",
+            "points" : ["No guarantor required","No pre-closure and part payment fee","Special offers are available for women applicants at a lower rate"]
+          },
+          {
+            "title" : "Think about",
+            "points" : ["This Company is not a partner. Visit its website/branch office for more details. Trademarks, logos and other intellectual property belong to their respective owners."]
+          },
+          {
+            "title" : "Documents",
+            "points" : ["KYC-PAN, address & ID proof","Income proof, bank statement and one photograph"]
+          },
+          {
+            "title" : "Perks",
+            "points" : ["Door step service","No guarantor required","Top-up loan available","Part-payment available","E-approval","Balance transfer"]
+          },
+          {
+            "title" : "Good to Know",
+            "points" : ["Door step service","No guarantor required","Top-up loan available","Part-payment available","E-approval","Balance transfer"]
+          }  
+        ]
+      }
+    ]
+  }
+]

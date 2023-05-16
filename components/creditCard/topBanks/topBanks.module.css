@@ -1,0 +1,46 @@
+
+/* creditcardbyTopBank */
+.creditcardbyTopBank{padding-top: 90px;padding-bottom: 90px;position: relative;background: #f9fbfe;z-index: 0;}
+.mobilecta{display: none;}
+.headings{z-index: 2;position: relative;}
+.creditcardbyTopBank .wavesBack{position: absolute;top: -93px;z-index: 1;width: 100%;left: -34px;}
+.creditcardbyTopBank .topbankBack{position: absolute;right: 0px;bottom: -262px;height: 100%;}
+.allbankListing{margin-top: 65px;position: relative;z-index: 1; border-radius: 50px;padding:0  50px;border:solid 1px #c7ddf9;background-color: #e7ebfa;}
+.allbankListing .pointers{cursor: pointer; width: 34px;height: 34px; border-radius: 50px; position: absolute; top: 50%; border: solid 1px rgba(157, 157, 157, 0.2);display: flex;align-items: center;justify-content: center; background-color: #fff;}
+.allbankListing .leftpointarw{left: -20px;}
+.allbankListing .rightpointarw{right: -20px;}
+.allbankListing ul{display: flex;gap: 25px;overflow: auto;margin: 0 -80px;padding: 54px 80px}
+.allbankListing ul.alignCenter{justify-content: center;}
+.allbankListing ul li{box-shadow: 0 20px 80px 0 rgb(0 0 0 / 10%); text-align: center;padding: 30px 25px;max-width: 220px;width: 100%; border-radius: 12px;background-color: #fff;display: flex;flex-direction: column;}
+.allbankListing ul li a{margin-top: auto;}
+.allbankListing ul li .bankLogo{height: 92px; margin-bottom: 25px;display: flex;align-items: center;justify-content: center;  border-radius: 8px;padding: 20px 10px;text-align: center; border: solid 1px rgba(157, 157, 157, 0.2);background-color: #fff;}
+.allbankListing ul li .bankHeadingname{height: 40px;white-space: nowrap;}
+.centerheading{position: relative;}
+.centerheading::after {content: '';width: 30px;height: 3px;background: #f5a623;border-radius: 5px;position: absolute;bottom: -16px;left: calc(50% - 15px);}
+@media screen and (max-width:1024px){
+    .creditcardbyTopBank .wavesBack{top: 0;}
+}
+
+@media screen and (max-width:860px){
+    .allbankListing ul li{box-shadow: unset}
+    .allbankListing ul.alignCenter{justify-content: flex-start}
+}
+@media screen and (max-width:680px){
+    .creditcardbyTopBank .wavesBack{display: none;}
+    .creditcardbyTopBank .topbankBack{display: none;}
+    .featurebg{display: none;}
+    .webcta{display: none;}
+    .mobilecta{display: block;width: 80%;margin: 0 auto;font-size: 12px;}
+    .creditcardbyTopBank{padding:60px 0;}
+
+    .allbankListing {padding: 30px 20px;margin: 0 -15px;margin-top: 40px;border-radius: 10px;}
+    .allbankListing ul{overflow: auto;gap: 20px;padding: unset;margin: unset;}
+    .allbankListing ul li{max-width: unset;width: 100%;flex: 0 0 50%; box-shadow: none;   }
+    .allbankListing .pointers{width: 30px;height: 30px;}
+    .allbankListing .leftpointarw {left: 5px;}
+    .allbankListing .rightpointarw {right: 3px;}
+    .allbankListing ul li .bankLogo{height: 70px;padding: 15px 10px;}
+}
+
+
+/* creditcardbyTopBank */

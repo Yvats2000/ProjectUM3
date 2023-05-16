@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Home Loan",
+        "child": [
+            {
+                "imgSrc":"emiCalculator.svg",
+                "title":"EMI Calculator",
+                "text":"A Home Loan EMI Calculator permits you to compute",
+                "btnText":"Calculate EMI",
+                "path": "/loans/home-loan/emi-calculator"
+            },
+            {
+                "imgSrc":"eligibilityCalculator.svg",
+                "title":"Eligibility Calculator",
+                "text":"Determine your housing loan eligibility through Home Loan",
+                "btnText":"Check Now",
+                "path": "/loans/home-loan/eligibility-calculator"
+            },
+            {
+                "imgSrc":"balanceTransfer.svg",
+                "title":"Balance Transfer",
+                "text":"Put forward your decision on the balance transfer",
+                "btnText":"Check Now",
+                "path": "/loans/home-loan/balance-transfer-calculator"
+            },
+            {
+                "imgSrc":"PrePayment.svg",
+                "title":"Pre - Payment",
+                "text":"A Home Loan Prepayment calculator is an online ",
+                "btnText":"Check Now",
+                "path": "/loans/home-loan/pre-payment-calculator"
+            },
+            {
+                "imgSrc":"sipCalculator.svg",
+                "title":"SIP Calculator",
+                "text":"SIP calculator is a tool that enables you to compute",
+                "btnText":"Check Now",
+                "path": "/calculator/sip-calculator"
+            },
+            {
+                "imgSrc":"gratuityCalculator.svg",
+                "title":"Gratuity Calculator",
+                "text":"A gratuity calculator is an advanced tool that estimates",
+                "btnText":"Check Now",
+                "path": "/calculator/gratuity-calculator"
+            }
+        ]
+    }
+]

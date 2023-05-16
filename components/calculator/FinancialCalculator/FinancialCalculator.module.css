@@ -1,0 +1,55 @@
+.financialCalculator{padding: 40px 0;}
+.calculatorsmain{padding:0 0 40px;}
+.mainHeading{line-height: normal;}
+.subHeading{margin-top: 8px;line-height: 24px;max-width: 80%;text-align: center;margin-left: auto;margin-right: auto;}
+.calculatorGrid{display: grid; grid-gap:0 42px;grid-template-columns: repeat(4, minmax(219px, 1fr) );}
+.calculatorGrid{grid-gap: 25px;}
+.calcCard{border: solid 1px #e5e7ef;border-radius: 8px; padding: 20px 20px 35px 20px;display: flex;justify-content: space-between;position: relative;box-shadow: 0 20px 80px 0 rgb(0 0 0 / 10%);position: relative;}
+.loanHeading:after{bottom:-10px;}
+.calculatorIcon{width: 50px;height: 50px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding:13px;}
+.tagIcon{background: #ef3b51;position: absolute;font-size: 10px;padding: 5px 8px;border-radius: 3px;top: -12px;}
+.loanHeading {line-height: 24px;position: relative;width: 38%;}
+.loanHeading:after {content: '';width: 42px;height: 3px;background: #000;border-radius: 3px;position: absolute;bottom: -16px;left: 0;}
+.calcCard.emi{background-color: rgba(255, 244, 248, 0.6);border-color: #f9e7ed;}
+.calcCard.emi .loanHeading{color: #ff75a3;}
+.calcCard.emi .loanHeading:after{background: #ff75a3;}
+.calcCard.emi .calculatorIcon{background: #fdf4f7;}
+.calcCard.emi .calculatorIcon img{width: 26px;}
+.calcCard.eligibilty{background-color: rgba(248, 250, 253, 0.6);border-color: #e3e9f9;}
+.calcCard.eligibilty .loanHeading{color:  #698bde;}
+.calcCard.eligibilty .loanHeading:after{background:  #698bde;}
+.calcCard.eligibilty .calculatorIcon{background: #eef1fa;}
+.calcCard.eligibilty .calculatorIcon img{width: 31px;}
+.calcCard.balance{background-color:rgba(254, 248, 222, 0.6);;border-color: #f4edce;}
+.calcCard.balance .loanHeading{color:  #e2b807;}
+.calculatorIcon img{width: 94%;}
+.calcCard.balance .loanHeading:after{background:  #e2b807;}
+.calcCard.balance .calculatorIcon{background: #fbf7e9;}
+.calcCard.balance .calculatorIcon  img{width: 32px;}
+.calcCard.payment{background-color:rgba(247, 247, 247, 0.6);border-color: #e5e7ef;}
+.loanHeading{color:  #181d2f;}
+.loanHeading:after{background: #181d2f;}
+.calculatorIcon{background: #f3f5fa;}
+.calculatorIcon  img{width: 31px;}
+.gridFlex{display: flex;flex-direction: column;grid-gap: 20px;flex: 1;padding: 15px;border-radius: 15px;}
+.homLoanBg{background: #f3f3f3;}
+.homLoanBg:nth-child(2) {background: #f7f7f7;}
+.homLoanBg:nth-child(3){background: #f3f3f3;}
+.homLoanBg:nth-child(4){background: #f5f5f5;}
+.homLoanBg .calcCard.emi,.homLoanBg .calcCard.eligibilty,.homLoanBg .calcCard.balance,.homLoanBg .calcCard.payment{background: #fff;box-shadow: none;}
+.readmore{display: none;}
+.readText{display: inline;}
+@media screen and (max-width:1024px){
+	.subHeading{max-width: 100%;}
+	.calculatorsmain{padding: 40px 0;}
+	.calculatorGrid{grid-template-columns: repeat(4, minmax(calc(25% - 17px ), 1fr) );grid-gap:30px 17px ;}
+}
+@media screen and (max-width: 768px){
+	.readmore{display: inline;}
+	.readText{display: none;}
+	.readText.active {display:inline;}
+    .calculatorGrid{grid-template-columns: repeat(2, minmax(40%, 1fr) );grid-gap:30px 17px ;}
+	.calcCard{padding: 16px 16px 35px;}
+	.calculatorIcon{width: 40px;height: 40px;padding: 10px;}
+	.loanHeading{line-height: 1.6;}
+}

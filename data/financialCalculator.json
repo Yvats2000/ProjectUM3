@@ -1,0 +1,39 @@
+[
+    {
+        "class": "emi",
+        "gaClass":"hl_emi_cal_card",
+        "title": "EMI Calculator",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/calculatorIe.svg",
+        "height":"30px",
+        "width":"30px",
+        "path": "/loans/home-loan/emi-calculator"
+    },
+    {
+        "class": "eligibilty",
+        "gaClass":"hl_eligibility_cal_card",
+        "label": "AI Based",
+        "title": "Eligibilty Calculator",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/ic-calculator-2.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/loans/home-loan/eligibility-calculator"
+    },
+    {
+        "class": "balance",
+        "gaClass":"hl_bt_cal_card",
+        "title": "Balance Transfer",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/ic-bal-trf.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/loans/home-loan/balance-transfer-calculator"
+    },
+    {
+        "class": "payment",
+        "gaClass":"hl_prepay_cal_card",
+        "title": "Pre Payment",
+        "imgSrc" : "https://cdn.urbanmoney.com/images/ic-pre-paytm.svg",
+        "height":"35px",
+        "width":"35px",
+        "path": "/loans/home-loan/pre-payment-calculator"
+    }
+]

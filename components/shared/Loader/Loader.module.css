@@ -1,0 +1,2 @@
+.loader{position: fixed;z-index: 15;background: rgba(0, 0, 0, 0.6);display: flex;justify-content: center;align-items: center;top: 0;bottom: 0;right: 0;left: 0;}
+.loaderSize{width: 100px; height: 100px;}

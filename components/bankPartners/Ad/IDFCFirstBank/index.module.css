@@ -1,0 +1,17 @@
+
+/* NEW CARD CSS */
+.PersonalizedOffers{padding-bottom: 50px;}
+.crdCard{border-radius: 10px;padding: 24px;max-width: 511px;width: 100%; display: flex;gap: 24px;  background-image: linear-gradient(to right, #bde2f5 , #f9c4c8);}
+
+.crdCard .txtSection .logo{max-width: 108px;}
+.crdCard .txtSection .text{margin: 15px 0;}
+.crdCard .applycard{background: #9e1a22;white-space: nowrap; border-radius: 5px;color: #fff; font-weight: 500;font-size: 16px;padding: 10px 25px ;display:inline-block;align-items: center;gap: 5px; border: none;outline: none;}
+.crdCard .imgSection img{max-width: 190px;margin-bottom: 15px;}
+.crdCard .imgSection p{text-align: right;}
+
+
+@media screen and (max-width: 680px){
+    .crdCard .txtSection{max-width: 50%;}
+.crdCard .imgSection img{max-width: 100%;}
+
+}

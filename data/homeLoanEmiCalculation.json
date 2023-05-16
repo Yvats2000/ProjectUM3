@@ -1,0 +1,23 @@
+{
+    "loanAmount" : {
+        "minValue" : "500000",
+        "defaultValue" : "1000000",
+        "minText" : "5 Lac",
+        "maxValue" : "200000000",
+        "maxText" : "20 Cr"
+    },
+    "tenure" : {
+        "minValue" : "5",
+        "defaultValue" : "20",
+        "minText" : "5",
+        "maxValue" : "30",
+        "maxText" : "30"
+    },
+    "rate" : {
+        "minValue" : "6",
+        "defaultValue" : "6.5",
+        "minText" : "6",
+        "maxValue" : "20",
+        "maxText" : "20"
+    }
+}

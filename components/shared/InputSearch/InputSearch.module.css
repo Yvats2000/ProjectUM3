@@ -1,0 +1,20 @@
+.drpDown{position: relative;width: 100%;}
+.drpDown ul{max-width: 488px;z-index: 10; width: 100%; border-radius: 0 0 8px 8px;max-height: 355px;overflow-y: auto; background: #fff;border: 1px solid #e3e3e3;position: absolute;left: 0px;top: 0;  box-shadow: -1px 10px 20px 0 rgba(30, 30, 30, 0.1);border: solid 1px rgba(157, 157, 157, 0.1);}
+.drpDown ul li { border-bottom:  solid 1px #dfe6ee;display: flex;align-items: center;justify-content: space-between; padding: 15px;cursor: pointer;}
+.drpDown ul li p{flex: 1;}
+.drpDown ul li span{text-align: right;}
+.equityList{color: #666666;}
+.amcList{color: #f28000;}
+.drpDown ul li:last-child{border-bottom: none;}
+.drpDown ul::-webkit-scrollbar{width: 8px;}
+.drpDown ul::-webkit-scrollbar-track {background: #fff;border-radius: 0px 8px 8px 0; }
+.drpDown ul::-webkit-scrollbar-thumb {background: #E0E0E0;border-radius: 8px;height: 50px;}
+
+@media screen and (max-width:768px){
+    .drpDown ul::-webkit-scrollbar{display: block;}
+}
+@media only screen and (max-width: 540px) {
+    .drpDown ul{max-height: 286px;}
+    .drpDown ul li {font-size: 11px;line-height: 15px;padding: 12px 15px;font-weight: normal; display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+    
+}

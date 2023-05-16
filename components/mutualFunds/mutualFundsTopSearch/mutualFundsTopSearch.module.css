@@ -1,0 +1,6 @@
+.heading{justify-content: space-between;align-items: center;margin: 0 0 36px 0;}
+.topSearch{display: flex;justify-content: space-between;}
+@media screen and (max-width:768px){
+    .topSearch{flex-direction: column;}
+    .mb15{margin-bottom: 15px;}
+}

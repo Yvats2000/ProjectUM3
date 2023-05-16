@@ -1,0 +1,26 @@
+.planDiv{width: 100%;margin: 50px 0;max-width: 860px;margin-bottom: 30px;}
+.planDiv .planTable{width: 100%;border-collapse: collapse;}
+.planName{display: block;padding-top: 10px;display: block;padding-top: 10px;font-size: 16px;font-weight: 500;}
+.planDiv .planTable tr{display: flex;border-radius: 5px;margin-bottom: 10px;background: #fff;}
+.planDiv .planTable tr td{flex: 1;padding: 12px 15px;display: flex;justify-content: center;flex-direction: column;align-items: flex-start;}
+.planTable tr td p{font-size: 14px;word-break: break-all;}
+/* .planTable tr td .city{color: #474ebb;} */
+.planDiv .planTable tr td:last-child{border-radius: 0 5px 5px 0;border-right: none;}
+.planDiv .planTable tr td:first-child{border-radius: 5px 0 0 5px;align-items: flex-start;padding: 0 12px;}
+.planDiv .planTable thead tr{background: #e0e2e4;padding: 12px;}
+.planDiv .planTable thead th {text-align: left;padding: 0 16px; border-right:1px solid #666;background: #dfe2e4;width: 100%;color: #666666;font-size: 14px;font-weight: 500;}
+.planDiv .planTable thead th:last-child{border: none;}
+.planDiv .planTable thead th:first-child{padding-left: 0;}
+.bankData{display: none;}
+
+@media screen and (max-width:680px){
+    .planTable{display: none;}
+    
+    .bankData{background: #fff;display: block; border-radius: 8px;padding-bottom: 5px;  box-shadow: 0 2px 8px 0 rgba(195, 195, 195, 0.53);padding: 16px;margin-bottom: 16px;}
+    .dataTable{border-collapse: collapse;width: 100%;}
+    .dataTable td{border-bottom: 1px solid #e9e9e9;padding: 5px 0;line-height: 16px;font-size: 12px;}
+    /* .dataTable td span{font-weight: 500;} */
+    /* .dataTable td p{font-size: 10px;} */
+    .dataTable  tr:first-child td{padding-top: 0;}
+    .dataTable  tr td{word-break: break-word;}
+    .dataTable  tr:last-child td{border-bottom: none;padding-bottom: 0;}}

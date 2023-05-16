@@ -1,0 +1,5 @@
+.creditReport {display: flex;gap: 0 35px;}
+.reportDetails {flex: 1;width: calc(100% - 285px);margin-bottom: 50px;}
+@media screen and (max-width:768px){
+    .reportDetails{width:100%}
+}

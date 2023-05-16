@@ -1,0 +1,17 @@
+
+.tooltip {display: flex;justify-content: center;align-items:center; }
+.toottipAbsolute{border-radius: 50%;width: 18px;height: 18px;z-index: 3; background: #000000c2;color: #fff;right: 10px;position: absolute;line-height: 20px;text-align: center;font-size: 11px;}
+.toottipRight{right: -25px;top:-2px;}
+.toottipAbsolute.tooltipSelect {right: 35px;}
+.tooltipStatic{position: relative;width: 16px;height: 16px;}
+.tooltip .tooltiptext {visibility: hidden;width: max-content;max-width: 220px; background-color: black;color: #fff;text-align: center;border-radius: 6px;padding: 5px;position: absolute;z-index: 1;right:25px;transition: all 0.3s;}
+.tooltipStatic .tooltiptext{width: fit-content;max-width: 140px;}
+.tooltip .tooltiptext::after {content: "";position: absolute;top: 50%;left: 100%;margin-top: -5px;border-width: 5px;border-style: solid;border-color: transparent transparent transparent black;}
+.tooltip:hover .tooltiptext {visibility: visible;transition: all 0.3s;}
+.toottipRight .tooltiptext{right: inherit;left: 25px;}
+.toottipRight .tooltiptext::after {content: "";position: absolute;top: 50%;right: 100%;left: auto; margin-top: -5px;border-width: 5px;border-style: solid;border-color: transparent black transparent transparent;}
+@media screen and (max-width:680px){
+    .tooltip{width: 15px;height: 15px;font-size: 8px;}
+    .tooltip .tooltiptext{width: 215px;font-size:10px}
+    .toottipRight .tooltiptext{width: max-content;}
+}

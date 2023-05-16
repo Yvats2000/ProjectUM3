@@ -1,0 +1,57 @@
+.planDiv{width: 100%;}
+.planTable{width: 100%;border-collapse: collapse;}
+.planName{display: block;display: block;font-size: 14px;font-weight: 500;}
+.planTable tr{display: flex;border: solid 1px rgba(157, 157, 157, 0.2);border-radius: 8px;margin-bottom: 20px;box-shadow: -10px 10px 20px 0 rgb(30 30 30 / 5%);position: relative;}
+.planTable tr td,.planTable tr th{flex: 1;border-right: solid 1px rgba(157, 157, 157, 0.2);padding: 12px 15px;display: flex;justify-content: center;flex-direction: column;align-items: center;}
+.planTable tr td:last-child{border-radius: 0 8px 8px 0;border-right: none;}
+.planTable tr td:first-child{border-radius: 8px 0 0 8px;align-items: flex-start;}
+.planTable thead{position: sticky;top: 0;z-index: 2;}
+.planTable thead tr{background: #e0e2e4;}
+.planTable thead th{border-right:none;padding: 20px 15px;font-weight: 500;}
+.planTable thead th:first-child{align-items: flex-start;}
+.tableHeaderMobile{display: none;}
+.detailBoxDesc{display: flex;padding: 20px 30px;grid-gap: 0 60px;background: #ffffff;box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);border-radius: 8px; border:solid 1px rgba(157, 157, 157, 0.2);position: absolute;z-index: 1;top:98px;left: 0;}
+.detailBoxDesc .first{display: grid;grid-template-columns: repeat(2,247px);grid-gap: 30px 60px;}
+.detailBoxDesc .section{margin-bottom: 30px;}
+.detailBoxDesc .section ul {display: grid; grid-template-columns: repeat(2,147px);gap: 0 51px;}
+.detailBoxDesc ul li{font-size: 14px;line-height: 32px;color: #4a4a4a;position: relative;}
+.loanDetails{display: flex;flex-direction: column;padding-top: 15px;flex: 1;}
+.loanDetailsPerks{flex-grow: 1.5;}
+.loanDetails h2{ font-size: 16px;position: relative;font-weight: 500;margin-bottom: 12px;}
+.loanDetails h2::after{top: 25px;position: absolute;content: '';background: #dfe6ee;left: 0;height: 1px;width: 258px;}
+.loanDetails ul{margin-bottom: 10px;}
+.loanDetailsPerks ul{display: flex;flex-wrap: wrap;}
+.loanDetailsPerks ul li{width: 45%;}
+.nillAplly{padding: 10px 15px;border-radius: 20px;background:#f9f3b1;}
+.detailsbtn{background: #ffffff;display: block;border-bottom: solid 1px rgba(157, 157, 157, 0.2);padding: 5px 15px;position: absolute;bottom: -12px;border-radius: 6px;font-size: 12px;border-top: none;color: #474ebb;z-index: 1;}
+.detailsbtn::after{content: '';position: absolute;width: 1px;height: 8px;bottom: 3px;right: 0;background: rgba(157, 157, 157, 0.2);}
+.detailsbtn::before{content: '';position: absolute;width: 1px;height: 8px;bottom: 3px;left: 0; background: rgba(157, 157, 157, 0.2);}
+@media screen and (max-width:680px){
+	.mobTableDetails{color: #474ebb;font-size: 12px;position: absolute;right: 15px;bottom: 15px;font-weight: bold;}
+	.nillAplly{padding:8px 10px;display: inline-block;}
+    .tableHeaderMobile{border: solid 1px rgba(157, 157, 157, 0.2);box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);display: block;margin-left: -15px;margin-right: -15px;margin-bottom: 10px;}
+	.tableHeaderMobile ul{background: #fdfdfd;padding: 10px 0;display: flex;justify-content: space-between;border-bottom: solid 1px rgba(157, 157, 157, 0.2);padding-left: 15px;padding-right: 15px;}
+	.tableHeaderMobile li{flex: 1;display: flex;align-items: center;}
+	.tableHeaderMobile li:first-child{width: 132px;}
+    .tableHeaderMobile ul li:last-child {justify-content: flex-end;}
+	.tableHeaderMobile li img{max-height: 20px;height: 20px;}
+	.tableHeaderMobile li figure{max-width:100%;}
+	.mobApply{padding: 8px 12px !important;font-size: 10px !important;border-radius: 4px !important;}
+	.bankName{font-size: 12px;font-weight: bold;color: #4a4a4a;justify-content: center;}
+    .planTable{display: none;}
+    .bankData{width: 100%;position: relative;padding-left: 15px;padding-right: 15px;display: block;}
+    .mobTableDetails{color: #474ebb;font-size: 12px;position: absolute;right: 15px;bottom: 15px;font-weight: bold;}
+    .dataTable{width: 100%;padding-bottom: 15px;}
+	.dataTable td{border: none;padding: 5px 0;font-size: 12px;}
+	.dataTable .lable{color: #666}
+    .detailBoxDesc{flex-direction: column;padding: 15px;border: solid 1px rgba(157, 157, 157, 0.2);border-radius: 0;border-top: 0;position: static;margin-left: -15px;margin-right: -15px;}
+	.detailBoxDesc .loanDetails {padding: 0;}
+	.loanApplyDetails{margin-top: 0;}
+	.bankDetailBox{padding-bottom: 0px;}
+	.loanDetails h2{font-size: 14px;margin-bottom: 18px;color: #181d2f;;}
+    .loanDetails ul{flex-direction: column;border-bottom: none;}
+    .loanDetailsPerks ul li{width: 100%;}
+	.detailBoxDesc ul li{font-size: 12px;line-height: 30px;}
+    .detailBoxDesc ul li:last-child{justify-content: flex-start;}
+	.loanDetails h2::after{height: 1px;width: 258px;bottom: -6px;top: auto;line-height: 1.86;}
+}

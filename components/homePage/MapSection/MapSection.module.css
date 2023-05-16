@@ -1,0 +1,21 @@
+.mapSection{background:#F8F8F8;  display: flex;position: relative;margin: 40px 0;}
+/* .mpScreen{background: #EEEEEE;border: #E8E8E8 solid 0.07320644216691069vw;border-radius: 0 20px 20px 0;width: 55%;padding:30px 30px 30px 0 ;text-align: right;display: flex;justify-content: flex-end;} */
+.mpScreen{background: #eeeeee;border-radius: 0 20px 20px 0;width: 55%;padding:30px 30px 30px 0 ;text-align: right;display: flex;justify-content: flex-end;}
+.mapImage{max-width: 70%;}
+.playStore{flex: 1;flex-shrink: 0;padding: 35px 0 0 35px;display: flex;align-items: flex-start;flex-direction: column;overflow: hidden;position: relative;min-height: 533px;}
+.heading{margin-top:25px;line-height: normal;}
+.googlePlay{display: flex;grid-gap: 0 18px;}
+.googlePlay img{height: 40px !important;}
+.prtnerText{max-width: 80%;line-height: 24px;margin: 20px 0;}
+.loginScreen{position:absolute;bottom: -5px;max-width: 60%;}
+.playStoreIcon{width: 112px;}
+@media screen and (max-width: 680px){
+	.mapSection{padding: 40px 0 0;margin: 40px 0;}
+	.playStore{padding: 0 15px;}
+	.heading{margin-top: 20px;}
+	.mpScreen{display: none;}
+	.loginScreen{position: relative;margin:0 auto;max-width: 307px;bottom: -84px;}
+	.prtnerText{margin:18px 0 30px;max-width: 100%;}
+	/* .googlePlay{margin-bottom: 54px;} */
+	.playStoreIcon{width: 40%;}
+}

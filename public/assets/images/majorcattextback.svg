@@ -1,0 +1,14 @@
+<svg width="223" height="453" viewBox="0 0 223 453" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="0ro5go0f2a">
+            <stop stop-color="#32C5FF" offset="0%"/>
+            <stop stop-color="#B620E0" offset="51.258%"/>
+            <stop stop-color="#F7B500" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g transform="matrix(-1 0 0 1 223 0)" fill-rule="nonzero" fill="none">
+        <circle stroke="url(#0ro5go0f2a)" stroke-width="3" opacity=".231" cx="112.5" cy="437.5" r="14"/>
+        <circle fill="#C6CAFF" opacity=".8" cx="10" cy="330" r="10"/>
+        <circle fill="#F9F9F9" opacity=".6" cx="140" cy="83" r="83"/>
+    </g>
+</svg>

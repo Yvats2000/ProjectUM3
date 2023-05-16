@@ -1,0 +1,30 @@
+.mainBox{padding: 40px 0;}
+.allcaculatorBox{display: flex;grid-gap: 20px;}
+.eligible{margin: 0px 0 50px;}
+.eligible h2{color: #000;font-size: 20px;font-weight: 400;margin-bottom: 10px;}
+.eligible h3{ color: #181d2f;line-height: 26px;font-size:18px;font-weight: 400;margin-bottom: 15px;margin-top: 30px;}
+.eligible p{font-size:14px;color: #4a4a4a;line-height: 24px;margin-bottom: 15px;}
+.eligible table{text-align: left; margin: 10px 0 20px 0; border-collapse: collapse;width: 80%;overflow: hidden; border-radius: 4px;border-style: hidden;box-shadow: 0 0 0 1px #dfe6ee;  }
+.respTable{overflow-x: auto;padding-left: 1px;}
+.eligible table th,.eligible table td{color: #313541;font-size: 14px; padding: 15px;border-bottom: 1px solid #dfe6ee;vertical-align: top;}
+.eligible table th{background-color: #e0e2e4;font-weight: 500; }
+.eligible .blueHeading{color: #5c61a4;}
+.eligible li{line-height: 24px;}
+.eligible ol{padding-left: 35px;}
+
+
+@media screen and (max-width: 540px){
+	.eligible h2{font-size: 18px;}
+	.eligible h3{font-size: 18px;line-height: 26px;margin-bottom: 14px;}
+	.eligible p{font-size:12px;line-height: 24px;margin-bottom: 10px;}
+	.eligible  ul li{font-size:12px;line-height: 28px;padding-left: 15px;}
+	.eligible  ul li::before{height: 5px;width: 5px;top: 14px;}
+	.eligible .respTable{margin-bottom: 48px;padding-top: 24px;}
+	.eligible table th,.eligible table td{font-size:12px;white-space: nowrap;padding: 12px;}
+	.eligible table{width: 100%;}
+	.respTable{margin-bottom: 12px;}
+
+}
+@media screen and (max-width:768px) {
+    .allcaculatorBox{flex-direction: column;}
+}

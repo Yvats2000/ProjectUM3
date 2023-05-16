@@ -1,0 +1,20 @@
+.comparisonTile {position: sticky;top: 67px;background: #fff;z-index: 2;}
+.mainTile{display: flex;border: solid 1px #dadada;border-bottom: none;}
+.tile{border-right: 1px solid #dadada;padding: 18px 15px;max-width: 284px;width: 100%;position: relative;}
+.tile .Innerheading::after{width: 40px;height: 4px;}
+.tile:last-child{border: none;}
+@media only screen and (max-width: 1024px) {
+    .tile{max-width: 249px;}
+    
+}  
+@media only screen and (max-width: 860px) {
+    .tile{max-width: 185px;}
+}   
+@media only screen and (max-width: 540px) {
+    .comparisonTile{position: inherit;}
+    .mainTile{flex-direction: column;border-bottom: solid 1px #dadada;overflow: hidden;margin-top: 0;}
+    .tile{border-top: 1px solid #dadada;gap: 10px;flex: 1;padding: 10px 15px;}
+    .tile:first-child{max-width: 100%;}
+    .tile:nth-child(1){border-top: none;border-right: none;}
+    .tile:nth-child(3){border-right: none;border-top: 1px solid #dadada;}
+}
